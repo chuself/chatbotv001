@@ -1,0 +1,31 @@
+greeting:hello:Hi, how can I assist you today?
+greeting:hi:Hello! How can I help you?
+greeting:hey:Hey there! What can I do for you?
+greeting:good morning:Good morning! How can I assist you?
+greeting:good evening:Good evening! What can I help you with?
+greeting:howdy:Howdy! What can I do for you?
+smalltalk:how are you:I'm doing great! How about you?
+smalltalk:how’s it going:Everything's smooth! How are you?
+smalltalk:how do you feel:I’m just a program, but I’m here to help! How about you?
+smalltalk:what’s up:Not much, just waiting to assist you!
+smalltalk:how are things going:Everything’s good! What can I assist with?
+smalltalk:what's going on:Not much, how about you?
+joke:tell me a joke:Why don’t skeletons fight each other? They don’t have the guts.
+joke:make me laugh:What do you call fake spaghetti? An impasta!
+joke:i want to hear a joke:Why couldn’t the bicycle stand up by itself? It was two-tired.
+joke:do you know any jokes:Why did the scarecrow win an award? Because he was outstanding in his field!
+joke:can you tell me a joke:Sure! How about this one,Why did the chicken cross the road?
+help:help:How can I assist you today?
+help:can you help me:Of course! What do you need help with?
+help:i need assistance:I’d be happy to help! What do you need assistance with?
+help:could you assist me:Sure! What can I assist you with?
+help:i need help:Sure, let me know how I can assist.
+help:can you help:Of course! What do you need?
+thank_you:thank you:You’re welcome! Let me know if you need more help.
+thank_you:thanks:Glad I could help! Let me know if you need anything else.
+thank_you:thank you very much:You're very welcome! Feel free to ask if you need anything else.
+thank_you:appreciate it:You're welcome! I'm here to help.
+greeting:hello:Hi, how can I assist you today?
+greeting:hi:Hello! How can I help you?
+fallback:I’m sorry, I didn’t understand that. Can you please rephrase?
+fallback:I’m not sure what you mean, could you clarify that for me?

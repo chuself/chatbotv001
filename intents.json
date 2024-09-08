@@ -1,0 +1,133 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello",
+          "Hi",
+          "Hey",
+          "Good morning",
+          "Good evening",
+          "Greetings"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! What can I help you with?",
+          "Hey! What can I do for you?",
+          "Howdy! How can I assist?",
+          "Good morning! How may I help you?",
+          "Good evening! What can I do for you?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "greeting_variarty",
+        "patterns": [
+          "good day"
+        ],
+        "responses": [
+          "good day! Hello! How can I assist you today?",
+          "Hi there good day! What can I help you with?",
+          "Hey good day! What can I do for you?",
+          "good day ! How can I assist?",
+          "good day! How may I help you?",
+          "good day! What can I do for you?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "farewell",
+        "patterns": [
+          "Goodbye",
+          "See you later",
+          "Bye",
+          "Catch you later",
+          "Goodnight"
+        ],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "See you later! Take care!",
+          "Bye! Let me know if you need anything else!",
+          "Goodnight! Reach out anytime!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "thank_you",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "I appreciate it",
+          "Thanks a lot",
+          "Thank you very much"
+        ],
+        "responses": [
+          "You're welcome! Glad I could help!",
+          "No problem! Let me know if you need anything else!",
+          "You're welcome! I'm here if you need anything more.",
+          "Happy to assist! Let me know if you need further help."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "joke",
+        "patterns": [
+          "Tell me a joke",
+          "Make me laugh",
+          "Can you tell a joke?",
+          "Do you know any jokes?",
+          "I want to hear a joke"
+        ],
+        "responses": [
+          "Why don't skeletons fight each other? They don't have the guts.",
+          "What do you call fake spaghetti? An impasta!",
+          "Why did the bicycle fall over? It was two-tired.",
+          "Why did the chicken cross the road? To get to the other side!",
+          "What do you get when you cross a snowman with a vampire? Frostbite."
+        ],
+        "context_set": "joke_context"
+      },
+      {
+        "tag": "another_joke",
+        "patterns": [
+          "Another one",
+          "Tell me another",
+          "Can I hear another joke?",
+          "Another joke please"
+        ],
+        "responses": [
+          "Here's another one: Why don't scientists trust atoms? Because they make up everything!",
+          "How about this: What's orange and sounds like a parrot? A carrot!",
+          "Here's a good one: Why don't some couples go to the gym? Because some relationships don't work out."
+        ],
+        "context_filter": "joke_context"
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "I need help",
+          "Can you help me?",
+          "Could you assist me?",
+          "I need assistance",
+          "Help me out"
+        ],
+        "responses": [
+          "Of course! What do you need help with?",
+          "I'm here to assist. What do you need?",
+          "Sure, let me know how I can assist you.",
+          "I'm happy to help. What do you need?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "fallback",
+        "patterns": [],
+        "responses": [
+          "Sorry, I didn't understand that. Can you please rephrase?",
+          "I'm not sure I follow, could you clarify?",
+          "I'm not sure what you're asking. Could you ask in another way?"
+        ],
+        "context_set": ""
+      }
+    ]
+  }

@@ -1,0 +1,97 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "good morning",
+                "good evening",
+                "howdy",
+                "hello",
+                "hi"
+            ],
+            "responses": [
+                "Hi, how can I assist you today?",
+                "Hello! How can I help you?",
+                "Hey there! What can I do for you?",
+                "Good morning! How can I assist you?",
+                "Good evening! What can I help you with?",
+                "Howdy! What can I do for you?",
+                "Hi, how can I assist you today?",
+                "Hello! How can I help you?"
+            ]
+        },
+        {
+            "tag": "smalltalk",
+            "patterns": [
+                "how are you",
+                "hows it going",
+                "how do you feel",
+                "whats up",
+                "how are things going",
+                "what's going on"
+            ],
+            "responses": [
+                "I'm doing great! How about you?",
+                "Everything's smooth! How are you?",
+                "Im just a program, but Im here to help! How about you?",
+                "Not much, just waiting to assist you!",
+                "Everythings good! What can I assist with?",
+                "Not much, how about you?"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "tell me a joke",
+                "make me laugh",
+                "i want to hear a joke",
+                "do you know any jokes",
+                "can you tell me a joke"
+            ],
+            "responses": [
+                "Why dont skeletons fight each other? They dont have the guts.",
+                "What do you call fake spaghetti? An impasta!",
+                "Why couldnt the bicycle stand up by itself? It was two-tired.",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                "Sure! How about this one,Why did the chicken cross the road?"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "help",
+                "can you help me",
+                "i need assistance",
+                "could you assist me",
+                "i need help",
+                "can you help"
+            ],
+            "responses": [
+                "How can I assist you today?",
+                "Of course! What do you need help with?",
+                "Id be happy to help! What do you need assistance with?",
+                "Sure! What can I assist you with?",
+                "Sure, let me know how I can assist.",
+                "Of course! What do you need?"
+            ]
+        },
+        {
+            "tag": "thank_you",
+            "patterns": [
+                "thank you",
+                "thanks",
+                "thank you very much",
+                "appreciate it"
+            ],
+            "responses": [
+                "Youre welcome! Let me know if you need more help.",
+                "Glad I could help! Let me know if you need anything else.",
+                "You're very welcome! Feel free to ask if you need anything else.",
+                "You're welcome! I'm here to help."
+            ]
+        }
+    ]
+}
