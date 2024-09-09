@@ -1,0 +1,31 @@
+{
+    "intents": [
+        {
+            "tag": "cable_complain",
+            "patterns": [
+                "Sioni picha yoyote",
+                "chaneli zimekata",
+                "chanel imekata",
+                "chanel haionyeshi",
+                "chaneli haipo",
+                "huduma imekata",
+                "huduma haipo",
+                "huduma imekatika",
+                "rudisha huduma",
+                "huduma siioni"
+            ],
+            "responses": [
+                "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokat",
+                "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokat",
+                "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+                "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+                "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+                "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+                "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+                "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+                "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+                "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata"
+            ]
+        }
+    ]
+}

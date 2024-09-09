@@ -7,16 +7,64 @@
           "Hi",
           "Hey",
           "Good morning",
+          "Good afternoon",
           "Good evening",
-          "Greetings"
+          "How are you?",
+          "How is it going?",
+          "What is up?",
+          "Howdy",
+          "Greetings",
+          "Hi there",
+          "Hey there",
+          "What is new?",
+          "How have you been?",
+          "Nice to meet you",
+          "Pleased to meet you",
+          "Welcome",
+          "Long time no see",
+          "Good to see you" 
         ],
         "responses": [
           "Hello! How can I assist you today?",
-          "Hi there! What can I help you with?",
-          "Hey! What can I do for you?",
-          "Howdy! How can I assist?",
-          "Good morning! How may I help you?",
-          "Good evening! What can I do for you?"
+          "Hi there! What can I do for you?",
+          "Hey! How's it going?",
+          "Hello! What can I help you with?",
+          "Hi! How can I assist you?",
+          "Hey there! What do you need help with?",
+          "Greetings! How can I be of service?",
+          "Welcome! How can I assist you today?",
+          "Good to see you! What can I help you with?",
+          "Nice to meet you! How can I assist?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "Salamu",
+        "patterns": [
+          "Habari yako",
+          "haujambo",
+          "Hujambo?",
+          "Sijambo",
+          "Mambo vipi?",
+          "Salama",
+          "Shikamoo",
+          "mambo",
+          "Karibuni",
+          "uko poa",
+          "Niaje?"
+        ],
+        "responses": [
+          "Habari! Ninaweza kukusaidia vipi leo?",
+          "Niaje? Natumai uko poa.",
+          "mambo? Nilikuwa nikitarajia kuzungumza nawe. Unaweza kunijulisha unachohitaji?",
+          "hello!. Ni furaha yangu kuchat nawe. Ninaweza kusaidia vipi?",
+          "Mambo vipi? nipe habari.",
+          "Salama. Nina furaha kuwa na wewe hapa. Una swali yoyote?",
+          "hi! Niaje leo? Ningependa kujua jinsi naweza kukusaidia.",
+          "Karibu! Unahitaji msaada katika jambo lolote?",
+          "Karibun! Tupo hapa kukusaidia. Je, kuna jambo lolote unahitaji kujua?",
+          "uko poa! Naweza kufanya nini kwa ajili yako?",
+          "Niaje?  Una jambo lolote unataka kujua?"
         ],
         "context_set": ""
       },
@@ -69,6 +117,61 @@
         ],
         "context_set": ""
       },
+      {
+        "tag": "cable_complain",
+        "patterns": [
+            "Sioni picha yoyote",
+            "chaneli zimekata",
+            "chanel imekata",
+            "chanel haionyeshi",
+            "chaneli haipo",
+            "huduma imekata",
+            "huduma haipo",
+            "huduma imezima",
+            "huduma imekatika",
+            "rudisha huduma",
+            "huduma siioni"
+        ],
+        "responses": [
+            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokat",
+            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokat",
+            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata"
+        ]
+    },
+    {
+      "tag": "Internet_complain",
+      "patterns": [
+          "Sina internet",
+          "internet imekata",
+          "net imekata",
+          "internet haipo",
+          "internet imezima",
+          "Rudisha internet",
+          "huduma haipo",
+          "internet imekatika",
+          "rudisha huduma",
+          "net imekatika"
+      ],
+      "responses": [
+          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
+          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata"
+      ]
+  },
       {
         "tag": "joke",
         "patterns": [
