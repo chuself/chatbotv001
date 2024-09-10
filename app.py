@@ -23,6 +23,11 @@ def send_whatsapp_message(to_phone_number, message):
     else:
         print(f'Failed to send message: {response.text}')
 
+@app.route('/')
+def home():
+    return "Welcome to the WhatsApp Chatbot made By Chuself!"
+
+
 @app.route('/webhook', methods=['POST'])
 def webhook():
     data = request.json
