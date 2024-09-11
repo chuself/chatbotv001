@@ -77,11 +77,16 @@ import logging
 app = Flask(__name__)
 
 # Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def send_whatsapp_message(to_phone_number, message):
-    TOKEN = os.getenv('WHATSAPP_API_TOKEN')  # Make sure this is your permanent token
-    PHONE_NUMBER_ID = '439621585894029'  # Your actual Phone Number ID
+    TOKEN = os.getenv('WHATSAPP_API_TOKEN')
+    PHONE_NUMBER_ID = '439621585894029'
+
+    if not TOKEN:
+        logger.error("WHATSAPP_API_TOKEN not found in environment variables.")
+        return
     
     # Ensure the phone number is in the international format
     if not to_phone_number.startswith('+'):
@@ -97,35 +102,15 @@ def send_whatsapp_message(to_phone_number, message):
         'to': to_phone_number,
         'text': {'body': message},
     }
+    
     try:
         response = requests.post(url, headers=headers, json=payload)
-        response.raise_for_status()  # Raise an exception for HTTP errors
-        logging.info('Message sent successfully')
-        return response.json()
+        response.raise_for_status()
+        logger.info('Message sent successfully')
     except requests.exceptions.HTTPError as http_err:
-        logging.error(f'HTTP error occurred: {http_err}')
-    except requests.exceptions.ConnectionError as conn_err:
-        logging.error(f'Connection error occurred: {conn_err}')
-    except requests.exceptions.Timeout as timeout_err:
-        logging.error(f'Timeout error occurred: {timeout_err}')
-    except requests.exceptions.RequestException as req_err:
-        logging.error(f'Request exception occurred: {req_err}')
-    except Exception as e:
-        logging.error(f'An unexpected error occurred: {e}')
-
-def generate_response(user_message):
-    """
-    Generate a response based on the user's message.
-    """
-    user_message = user_message.lower()
-    if 'hello' in user_message:
-        return 'Hi there! How can I assist you today?'
-    elif 'help' in user_message:
-        return 'Sure, I am here to help. What do you need assistance with?'
-    elif 'bye' in user_message:
-        return 'Goodbye! Have a great day!'
-    else:
-        return 'I am not sure how to respond to that. Can you please provide more details?'
+        logger.error(f'HTTP error occurred: {http_err}')
+    except Exception as err:
+        logger.error(f'Other error occurred: {err}')
 
 @app.route('/')
 def home():
@@ -143,23 +128,31 @@ def webhook():
             return 'Forbidden', 403
 
     if request.method == 'POST':
-        data = request.json
-        logging.info('Received webhook data: %s', data)
-        
-        # Extract message and sender details
-        if 'messages' in data['value']:
-            messages = data['value']['messages']
-            for message in messages:
-                from_number = message['from']
-                message_body = message['text']['body']
-                
-                # Generate a response based on the received message
-                response_message = generate_response(message_body)
-                
-                # Send the response message back to the user
-                send_whatsapp_message(from_number, response_message)
-        
-        return jsonify({'status': 'received'}), 200
+        try:
+            data = request.json
+            logger.info('Received webhook data: %s', data)
+
+            if 'entry' in data:
+                for entry in data['entry']:
+                    if 'changes' in entry:
+                        for change in entry['changes']:
+                            if 'value' in change and 'messages' in change['value']:
+                                messages = change['value']['messages']
+                                for message in messages:
+                                    from_number = message['from']
+                                    text_body = message['text']['body']
+                                    logger.info(f"Received message from {from_number}: {text_body}")
+
+                                    # Process the incoming message and send a response
+                                    response_message = f"Received your message: {text_body}"
+                                    send_whatsapp_message(from_number, response_message)
+
+            return jsonify({'status': 'received'}), 200
+
+        except Exception as e:
+            logger.error(f'Error processing webhook: {e}')
+            return jsonify({'status': 'error', 'message': str(e)}), 500
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+
