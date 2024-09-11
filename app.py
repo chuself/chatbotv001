@@ -105,10 +105,13 @@ def send_whatsapp_message(to_phone_number, message):
     
     try:
         response = requests.post(url, headers=headers, json=payload)
-        response.raise_for_status()
+        response.raise_for_status()  # Raises HTTPError for bad responses
         logger.info('Message sent successfully')
     except requests.exceptions.HTTPError as http_err:
         logger.error(f'HTTP error occurred: {http_err}')
+        logger.error(f'Response content: {response.text}')
+    except requests.exceptions.RequestException as req_err:
+        logger.error(f'Request error occurred: {req_err}')
     except Exception as err:
         logger.error(f'Other error occurred: {err}')
 
@@ -149,10 +152,12 @@ def webhook():
 
             return jsonify({'status': 'received'}), 200
 
+        except KeyError as e:
+            logger.error(f'Missing key in webhook data: {e}')
+            return jsonify({'status': 'error', 'message': 'Missing key in webhook data'}), 400
         except Exception as e:
             logger.error(f'Error processing webhook: {e}')
             return jsonify({'status': 'error', 'message': str(e)}), 500
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
-
