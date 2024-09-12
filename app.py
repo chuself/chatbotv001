@@ -166,12 +166,58 @@ from flask import Flask, request, jsonify
 import os
 import requests
 import logging
+import json
+import numpy as np
+import tensorflow as tf
+from nltk.stem import WordNetLemmatizer
+from sklearn.preprocessing import LabelEncoder
+import random
 
 app = Flask(__name__)
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+# Load the chatbot model and necessary files
+lemmatizer = WordNetLemmatizer()
+
+# Load intents JSON
+with open('intents.json') as file:
+    intents = json.load(file)
+
+# Load the trained model
+model = tf.keras.models.load_model('chatbot_model.h5')
+
+# Load the tokenizer and label encoder
+with open('tokenizer.pickle', 'rb') as handle:
+    tokenizer = pickle.load(handle)
+
+with open('label_encoder.pickle', 'rb') as enc:
+    lbl_encoder = pickle.load(enc)
+
+# Define max sequence length (use the same value as during training)
+max_len = 20
+
+def preprocess_message(message):
+    """Preprocess the input message for prediction."""
+    message = lemmatizer.lemmatize(message.lower())
+    tokenized_message = tokenizer.texts_to_sequences([message])
+    padded_message = tf.keras.preprocessing.sequence.pad_sequences(tokenized_message, maxlen=max_len, padding='post')
+    return padded_message
+
+def get_chatbot_response(user_message):
+    """Get response from the trained chatbot model."""
+    processed_message = preprocess_message(user_message)
+    prediction = model.predict(processed_message)
+    predicted_class = np.argmax(prediction)
+    intent = lbl_encoder.inverse_transform([predicted_class])[0]
+
+    # Find the corresponding response in intents.json
+    for i in intents['intents']:
+        if i['tag'] == intent:
+            return random.choice(i['responses'])
+    return "I am sorry, I do not understand that."
 
 def send_whatsapp_message(to_phone_number, message):
     TOKEN = os.getenv('WHATSAPP_API_TOKEN')
@@ -208,23 +254,9 @@ def send_whatsapp_message(to_phone_number, message):
     except Exception as err:
         logger.error(f'Other error occurred: {err}')
 
-
-# Chatbot logic - Placeholder for dynamic responses
-def get_chatbot_response(user_message):
-    # Replace this with your trained model or chatbot logic
-    # For now, it's a placeholder that provides a simple response
-    if "hello" in user_message.lower():
-        return "Hi! How can I help you today?"
-    elif "bye" in user_message.lower():
-        return "Goodbye! Have a great day!"
-    else:
-        return "I am still learning, but I received your message: " + user_message
-
-
 @app.route('/')
 def home():
     return "Welcome to the WhatsApp Chatbot!"
-
 
 @app.route('/webhook', methods=['GET', 'POST'])
 def webhook():
@@ -253,7 +285,7 @@ def webhook():
                                     text_body = message['text']['body']
                                     logger.info(f"Received message from {from_number}: {text_body}")
 
-                                    # Use chatbot's dynamic response logic
+                                    # Get the chatbot's response
                                     response_message = get_chatbot_response(text_body)
                                     send_whatsapp_message(from_number, response_message)
 
@@ -266,6 +298,6 @@ def webhook():
             logger.error(f'Error processing webhook: {e}')
             return jsonify({'status': 'error', 'message': str(e)}), 500
 
-
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+
