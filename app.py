@@ -82,7 +82,7 @@ logger = logging.getLogger(__name__)
 
 def send_whatsapp_message(to_phone_number, message):
     TOKEN = os.getenv('WHATSAPP_API_TOKEN')
-    PHONE_NUMBER_ID = '439621585894029'
+    PHONE_NUMBER_ID = '426938520500591'
 
     if not TOKEN:
         logger.error("WHATSAPP_API_TOKEN not found in environment variables.")
