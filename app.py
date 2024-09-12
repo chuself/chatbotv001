@@ -87,7 +87,7 @@ def send_whatsapp_message(to_phone_number, message):
     if not TOKEN:
         logger.error("WHATSAPP_API_TOKEN not found in environment variables.")
         return
-    
+
     # Ensure the phone number is in the international format
     if not to_phone_number.startswith('+'):
         to_phone_number = f"+255{to_phone_number[1:]}"
