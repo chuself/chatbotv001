@@ -90,7 +90,7 @@ def send_whatsapp_message(to_phone_number, message):
 
     # Ensure the phone number is in the international format
     if not to_phone_number.startswith('+'):
-        to_phone_number = f"+255{to_phone_number[1:]}"
+        to_phone_number = f"255{to_phone_number[1:]}"
     
     url = f'https://graph.facebook.com/v13.0/{PHONE_NUMBER_ID}/messages'
     headers = {
