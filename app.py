@@ -258,6 +258,46 @@ def send_whatsapp_message(to_phone_number, message):
 def home():
     return "Welcome to the WhatsApp Chatbot!"
 
+# @app.route('/webhook', methods=['GET', 'POST'])
+# def webhook():
+#     if request.method == 'GET':
+#         # Verification step for Facebook webhook
+#         verify_token = request.args.get('hub.verify_token')
+#         challenge = request.args.get('hub.challenge')
+#         if verify_token == os.getenv('VERIFY_TOKEN'):
+#             return challenge, 200
+#         else:
+#             return 'Forbidden', 403
+
+#     if request.method == 'POST':
+#         try:
+#             data = request.json
+#             logger.info('Received webhook data: %s', data)
+
+#             if 'entry' in data:
+#                 for entry in data['entry']:
+#                     if 'changes' in entry:
+#                         for change in entry['changes']:
+#                             if 'value' in change and 'messages' in change['value']:
+#                                 messages = change['value']['messages']
+#                                 for message in messages:
+#                                     from_number = message['from']
+#                                     text_body = message['text']['body']
+#                                     logger.info(f"Received message from {from_number}: {text_body}")
+
+#                                     # Get the chatbot's response
+#                                     response_message = get_chatbot_response(text_body)
+#                                     send_whatsapp_message(from_number, response_message)
+
+#             return jsonify({'status': 'received'}), 200
+
+#         except KeyError as e:
+#             logger.error(f'Missing key in webhook data: {e}')
+#             return jsonify({'status': 'error', 'message': 'Missing key in webhook data'}), 400
+#         except Exception as e:
+#             logger.error(f'Error processing webhook: {e}')
+#             return jsonify({'status': 'error', 'message': str(e)}), 500
+
 @app.route('/webhook', methods=['GET', 'POST'])
 def webhook():
     if request.method == 'GET':
@@ -285,8 +325,10 @@ def webhook():
                                     text_body = message['text']['body']
                                     logger.info(f"Received message from {from_number}: {text_body}")
 
-                                    # Get the chatbot's response
-                                    response_message = get_chatbot_response(text_body)
+                                    # Generate the chatbot's response based on the received message
+                                    response_message = get_response(predict_class(text_body), intents)
+
+                                    # Send the chatbot's response back to the user
                                     send_whatsapp_message(from_number, response_message)
 
             return jsonify({'status': 'received'}), 200
@@ -297,6 +339,7 @@ def webhook():
         except Exception as e:
             logger.error(f'Error processing webhook: {e}')
             return jsonify({'status': 'error', 'message': str(e)}), 500
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)

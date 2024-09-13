@@ -227,7 +227,7 @@ def predict_class(sentence):
     res = model.predict(np.array([bow]))[0]
     print(f"Model raw predictions: {res}")  # Debugging: print raw model predictions
     
-    ERROR_THRESHOLD = 0.5  # Adjusted threshold for more inclusive predictions
+    ERROR_THRESHOLD = 0.7  # Adjusted threshold for more inclusive predictions
     results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
 
     if not results:
@@ -242,15 +242,29 @@ def predict_class(sentence):
     
     return intents
 
+# def get_response(intents_list, intents_json):
+#     tag = intents_list[0]['intent']
+
+#     list_of_intents = intents_json['intents']
+#     for i in list_of_intents:
+#         if i['tag'] == tag:
+#             result = random.choice(i['responses'])
+#             break
+    
 def get_response(intents_list, intents_json):
     tag = intents_list[0]['intent']
-
-    list_of_intents = intents_json['intents']
-    for i in list_of_intents:
-        if i['tag'] == tag:
-            result = random.choice(i['responses'])
-            break
     
+    # Find the corresponding response from the intents.json file
+    for i in intents_json['intents']:
+        if i['tag'] == tag:
+            return random.choice(i['responses'])
+    
+    # In case something goes wrong
+    return "Sorry, I did not understand that. Could you rephrase?"
+
+
+
+
     # Update context if needed
     if tag == 'joke':
         context['context'] = 'joke_context'
