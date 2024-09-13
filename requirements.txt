@@ -68,6 +68,7 @@ semantic-version
 setuptools
 shellingham
 six
+scikit-learn
 sniffio
 starlette
 tensorboard
