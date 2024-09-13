@@ -345,6 +345,12 @@ def ensure_nltk_data():
         nltk.data.find('corpora/wordnet.zip')
     except LookupError:
         nltk.download('wordnet')
+    
+    try:
+        nltk.data.find('corpora/omw-1.4.zip')
+    except LookupError:
+        nltk.download('omw-1.4')
+
 
 ensure_nltk_data()
 
