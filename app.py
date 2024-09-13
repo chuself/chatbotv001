@@ -351,7 +351,6 @@ def ensure_nltk_data():
     except LookupError:
         nltk.download('omw-1.4')
 
-
 ensure_nltk_data()
 
 app = Flask(__name__)
@@ -362,7 +361,6 @@ logger = logging.getLogger(__name__)
 
 logger.info('WHATSAPP_API_TOKEN: %s', os.getenv('WHATSAPP_API_TOKEN'))
 logger.info('VERIFY_TOKEN: %s', os.getenv('VERIFY_TOKEN'))
-
 
 # Load the chatbot model and necessary files
 lemmatizer = WordNetLemmatizer()
@@ -383,14 +381,8 @@ with open('label_encoder.pickle', 'rb') as enc:
     lbl_encoder = pickle.load(enc)
     logger.info('Label encoder loaded successfully')
 
-
 # Define max sequence length (use the same value as during training)
-from tensorflow.keras.preprocessing.sequence import pad_sequences
-
-# Assuming `message_sequence` is the processed input data
 max_len = 94  # Should match the model's expected input length
-padded_sequence = pad_sequences([message_sequence], maxlen=max_len, padding='post', truncating='post')
-
 
 def preprocess_message(message):
     """Preprocess the input message for prediction."""
@@ -418,7 +410,6 @@ def get_chatbot_response(user_message):
     predicted_class = np.argmax(prediction)
     logger.info('Predicted class: %d', predicted_class)
     return get_response(predicted_class)
-
 
 def send_whatsapp_message(to_phone_number, message):
     TOKEN = os.getenv('WHATSAPP_API_TOKEN')
@@ -456,7 +447,6 @@ def send_whatsapp_message(to_phone_number, message):
         logger.error(f'Request error occurred: {req_err}')
     except Exception as err:
         logger.error(f'Other error occurred: {err}')
-
 
 @app.route('/')
 def home():
