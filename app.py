@@ -474,7 +474,8 @@ def webhook_post():
     """Handle POST requests for receiving messages."""
     try:
         data = request.json
-        logger.info('Received POST request with webhook data: %s', data)
+        #logger.info('Received POST request with webhook data: %s', data)
+        logging.info(f"Received POST request with webhook data (trimmed): {str(data)[:500]}")
 
         if 'entry' in data:
             for entry in data['entry']:
@@ -493,6 +494,7 @@ def webhook_post():
 
                                 # Send the chatbot's response back to the user
                                 send_whatsapp_message(from_number, response_message)
+                                
 
         return jsonify({'status': 'received'}), 200
 
