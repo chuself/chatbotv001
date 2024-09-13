@@ -385,7 +385,7 @@ with open('label_encoder.pickle', 'rb') as enc:
 
 
 # Define max sequence length (use the same value as during training)
-max_len = 20
+max_len = 94
 
 def preprocess_message(message):
     """Preprocess the input message for prediction."""
@@ -510,6 +510,9 @@ def webhook_post():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+
+dummy_input = np.zeros((1, max_len))
+print(model.predict(dummy_input))
 
 
 
