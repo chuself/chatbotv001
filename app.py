@@ -174,6 +174,20 @@ from sklearn.preprocessing import LabelEncoder
 import pickle
 import random
 
+import nltk
+from nltk.data import find
+from nltk.download import download
+
+def ensure_nltk_data():
+    try:
+        find('corpora/wordnet.zip')
+    except LookupError:
+        download('wordnet')
+
+ensure_nltk_data()
+
+
+
 app = Flask(__name__)
 
 # Configure logging
