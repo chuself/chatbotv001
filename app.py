@@ -187,7 +187,7 @@ with open('intents.json') as file:
     intents = json.load(file)
 
 # Load the trained model
-model = tf.keras.models.load_model('chatbot_model.h5')
+model = tf.keras.models.load_model('chatbotmodel.h5')
 
 # Load the tokenizer and label encoder
 with open('tokenizer.pickle', 'rb') as handle:
