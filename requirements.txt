@@ -40,7 +40,7 @@ MarkupSafe
 matplotlib
 mdurl
 ml-dtypes
-nltk
+nltk==3.7
 numpy
 opt-einsum
 optree
