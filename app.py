@@ -171,6 +171,7 @@ import numpy as np
 import tensorflow as tf
 from nltk.stem import WordNetLemmatizer
 from sklearn.preprocessing import LabelEncoder
+import pickle  # Add this line to ensure the pickle module is available
 import random
 
 app = Flask(__name__)
