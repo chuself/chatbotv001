@@ -1,7 +1,7 @@
 import nltk
 
 # Download the 'punkt' tokenizer
-nltk.download('punkt', download_dir='/opt/render/nltk_data')
+nltk.download('punkt_tab', download_dir='/opt/render/nltk_data')
 
 
 
@@ -12,4 +12,4 @@ nltk_data_dir = 'D:/Programing/Projects/ChatBotV1/nltk_data'
 nltk.data.path.append(nltk_data_dir)
 
 # Download the 'punkt' package to the specified directory
-nltk.download('punkt', download_dir=nltk_data_dir)
+nltk.download('punkt_tab', download_dir=nltk_data_dir)
