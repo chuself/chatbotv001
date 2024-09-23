@@ -859,25 +859,29 @@ def webhook():
         data = request.get_json()
         logging.debug(f"Request data: {data}")
 
-        if 'message' not in data:
-            logging.error("No 'message' field in POST data")
-            return jsonify({"error": "No message field found"}), 400
+        if 'entry' not in data or not data['entry']:
+            logging.error("No 'entry' field in POST data")
+            return jsonify({"error": "Invalid data format"}), 400
 
-        user_input = data['message'].strip()
+        # Extract the message body and sender
+        message_body = data['entry'][0]['changes'][0]['value']['messages'][0]['text']['body']
+        sender = data['entry'][0]['changes'][0]['value']['messages'][0]['from']
+        
+        logging.info(f"Message from {sender}: {message_body}")
 
         # Handle empty messages
-        if not user_input:
+        if not message_body.strip():
             logging.info("Received an empty message")
             return jsonify({"response": "Please enter something!"}), 200
 
-        logging.info(f"Processing user input: {user_input}")
+        logging.info(f"Processing user input: {message_body}")
 
         # First, run fuzzy matching to catch possible mistyped key phrases or patterns
         patterns = []
         for intent in intents['intents']:
             patterns.extend(intent['patterns'])
 
-        fuzzy_matched_pattern = fuzzy_match(user_input, patterns)
+        fuzzy_matched_pattern = fuzzy_match(message_body, patterns)
 
         if fuzzy_matched_pattern:
             message = fuzzy_matched_pattern  # Use fuzzy matched pattern
@@ -885,28 +889,28 @@ def webhook():
             ints, raw_predictions = predict_class(message)
         else:
             # If no fuzzy match, check key phrases
-            matched_department = match_key_phrases(user_input)
+            matched_department = match_key_phrases(message_body)
 
             if matched_department:
                 logging.info(f"Matched department via key phrase: {matched_department}")
                 response = get_response([{'intent': matched_department, 'probability': '1.0'}], intents)
-                log_interaction(user_input, response, predicted_intents=[{'intent': matched_department, 'probability': '1.0'}], model_predictions=None)
+                log_interaction(message_body, response, predicted_intents=[{'intent': matched_department, 'probability': '1.0'}], model_predictions=None)
                 return jsonify({"response": response}), 200
 
             # If no key phrase or fuzzy match, proceed with regular intent prediction
             logging.info("No key phrase or fuzzy match found. Proceeding with intent prediction.")
-            ints, raw_predictions = predict_class(user_input)
+            ints, raw_predictions = predict_class(message_body)
 
         # Get response based on predicted intents
         if ints[0]['intent'] == 'fallback':
             response = "Sorry, I don't understand. Could you rephrase that?"
-            logging.warning(f"Fallback triggered for input: {user_input}")
+            logging.warning(f"Fallback triggered for input: {message_body}")
         else:
             response = get_response(ints, intents)
             logging.info(f"Generated response: {response}")
 
         # Log the interaction
-        log_interaction(user_input, response, predicted_intents=ints, model_predictions=raw_predictions)
+        log_interaction(message_body, response, predicted_intents=ints, model_predictions=raw_predictions)
 
         # Return the response as a JSON object
         return jsonify({"response": response}), 200
