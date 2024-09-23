@@ -1,21 +1,7 @@
-cable_complain:Sioni picha yoyote:Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokat
-cable_complain:chaneli zimekata:Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokat
-cable_complain:chanel imekata:Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata
-cable_complain:chanel haionyeshi:Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata
-cable_complain:chaneli haipo:Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata
-cable_complain:huduma imekata:Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata
-cable_complain:huduma haipo:Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata
-cable_complain:huduma imekatika:Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata
-cable_complain:rudisha huduma:Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata
-cable_complain:huduma siioni:Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata
-
-
-
-
-
-
-
-
-
-
-
+now i want o customize the dataset based on a company that offers cable tv services and internet services in mwanza tanzania its name is Barmedas
+they heve multible department with each their tasks like
+Cable tv instalation and services and repairs 
+IT services and repairs
+internet services installation troublshooting and repairs
+sales dept
+customer complain handling for all these departments and etc now for the above what way might i use to personalize the bot to themwithout using much effort or what type of scripts can we make to make this task simple?

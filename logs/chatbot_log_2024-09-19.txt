@@ -1,0 +1,288 @@
+[2024-09-19 13:26:13] User: hey
+[2024-09-19 13:26:13] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 13:32:49] User: & "C:/Program Files/Python312/python.exe" d:/Programing/Projects/ChatBotV1/BotTester.py
+[2024-09-19 13:32:49] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 13:34:20] User: & "C:/Program Files/Python312/python.exe" d:/Programing/Projects/ChatBotV1/BotTester.py
+[2024-09-19 13:34:20] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 14:05:00] User: hello
+[2024-09-19 14:05:00] Bot: Good to see you! What can I help you with?
+[2024-09-19 14:05:00] Predicted Intents: [{'intent': 'greeting', 'probability': '0.99989057'}]
+[2024-09-19 14:05:00] Model Predictions: [8.3525601e-06 1.7501850e-05 1.7685305e-05 4.6030698e-07 3.2997392e-05
+ 2.6480300e-06 9.9989057e-01 3.0072717e-06 2.3754158e-06 1.0022570e-06
+ 2.0904108e-05 1.0743875e-06 9.2408629e-07 3.8499056e-07]
+
+[2024-09-19 14:05:06] User: mambo
+[2024-09-19 14:05:06] Bot: Mambo vipi? nipe habari.
+[2024-09-19 14:05:06] Predicted Intents: [{'intent': 'Salamu', 'probability': '0.9997211'}]
+[2024-09-19 14:05:06] Model Predictions: [1.4811366e-05 8.6256652e-05 9.9972111e-01 1.4807030e-05 5.7491165e-05
+ 9.6135534e-07 6.2963604e-06 6.6005086e-05 2.4624478e-06 9.2447390e-06
+ 4.5934760e-07 9.3206145e-06 1.4446966e-06 9.2901837e-06]
+
+[2024-09-19 14:05:12] User: uko poa
+[2024-09-19 14:05:12] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 14:05:15] User: poa
+[2024-09-19 14:05:15] Bot: Niaje? Natumai uko poa.
+[2024-09-19 14:05:15] Predicted Intents: [{'intent': 'Salamu', 'probability': '0.99948394'}]
+[2024-09-19 14:05:15] Model Predictions: [1.8845714e-05 2.5984547e-05 9.9948394e-01 1.7772556e-05 1.9723628e-04
+ 1.5574115e-06 1.1635383e-05 1.7215399e-04 1.3828610e-06 5.5873697e-05
+ 1.0633738e-06 3.2937246e-06 2.7669448e-06 6.4520782e-06]
+
+[2024-09-19 14:06:00] User: testing the tesater
+[2024-09-19 14:06:00] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 14:06:09] User: tester not tesater
+[2024-09-19 14:06:09] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 16:19:38] User: kebo
+[2024-09-19 16:19:38] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 16:19:41] User: cable
+[2024-09-19 16:19:41] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 16:19:46] User: nataka kebo
+[2024-09-19 16:19:46] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 16:20:04] User: i need a new
+[2024-09-19 16:20:04] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 16:22:43] User: How do I get cable TV at my home
+[2024-09-19 16:22:43] Bot: We can arrange that for you. Send us your address and contact number to proceed with your cable installation.
+[2024-09-19 16:22:43] Predicted Intents: [{'intent': 'Cable_TV_Installation', 'probability': '0.9979354'}]
+[2024-09-19 16:22:43] Model Predictions: [1.00884965e-04 9.97935414e-01 1.19940820e-03 1.85083802e-04
+ 1.22008787e-04 3.59926617e-06 3.58435682e-05 3.16099204e-07
+ 6.61932208e-05 7.65762161e-06 3.24728244e-05 1.73365720e-07
+ 7.70136221e-09 3.08546966e-08 4.20644319e-08 1.74836037e-04
+ 2.46585932e-05 5.10560426e-07 4.43809796e-07 4.56705074e-09
+ 2.81292722e-09 1.02857248e-05 4.00993457e-07 5.24858779e-09
+ 9.60623424e-07 3.08466355e-08 3.24935791e-05 3.89367258e-08
+ 1.70428969e-08 2.12028766e-07 2.02508932e-06 4.06035433e-05
+ 1.11775648e-07 7.68229427e-08 2.10877151e-05 1.14165381e-07
+ 4.72523851e-08 1.34438960e-06 2.96148158e-07 1.47024849e-07]
+
+[2024-09-19 16:23:11] User: cable tv inst
+[2024-09-19 16:23:11] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 16:23:19] User: cable tv installation
+[2024-09-19 16:23:19] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 16:23:28] User: set up cable
+[2024-09-19 16:23:28] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 16:23:34] User: set up cable tv
+[2024-09-19 16:23:34] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 16:23:39] User: set up cable tv in
+[2024-09-19 16:23:39] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 16:23:41] User: set up cable tv in my
+[2024-09-19 16:23:41] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 16:23:47] User: set up cable tv in my house
+[2024-09-19 16:23:47] Bot: We can arrange that for you. Send us your address and contact number to proceed with your cable installation.
+[2024-09-19 16:23:47] Predicted Intents: [{'intent': 'Cable_TV_Installation', 'probability': '0.99625'}]
+[2024-09-19 16:23:47] Model Predictions: [5.7369900e-05 9.9624997e-01 1.7131474e-03 8.9256046e-04 1.3453857e-04
+ 3.9975562e-06 4.4840403e-05 1.0780440e-07 7.2405557e-05 3.1521338e-07
+ 4.5668031e-04 4.6699638e-06 2.0217211e-08 8.1649085e-07 1.5463593e-07
+ 3.3420351e-05 5.6275967e-06 1.5769907e-05 5.5242322e-07 4.6732489e-09
+ 3.4866972e-08 1.0013840e-04 8.2769969e-07 2.9247918e-08 5.3219405e-06
+ 1.1733632e-08 6.6758104e-05 1.1667535e-07 3.0808451e-07 3.1843337e-07
+ 1.6632850e-05 1.9793975e-05 9.6847486e-07 2.4112856e-07 7.1180061e-06
+ 1.0108309e-05 9.8425454e-09 7.9442289e-05 3.2313819e-06 1.5942861e-06]
+
+[2024-09-19 16:25:26] User: set up
+[2024-09-19 16:25:26] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 16:25:30] User: cable tv
+[2024-09-19 16:25:30] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 16:25:38] User: cable tv connection
+[2024-09-19 16:25:38] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 16:26:14] User: Can I book a cable TV installation
+[2024-09-19 16:26:14] Bot: We can arrange that for you. Send us your address and contact number to proceed with your cable installation.
+[2024-09-19 16:26:14] Predicted Intents: [{'intent': 'Cable_TV_Installation', 'probability': '0.999338'}]
+[2024-09-19 16:26:14] Model Predictions: [3.4704110e-05 9.9933797e-01 2.3402156e-04 1.6416164e-04 2.2668968e-05
+ 2.9177163e-06 9.9269973e-06 1.7519161e-08 1.8227658e-05 2.7874768e-07
+ 1.8648547e-05 8.7767255e-08 9.5866959e-10 1.5061385e-08 6.0603647e-09
+ 3.3887809e-05 1.0969139e-05 8.3390084e-08 1.1943183e-06 5.2253146e-10
+ 1.0584988e-08 7.5342599e-05 1.8061783e-07 3.5117478e-09 1.2071561e-06
+ 3.4014180e-09 1.8804260e-05 4.8939426e-09 5.7051217e-09 1.1651353e-08
+ 7.9653483e-07 2.8524660e-06 1.2875512e-08 2.5048315e-09 9.6690019e-06
+ 6.7294661e-07 3.0720361e-08 2.2421365e-07 3.1207040e-07 3.5187156e-08]
+
+[2024-09-19 16:26:38] User: cable tv installation
+[2024-09-19 16:26:38] Bot: Sure! Please provide your home location, contact number and our team will handle the rest.
+[2024-09-19 16:26:38] Predicted Intents: [{'intent': 'Cable_TV_Installation', 'probability': '0.9949715'}]
+[2024-09-19 16:26:38] Model Predictions: [2.9805933e-05 9.9497151e-01 2.7539914e-03 1.2878507e-05 7.2957622e-04
+ 1.8320938e-05 3.4462751e-04 2.2988569e-07 6.3780858e-04 5.8073183e-06
+ 1.5401046e-04 1.2181823e-06 6.1659327e-09 1.1783708e-08 3.2472808e-08
+ 3.6879796e-05 6.9887342e-06 6.7149199e-06 3.0401310e-07 2.5320883e-08
+ 3.2766581e-09 1.1181586e-05 1.4930037e-06 1.9957289e-08 9.5960850e-06
+ 2.1653898e-07 2.3838595e-04 3.6561659e-08 1.0751974e-07 1.1264491e-07
+ 1.3366373e-06 3.4758991e-06 2.1905011e-07 5.9628633e-08 3.9573056e-06
+ 2.1978574e-06 2.7360917e-08 5.0116814e-06 1.1131601e-05 7.1968242e-07]
+
+[2024-09-19 16:26:43] User: installation
+[2024-09-19 16:26:43] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 16:26:58] User: tv installation
+[2024-09-19 16:26:58] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 16:27:04] User: cable tv installation
+[2024-09-19 16:27:04] Bot: Thank you for choosing Barmedas! Kindly provide your location details, contact number, and our team will contact you for the installation.
+[2024-09-19 16:27:04] Predicted Intents: [{'intent': 'Cable_TV_Installation', 'probability': '0.9949715'}]
+[2024-09-19 16:27:04] Model Predictions: [2.9805933e-05 9.9497151e-01 2.7539914e-03 1.2878507e-05 7.2957622e-04
+ 1.8320938e-05 3.4462751e-04 2.2988569e-07 6.3780858e-04 5.8073183e-06
+ 1.5401046e-04 1.2181823e-06 6.1659327e-09 1.1783708e-08 3.2472808e-08
+ 3.6879796e-05 6.9887342e-06 6.7149199e-06 3.0401310e-07 2.5320883e-08
+ 3.2766581e-09 1.1181586e-05 1.4930037e-06 1.9957289e-08 9.5960850e-06
+ 2.1653898e-07 2.3838595e-04 3.6561659e-08 1.0751974e-07 1.1264491e-07
+ 1.3366373e-06 3.4758991e-06 2.1905011e-07 5.9628633e-08 3.9573056e-06
+ 2.1978574e-06 2.7360917e-08 5.0116814e-06 1.1131601e-05 7.1968242e-07]
+
+[2024-09-19 16:27:16] User: i need a new cable tv conn
+[2024-09-19 16:27:16] Bot: Great! Please share your address contact number and preferred installation time, and we will schedule it for you.
+[2024-09-19 16:27:16] Predicted Intents: [{'intent': 'Cable_TV_Installation', 'probability': '0.9985336'}]
+[2024-09-19 16:27:16] Model Predictions: [4.01535581e-05 9.98533607e-01 7.14576978e-04 1.94205539e-04
+ 2.86148046e-04 5.75689273e-06 9.60354919e-06 1.19434276e-08
+ 2.56054318e-05 2.05895191e-07 8.00230628e-05 5.67695736e-07
+ 4.97867658e-09 3.91637585e-08 4.33199148e-08 4.22913763e-05
+ 2.24916766e-06 2.66466202e-07 1.68440167e-07 3.16538629e-10
+ 4.87785679e-09 2.88046995e-05 6.24380405e-08 3.03015102e-09
+ 3.31809360e-06 2.56238764e-09 1.86990819e-05 1.46968624e-08
+ 4.65130796e-08 1.03368905e-07 8.48357217e-07 6.29993053e-07
+ 7.81317979e-08 1.44363419e-08 1.49430321e-06 3.35358072e-06
+ 4.88866103e-09 3.52061784e-06 3.32998457e-06 1.56971353e-07]
+
+[2024-09-19 16:27:26] User: nataka huduma ya kebo
+[2024-09-19 16:27:26] Bot: Hakika! Tafadhali toa eneo lako la nyumbani, na timu yetu itashughulikia hilo.
+[2024-09-19 16:27:26] Predicted Intents: [{'intent': 'Kufunga_TV_Cable', 'probability': '0.9997657'}]
+[2024-09-19 16:27:26] Model Predictions: [1.0648417e-06 3.0020010e-05 4.3721972e-08 1.1066834e-05 8.0559505e-07
+ 2.0687064e-07 7.9120505e-10 1.4128625e-07 1.4820151e-07 6.5208063e-08
+ 5.3990654e-08 2.1926302e-10 5.7736309e-09 2.9698231e-09 5.0418865e-09
+ 9.9976569e-01 8.3662726e-06 1.8610121e-08 4.6133996e-06 2.3014239e-09
+ 1.9846422e-07 5.7666981e-05 4.5708126e-09 6.3396777e-09 7.0831652e-06
+ 8.4879503e-07 6.0200585e-07 4.6162758e-09 7.1119759e-09 4.5267738e-05
+ 3.7688945e-09 7.6256903e-08 1.0580923e-07 5.0586202e-08 2.0930956e-07
+ 3.3371870e-07 3.3021570e-05 1.8848914e-06 8.6054552e-06 2.1623468e-05]
+
+[2024-09-19 16:27:42] User: nahitaji huduma ya kebo
+[2024-09-19 16:27:42] Bot: Sawa! Tafadhali tuma anuani yako na muda unaopendelea kwa ufungaji, na tutaupanga.
+[2024-09-19 16:27:42] Predicted Intents: [{'intent': 'Kufunga_TV_Cable', 'probability': '0.9997657'}]
+[2024-09-19 16:27:42] Model Predictions: [1.0648417e-06 3.0020010e-05 4.3721972e-08 1.1066834e-05 8.0559505e-07
+ 2.0687064e-07 7.9120505e-10 1.4128625e-07 1.4820151e-07 6.5208063e-08
+ 5.3990654e-08 2.1926302e-10 5.7736309e-09 2.9698231e-09 5.0418865e-09
+ 9.9976569e-01 8.3662726e-06 1.8610121e-08 4.6133996e-06 2.3014239e-09
+ 1.9846422e-07 5.7666981e-05 4.5708126e-09 6.3396777e-09 7.0831652e-06
+ 8.4879503e-07 6.0200585e-07 4.6162758e-09 7.1119759e-09 4.5267738e-05
+ 3.7688945e-09 7.6256903e-08 1.0580923e-07 5.0586202e-08 2.0930956e-07
+ 3.3371870e-07 3.3021570e-05 1.8848914e-06 8.6054552e-06 2.1623468e-05]
+
+[2024-09-19 16:28:18] User: huduma zenu nazipataje
+[2024-09-19 16:28:18] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 16:28:27] User: huduma zenu zinapatikanaje
+[2024-09-19 16:28:27] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 16:28:40] User: how do i get your services
+[2024-09-19 16:28:40] Bot: For buying our products, you can visit our website or get in touch with our sales team for a guided process.
+[2024-09-19 16:28:40] Predicted Intents: [{'intent': 'Purchase_Process', 'probability': '0.9871652'}]
+[2024-09-19 16:28:40] Model Predictions: [7.58870797e-08 4.03902095e-06 1.00287359e-07 4.20238894e-06
+ 7.11052792e-07 1.67653197e-05 3.95755342e-06 6.12753274e-06
+ 1.52339577e-04 1.69626367e-03 1.19306503e-06 2.37801618e-08
+ 2.66648556e-07 1.24322705e-05 6.44541501e-07 8.76803341e-08
+ 1.05712917e-02 4.76765871e-09 4.90856866e-09 5.25901328e-07
+ 6.50702692e-09 5.35543521e-09 4.52914264e-06 6.69993642e-06
+ 3.38233531e-06 1.33624880e-07 1.73677002e-08 9.81973153e-06
+ 6.04877414e-06 5.11824737e-06 1.56425940e-05 2.81468296e-04
+ 5.55069937e-06 2.26305419e-05 9.87165213e-01 2.47682372e-08
+ 1.64476751e-06 1.03047775e-07 1.31065470e-09 9.55430892e-07]
+
+[2024-09-19 17:17:03] User: cable TV ya bei Nipe
+[2024-09-19 17:17:03] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 17:17:14] User: Nipe bei ya TV cable
+[2024-09-19 17:17:14] Bot: Huduma zetu za TV cable zinakuja na paketi tofauti. Niambie mapendeleo yako na eneo lako, na nitakupa maelezo zaidi.
+[2024-09-19 17:17:14] Predicted Intents: [{'intent': 'Maswali_Uuzaji_TV_Cable', 'probability': '0.9686547'}]
+[2024-09-19 17:17:14] Model Predictions: [5.4961192e-06 2.9425869e-06 4.3134449e-07 8.4666215e-05 1.2830653e-08
+ 1.8774553e-07 1.1871757e-08 4.5009174e-09 1.9598810e-08 1.7815517e-10
+ 1.2220441e-08 2.2129207e-08 3.5198360e-09 7.3437704e-08 1.7590178e-09
+ 1.4534183e-06 1.8018252e-08 9.3466447e-08 1.8050314e-04 1.5579612e-08
+ 2.9283520e-04 9.6865469e-01 3.4938355e-06 1.7276891e-07 2.9866425e-05
+ 2.0508555e-09 1.8538014e-05 8.8939788e-07 3.3926999e-06 1.1915365e-07
+ 7.7147480e-09 2.6796572e-08 2.3708897e-07 1.4153320e-08 1.6452400e-08
+ 3.0709857e-02 6.0008911e-06 2.6266238e-07 3.4283048e-06 8.4948603e-08]
+
+[2024-09-19 17:18:14] User: Ndyn bei ya TV cable
+[2024-09-19 17:18:14] Bot: Tunatoa mipango mbalimbali ya TV cable. Tafadhali toa anuani yako ili niweze kukujulisha kuhusu chaguo na bei zinazopatikana.
+[2024-09-19 17:18:14] Predicted Intents: [{'intent': 'Maswali_Uuzaji_TV_Cable', 'probability': '0.9686547'}]
+[2024-09-19 17:18:14] Model Predictions: [5.4961192e-06 2.9425869e-06 4.3134449e-07 8.4666215e-05 1.2830653e-08
+ 1.8774553e-07 1.1871757e-08 4.5009174e-09 1.9598810e-08 1.7815517e-10
+ 1.2220441e-08 2.2129207e-08 3.5198360e-09 7.3437704e-08 1.7590178e-09
+ 1.4534183e-06 1.8018252e-08 9.3466447e-08 1.8050314e-04 1.5579612e-08
+ 2.9283520e-04 9.6865469e-01 3.4938355e-06 1.7276891e-07 2.9866425e-05
+ 2.0508555e-09 1.8538014e-05 8.8939788e-07 3.3926999e-06 1.1915365e-07
+ 7.7147480e-09 2.6796572e-08 2.3708897e-07 1.4153320e-08 1.6452400e-08
+ 3.0709857e-02 6.0008911e-06 2.6266238e-07 3.4283048e-06 8.4948603e-08]
+
+[2024-09-19 17:18:25] User: Nipe vjb ya TV cable
+[2024-09-19 17:18:25] Bot: Ninaweza kusaidia kwa kutoa maelezo kuhusu paketi na bei za TV cable. Tafadhali toa anuani yako ili nipate maelezo sahihi.
+[2024-09-19 17:18:25] Predicted Intents: [{'intent': 'Maswali_Uuzaji_TV_Cable', 'probability': '0.9686547'}]
+[2024-09-19 17:18:25] Model Predictions: [5.4961192e-06 2.9425869e-06 4.3134449e-07 8.4666215e-05 1.2830653e-08
+ 1.8774553e-07 1.1871757e-08 4.5009174e-09 1.9598810e-08 1.7815517e-10
+ 1.2220441e-08 2.2129207e-08 3.5198360e-09 7.3437704e-08 1.7590178e-09
+ 1.4534183e-06 1.8018252e-08 9.3466447e-08 1.8050314e-04 1.5579612e-08
+ 2.9283520e-04 9.6865469e-01 3.4938355e-06 1.7276891e-07 2.9866425e-05
+ 2.0508555e-09 1.8538014e-05 8.8939788e-07 3.3926999e-06 1.1915365e-07
+ 7.7147480e-09 2.6796572e-08 2.3708897e-07 1.4153320e-08 1.6452400e-08
+ 3.0709857e-02 6.0008911e-06 2.6266238e-07 3.4283048e-06 8.4948603e-08]
+
+[2024-09-19 17:18:34] User: cable TV ya bei Nipe
+[2024-09-19 17:18:34] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 17:18:40] User: cable TV ya bei Nipe
+[2024-09-19 17:18:40] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 17:18:45] User:  TV ya bei Nipe
+[2024-09-19 17:18:45] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 17:20:22] User: cable TV ya bei Nipe
+[2024-09-19 17:20:22] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 17:20:32] User: nipe V ya bei Nipe
+[2024-09-19 17:20:32] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 17:20:41] User: nipe beiV ya bei Nipe
+[2024-09-19 17:20:41] Bot: Huduma zetu za TV cable zinakuja na paketi tofauti. Niambie mapendeleo yako na eneo lako, na nitakupa maelezo zaidi.
+[2024-09-19 17:20:41] Predicted Intents: [{'intent': 'Maswali_Uuzaji_TV_Cable', 'probability': '0.9686547'}]
+[2024-09-19 17:20:41] Model Predictions: [5.4961192e-06 2.9425869e-06 4.3134449e-07 8.4666215e-05 1.2830653e-08
+ 1.8774553e-07 1.1871757e-08 4.5009174e-09 1.9598810e-08 1.7815517e-10
+ 1.2220441e-08 2.2129207e-08 3.5198360e-09 7.3437704e-08 1.7590178e-09
+ 1.4534183e-06 1.8018252e-08 9.3466447e-08 1.8050314e-04 1.5579612e-08
+ 2.9283520e-04 9.6865469e-01 3.4938355e-06 1.7276891e-07 2.9866425e-05
+ 2.0508555e-09 1.8538014e-05 8.8939788e-07 3.3926999e-06 1.1915365e-07
+ 7.7147480e-09 2.6796572e-08 2.3708897e-07 1.4153320e-08 1.6452400e-08
+ 3.0709857e-02 6.0008911e-06 2.6266238e-07 3.4283048e-06 8.4948603e-08]
+
+[2024-09-19 17:21:07] User: TV cable  ya bei Nipe
+[2024-09-19 17:21:07] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 19:00:17] User: yangu
+[2024-09-19 19:00:17] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-19 19:00:23] User: yangu imezimika
+[2024-09-19 19:00:23] Bot: Tunaomba radhi kwa usumbufu. Tafadhali toa namba ya akaunti na eneo lako ili tuweze kutatua tatizo hilo.
+[2024-09-19 19:00:23] Predicted Intents: [{'intent': 'Ombi_la_Matatizo_ya_Intaneti', 'probability': '0.993731'}]
+[2024-09-19 19:00:23] Model Predictions: [5.9632965e-11 1.8563821e-11 6.2988512e-09 4.2503889e-10 7.7406446e-09
+ 3.5745714e-08 8.4414289e-08 1.5891520e-09 1.2311448e-08 1.5419050e-09
+ 7.1802553e-10 1.2124410e-07 3.1460199e-09 9.1935579e-09 2.7705822e-09
+ 7.9897186e-11 2.7496347e-09 4.6684980e-07 1.2621635e-09 1.6885883e-08
+ 6.8434813e-10 5.6944444e-10 6.7138846e-09 1.3176086e-06 1.0449357e-06
+ 2.8073148e-07 1.3332652e-07 5.7720887e-03 9.9373102e-01 4.3730080e-04
+ 8.7484821e-08 3.6668348e-09 6.6225920e-07 2.5827495e-07 4.0450363e-09
+ 1.4060686e-05 4.2857131e-09 2.8253939e-05 6.6460743e-06 5.9815843e-06]
+

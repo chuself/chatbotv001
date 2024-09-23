@@ -1,0 +1,163 @@
+{
+    "intents_file": "dep_intents.json",
+    "words_file": "words.pkl",
+    "classes_file": "classes.pkl",
+    "model_file": "chatbotmodel.keras",
+    "fuzzy_match_cutoff": 0.8,
+    "error_threshold": 0.25,
+    "key_phrases": {
+        "Cable_TV": {
+            "general": [
+                "cable TV",
+                "kebo TV"
+            ],
+            "sub_departments": {
+                "Cable_TV_Installation": [
+                    "install cable TV",
+                    "get cable TV",
+                    "cable TV installation",
+                    "new cable TV",
+                    "set up cable TV"
+                ],
+                "Kufungiwa_cable_tv": [
+                    "kuweka cable",
+                    "kuwekewa cable",
+                    "kufungiwa cable",
+                    "nataka huduma ya kebo",
+                    "kufunga cable",
+                    "kufunga kebo",
+                    "kuweka kebo",
+                    "kuwekewa kebo",
+                    "kupata huduma ya kebo",
+                    "kupata huduma ya cable"
+                ],
+                "Cable_TV_Complaint_Inquiry": [
+                    "channels are not showing",
+                    "lost channels",
+                    "fix TV signal",
+                    "fix signal",
+                    "cable TV is down",
+                    "cable TV is not working",
+                    "cable TV not working",
+                    "cable  not working",
+                    "signal is weak",
+                    "get more channels"
+                ],
+                "Malalamiko_ya_Huduma_ya_Cable_TV": [
+                    "Channel  hazionyeshi",
+                    "Chaneli  hazionyeshi",
+                    "Chaneli  haionyeshi",
+                    "cable  haionyeshi",
+                    "cable  tv haionyeshi",
+                    "kebo  tv haionyeshi",
+                    "kebo  haionyeshi",
+                    "kebo  hamna",
+                    "kebo haipo",
+                    "kebo imekata",
+                    "kebo imekatika",
+                    "signal ya TV haipo",
+                    "signal ya TV hamna",
+                    "signal ya TV imekata",
+                    "signal imekata",
+                    "signal hamna",
+                    "signal haipo",
+                    "signal imekatika",
+                    "signal chafu",
+                    "kebo chafu",
+                    "cable chafu"
+                ]
+            }
+        },
+        "Internet": {
+            "general": [
+                "internet service",
+                "wi-fi"
+            ],
+            "sub_departments": {
+                "Internet_Installation": [
+                    "install internet",
+                    "set up internet",
+                    "internet installed",
+                    "get internet",
+                    "new internet connection",
+                    "internet connection",
+                    "internet installation",
+                    "sign up",
+                    "barmedas internet",
+                    "new internet"
+                ],
+                "Ufungaji_wa_Intaneti_mpya": [
+                    "kufungwa internet",
+                    "kufungwa intaneti",
+                    "kupata internet",
+                    "kuwekewa internet",
+                    "kufungiwa internet",
+                    "kuunganishiwa internet",
+                    "kujisajiri internet",
+                    "nataka internet"
+                ],
+                "Internet_Troubleshooting_Request": [
+                    "internet not working",
+                    "internet very slow",
+                    "internet issues",
+                    "lost internet",
+                    "internet offline",
+                    "fix my internet",
+                    "internet down",
+                    "no internet"
+                ],
+                "Malalamiko_ya_huduma_ya_Intaneti": [
+                    "Internet haifanyi kazi",
+                    "hakuna internet",
+                    "hakuna interneti",
+                    "hakuna intaneti",
+                    "internet imezima",
+                    "internet imekata",
+                    "rekebisha intaneti",
+                    "rekebisha internet",
+                    "internet imezimika",
+                    "tatizo internet"
+                ]
+            }
+        },
+        "IT_Services": {
+            "general": [
+                "IT support",
+                "computer repair"
+            ],
+            "sub_departments": {
+                "IT_Support": [
+                    "help with IT",
+                    "IT assistance"
+                ],
+                "IT_Repair": [
+                    "repair computer",
+                    "fix laptop"
+                ],
+                "IT_Maintenance": [
+                    "maintain computer",
+                    "computer maintenance"
+                ]
+            }
+        }
+    },
+    "sub_departments": {
+        "Cable_TV": [
+            "Cable_TV_Installation",
+            "Kufungiwa_cable_tv",
+            "Cable_TV_Service_Inquiry",
+            "Uchunguzi_wa_Huduma_ya_Cable_TV"
+        ],
+        "Internet": [
+            "Internet_Installation",
+            "Ufungaji_wa_Intaneti_mpya",
+            "Internet_Troubleshooting_Request",
+            "Malalamiko_ya_huduma_ya_Intaneti"
+        ],
+        "IT_Services": [
+            "IT_Support",
+            "IT_Repair",
+            "IT_Maintenance"
+        ]
+    }
+}

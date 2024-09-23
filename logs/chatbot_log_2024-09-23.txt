@@ -1,0 +1,24 @@
+[2024-09-23 15:41:45] User: hllo
+[2024-09-23 15:41:45] Bot: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+[2024-09-23 15:41:45] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.965784'}]
+[2024-09-23 15:41:45] Model Predictions: [1.0973798e-02 6.1516483e-05 1.0558948e-04 1.4425486e-03 9.2025592e-05
+ 2.1323465e-02 1.9817107e-04 1.8966772e-05 9.6578401e-01]
+
+[2024-09-23 15:41:51] User: klsdlfkjsd
+[2024-09-23 15:41:51] Bot: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+[2024-09-23 15:41:51] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.965784'}]
+[2024-09-23 15:41:51] Model Predictions: [1.0973798e-02 6.1516483e-05 1.0558948e-04 1.4425486e-03 9.2025592e-05
+ 2.1323465e-02 1.9817107e-04 1.8966772e-05 9.6578401e-01]
+
+[2024-09-23 15:42:06] User: nataka huduma ya kebo ghana
+[2024-09-23 15:42:06] Bot: okay! Tafadhali toa eneo lako la kufungiwa, na timu yetu itashughulikia hilo.
+[2024-09-23 15:42:06] Predicted Intents: [{'intent': 'Kufungiwa_cable_tv', 'probability': '0.9997569'}]
+[2024-09-23 15:42:06] Model Predictions: [7.7247472e-07 5.3747470e-07 2.9232990e-06 7.6325205e-06 9.9975687e-01
+ 2.1073711e-04 1.8096179e-06 2.0425534e-06 1.6584992e-05]
+
+[2024-09-23 15:42:13] User: ghana
+[2024-09-23 15:42:13] Bot: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+[2024-09-23 15:42:13] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.965784'}]
+[2024-09-23 15:42:13] Model Predictions: [1.0973798e-02 6.1516483e-05 1.0558948e-04 1.4425486e-03 9.2025592e-05
+ 2.1323465e-02 1.9817107e-04 1.8966772e-05 9.6578401e-01]
+

@@ -1,0 +1,1645 @@
+Session started at 2024-09-20 18:26:31
+
+[2024-09-20 18:26:46] Pattern: Can you fix my TV signal?
+[2024-09-20 18:26:46] Variations: Can you fix my TV signal?, signal? TV my fix you Can, Cru you fix my TV signal?, Can kly fix my TV signal?, Can you rsk my TV signal?, Can you fix zb TV signal?, Can you fix my TV signal?, Can you fix my TV sljbou?
+[2024-09-20 18:26:46] Predicted Intents: [{'intent': 'Cable_TV_Repair_Request', 'probability': '0.58164334'}, {'intent': 'Cable_TV_Service_Inquiry', 'probability': '0.41083494'}]
+[2024-09-20 18:26:46] Response: We will arrange for repairs. Kindly send your details, and we will get it sorted as soon as possible.
+[2024-09-20 18:26:46] Input Tag: Cable_TV_Service_Inquiry
+[2024-09-20 18:26:46] Response Tag: Cable_TV_Repair_Request
+[2024-09-20 18:26:46] Detected Department: Unknown
+
+[2024-09-20 18:26:46] Pattern: Can you fix my TV signal?
+[2024-09-20 18:26:46] Variations: Can you fix my TV signal?, signal? TV my fix you Can, Cru you fix my TV signal?, Can kly fix my TV signal?, Can you rsk my TV signal?, Can you fix zb TV signal?, Can you fix my TV signal?, Can you fix my TV sljbou?
+[2024-09-20 18:26:46] Predicted Intents: [{'intent': 'Cable_TV_Repair_Request', 'probability': '0.5305996'}, {'intent': 'Cable_TV_Service_Inquiry', 'probability': '0.45745948'}]
+[2024-09-20 18:26:46] Response: We will arrange for repairs. Kindly send your details, and we will get it sorted as soon as possible.
+[2024-09-20 18:26:46] Input Tag: Cable_TV_Service_Inquiry
+[2024-09-20 18:26:46] Response Tag: Cable_TV_Repair_Request
+[2024-09-20 18:26:46] Detected Department: Unknown
+
+[2024-09-20 18:26:47] Pattern: My cable TV is down
+[2024-09-20 18:26:47] Variations: My cable TV is down, down is TV cable My, Mv cable TV is down, My gncig TV is down, My cable TV is down, My cable TV go down, My cable TV is saie
+[2024-09-20 18:26:47] Predicted Intents: [{'intent': 'Cable_TV_Repair_Request', 'probability': '0.9559445'}]
+[2024-09-20 18:26:47] Response: We apologize for the trouble. Please share your account number and location, and our repair team will contact you.
+[2024-09-20 18:26:47] Input Tag: Cable_TV_Service_Inquiry
+[2024-09-20 18:26:47] Response Tag: Cable_TV_Repair_Request
+[2024-09-20 18:26:47] Detected Department: Unknown
+
+[2024-09-20 18:26:50] Pattern: Cable TV yangu imezimika
+[2024-09-20 18:26:50] Variations: Cable TV yangu imezimika, imezimika yangu TV Cable, Czcyq TV yangu imezimika, Cable TV yangu imezimika, Cable TV iuwfw imezimika, Cable TV yangu tpipjetnm
+[2024-09-20 18:26:50] Predicted Intents: [{'intent': 'Ombi_la_Marekebisho_ya_Cable_TV', 'probability': '0.672821'}]
+[2024-09-20 18:26:50] Response: Tutaandaa fundi kwa ajili yako. Tafadhali toa anuani yako na ID ya huduma.
+[2024-09-20 18:26:50] Input Tag: Uchunguzi_wa_Huduma_ya_Cable_TV
+[2024-09-20 18:26:50] Response Tag: Ombi_la_Marekebisho_ya_Cable_TV
+[2024-09-20 18:26:50] Detected Department: Unknown
+
+[2024-09-20 18:26:50] Pattern: Ninawezaje kupata channel zaidi?
+[2024-09-20 18:26:50] Variations: Ninawezaje kupata channel zaidi?, zaidi? channel kupata Ninawezaje, Ngujdcqchb kupata channel zaidi?, Ninawezaje nkcvah channel zaidi?, Ninawezaje kupata xzcybqo zaidi?, Ninawezaje kupata channel ndrnv?
+[2024-09-20 18:26:50] Predicted Intents: [{'intent': 'Kufunga_TV_Cable', 'probability': '0.44939065'}]
+[2024-09-20 18:26:50] Response: Asante kwa kuchagua Barmedas! Tafadhali toa maelezo ya eneo lako, na timu yetu itawasiliana nawe kwa ajili ya ufungaji.
+[2024-09-20 18:26:50] Input Tag: Uchunguzi_wa_Huduma_ya_Cable_TV
+[2024-09-20 18:26:50] Response Tag: Kufunga_TV_Cable
+[2024-09-20 18:26:50] Detected Department: Unknown
+
+[2024-09-20 18:26:51] Pattern: My cable TV is not working
+[2024-09-20 18:26:51] Variations: My cable TV is not working, working not is TV cable My, Mh cable TV is not working, My wuzbp TV is not working, My cable TV is not working, My cable TV ie not working, My cable TV is imq working, My cable TV is not yuhloyz
+[2024-09-20 18:26:51] Predicted Intents: [{'intent': 'Cable_TV_Complaint', 'probability': '0.5684688'}, {'intent': 'Cable_TV_Repair_Request', 'probability': '0.42670083'}]
+[2024-09-20 18:26:51] Response: I’m sorry to hear that you’re having trouble with your cable TV. Please provide your address, the specific issue, and any other details so we can help resolve it.
+[2024-09-20 18:26:51] Input Tag: Cable_TV_Repair_Request
+[2024-09-20 18:26:51] Response Tag: Cable_TV_Complaint
+[2024-09-20 18:26:51] Detected Department: Unknown
+
+[2024-09-20 18:26:51] Pattern: My cable TV is not working
+[2024-09-20 18:26:51] Variations: My cable TV is not working, working not is TV cable My, Mh cable TV is not working, My wuzbp TV is not working, My cable TV is not working, My cable TV ie not working, My cable TV is imq working, My cable TV is not yuhloyz
+[2024-09-20 18:26:51] Predicted Intents: [{'intent': 'Cable_TV_Complaint', 'probability': '0.5684688'}, {'intent': 'Cable_TV_Repair_Request', 'probability': '0.42670083'}]
+[2024-09-20 18:26:51] Response: Please let us know the details of the cable TV issue, including your location, and we will send someone to fix it as soon as possible.
+[2024-09-20 18:26:51] Input Tag: Cable_TV_Repair_Request
+[2024-09-20 18:26:51] Response Tag: Cable_TV_Complaint
+[2024-09-20 18:26:51] Detected Department: Unknown
+
+[2024-09-20 18:26:51] Pattern: My cable TV is not working
+[2024-09-20 18:26:51] Variations: My cable TV is not working, working not is TV cable My, Mh cable TV is not working, My wuzbp TV is not working, My cable TV is not working, My cable TV ie not working, My cable TV is imq working, My cable TV is not yuhloyz
+[2024-09-20 18:26:51] Predicted Intents: [{'intent': 'Cable_TV_Complaint', 'probability': '0.8675778'}]
+[2024-09-20 18:26:51] Response: Can you please provide more information about the cable TV issue you’re facing? This will help us address the problem quickly.
+[2024-09-20 18:26:51] Input Tag: Cable_TV_Repair_Request
+[2024-09-20 18:26:51] Response Tag: Cable_TV_Complaint
+[2024-09-20 18:26:51] Detected Department: Unknown
+
+[2024-09-20 18:26:51] Pattern: My cable TV is not working
+[2024-09-20 18:26:51] Variations: My cable TV is not working, working not is TV cable My, Mh cable TV is not working, My wuzbp TV is not working, My cable TV is not working, My cable TV ie not working, My cable TV is imq working, My cable TV is not yuhloyz
+[2024-09-20 18:26:51] Predicted Intents: [{'intent': 'Cable_TV_Complaint', 'probability': '0.7009126'}]
+[2024-09-20 18:26:51] Response: I apologize for the inconvenience with your cable TV. Provide the details of the problem and your location, and we will work to resolve it.
+[2024-09-20 18:26:51] Input Tag: Cable_TV_Repair_Request
+[2024-09-20 18:26:51] Response Tag: Cable_TV_Complaint
+[2024-09-20 18:26:51] Detected Department: Unknown
+
+[2024-09-20 18:26:51] Pattern: My cable TV is not working
+[2024-09-20 18:26:51] Variations: My cable TV is not working, working not is TV cable My, Mh cable TV is not working, My wuzbp TV is not working, My cable TV is not working, My cable TV ie not working, My cable TV is imq working, My cable TV is not yuhloyz
+[2024-09-20 18:26:51] Predicted Intents: [{'intent': 'Cable_TV_Complaint', 'probability': '0.5684688'}, {'intent': 'Cable_TV_Repair_Request', 'probability': '0.42670083'}]
+[2024-09-20 18:26:51] Response: I apologize for the inconvenience with your cable TV. Provide the details of the problem and your location, and we will work to resolve it.
+[2024-09-20 18:26:51] Input Tag: Cable_TV_Repair_Request
+[2024-09-20 18:26:51] Response Tag: Cable_TV_Complaint
+[2024-09-20 18:26:51] Detected Department: Unknown
+
+[2024-09-20 18:26:51] Pattern: My cable TV is not working
+[2024-09-20 18:26:51] Variations: My cable TV is not working, working not is TV cable My, Mh cable TV is not working, My wuzbp TV is not working, My cable TV is not working, My cable TV ie not working, My cable TV is imq working, My cable TV is not yuhloyz
+[2024-09-20 18:26:51] Predicted Intents: [{'intent': 'Cable_TV_Complaint', 'probability': '0.73026145'}, {'intent': 'Cable_TV_Repair_Request', 'probability': '0.26668927'}]
+[2024-09-20 18:26:51] Response: Please let us know the details of the cable TV issue, including your location, and we will send someone to fix it as soon as possible.
+[2024-09-20 18:26:51] Input Tag: Cable_TV_Repair_Request
+[2024-09-20 18:26:51] Response Tag: Cable_TV_Complaint
+[2024-09-20 18:26:51] Detected Department: Unknown
+
+[2024-09-20 18:26:52] Pattern: My TV signal is gone
+[2024-09-20 18:26:52] Variations: My TV signal is gone, gone is signal TV My, Mr TV signal is gone, My TV signal is gone, My TV yolagh is gone, My TV signal uq gone, My TV signal is dcdn
+[2024-09-20 18:26:52] Predicted Intents: [{'intent': 'Cable_TV_Service_Inquiry', 'probability': '0.6836299'}, {'intent': 'Cable_TV_Repair_Request', 'probability': '0.30872026'}]
+[2024-09-20 18:26:52] Response: Thanks for reporting! We will send a technician to your location as soon as possible. Could you confirm your details?
+[2024-09-20 18:26:52] Input Tag: Cable_TV_Repair_Request
+[2024-09-20 18:26:52] Response Tag: Cable_TV_Service_Inquiry
+[2024-09-20 18:26:52] Detected Department: Unknown
+
+[2024-09-20 18:26:54] Pattern: Cable TV yangu haifanyi kazi
+[2024-09-20 18:26:54] Variations: Cable TV yangu haifanyi kazi, kazi haifanyi yangu TV Cable, Ciyux TV yangu haifanyi kazi, Cable TV yangu haifanyi kazi, Cable TV ofopc haifanyi kazi, Cable TV yangu nflzrfuj kazi, Cable TV yangu haifanyi nooe
+[2024-09-20 18:26:54] Predicted Intents: [{'intent': 'Malalamiko_TV_Cable', 'probability': '0.5768047'}, {'intent': 'Ombi_la_Marekebisho_ya_Cable_TV', 'probability': '0.4149025'}]
+[2024-09-20 18:26:54] Response: Tafadhali eleza zaidi kuhusu tatizo la TV cable unalokutana nalo. Hii itatusaidia kushughulikia tatizo kwa haraka.
+[2024-09-20 18:26:54] Input Tag: Ombi_la_Marekebisho_ya_Cable_TV
+[2024-09-20 18:26:54] Response Tag: Malalamiko_TV_Cable
+[2024-09-20 18:26:54] Detected Department: Unknown
+
+[2024-09-20 18:26:55] Pattern: Signal ya TV yangu imepotea
+[2024-09-20 18:26:55] Variations: Signal ya TV yangu imepotea, imepotea yangu TV ya Signal, Spytzo ya TV yangu imepotea, Signal mb TV yangu imepotea, Signal ya TV yangu imepotea, Signal ya TV xhraw imepotea, Signal ya TV yangu dsnhaxmi
+[2024-09-20 18:26:55] Predicted Intents: [{'intent': 'Uchunguzi_wa_Huduma_ya_Cable_TV', 'probability': '0.7236556'}, {'intent': 'Ombi_la_Marekebisho_ya_Cable_TV', 'probability': '0.26874673'}]
+[2024-09-20 18:26:55] Response: Asante kwa kuripoti! Tutamtuma fundi mara moja kwa eneo lako. Tafadhali thibitisha maelezo yako.
+[2024-09-20 18:26:55] Input Tag: Ombi_la_Marekebisho_ya_Cable_TV
+[2024-09-20 18:26:55] Response Tag: Uchunguzi_wa_Huduma_ya_Cable_TV
+[2024-09-20 18:26:55] Detected Department: Unknown
+
+[2024-09-20 18:26:56] Pattern: Huduma ya cable imekatika
+[2024-09-20 18:26:56] Variations: Huduma ya cable imekatika, imekatika cable ya Huduma, Htllgi ya cable imekatika, Huduma cy cable imekatika, Huduma ya xljrq imekatika, Huduma ya cable mdwusgxoy
+[2024-09-20 18:26:56] Predicted Intents: [{'intent': 'Marekebisho_IT', 'probability': '0.41721657'}, {'intent': 'Ombi_la_Marekebisho_ya_Cable_TV', 'probability': '0.31763345'}]
+[2024-09-20 18:26:56] Response: Tutapanga marekebisho kwa ajili yako. Tafadhali toa maelezo zaidi kuhusu kifaa na tatizo.
+[2024-09-20 18:26:56] Input Tag: Ombi_la_Marekebisho_ya_Cable_TV
+[2024-09-20 18:26:56] Response Tag: Marekebisho_IT
+[2024-09-20 18:26:56] Detected Department: Unknown
+
+[2024-09-20 18:26:56] Pattern: Huduma ya cable imekatika
+[2024-09-20 18:26:56] Variations: Huduma ya cable imekatika, imekatika cable ya Huduma, Htllgi ya cable imekatika, Huduma cy cable imekatika, Huduma ya xljrq imekatika, Huduma ya cable mdwusgxoy
+[2024-09-20 18:26:56] Predicted Intents: [{'intent': 'Kufunga_TV_Cable', 'probability': '0.5776735'}]
+[2024-09-20 18:26:56] Response: Sawa! Tafadhali tuma anuani yako na muda unaopendelea kwa ufungaji, na tutaupanga.
+[2024-09-20 18:26:56] Input Tag: Ombi_la_Marekebisho_ya_Cable_TV
+[2024-09-20 18:26:56] Response Tag: Kufunga_TV_Cable
+[2024-09-20 18:26:56] Detected Department: Unknown
+
+[2024-09-20 18:26:56] Pattern: Hakuna signal kwenye cable yangu
+[2024-09-20 18:26:56] Variations: Hakuna signal kwenye cable yangu, yangu cable kwenye signal Hakuna, Hscbiq signal kwenye cable yangu, Hakuna qjsbow kwenye cable yangu, Hakuna signal btfubq cable yangu, Hakuna signal kwenye obcod yangu, Hakuna signal kwenye cable bjpmh
+[2024-09-20 18:26:56] Predicted Intents: [{'intent': 'Cable_TV_Repair_Request', 'probability': '0.42377803'}, {'intent': 'Ombi_la_Marekebisho_ya_Cable_TV', 'probability': '0.31040448'}]
+[2024-09-20 18:26:56] Response: Let’s schedule a technician for you. Please provide your address and service ID.
+[2024-09-20 18:26:56] Input Tag: Ombi_la_Marekebisho_ya_Cable_TV
+[2024-09-20 18:26:56] Response Tag: Cable_TV_Repair_Request
+[2024-09-20 18:26:56] Detected Department: Unknown
+
+[2024-09-20 18:26:57] Pattern: Kisanduku cha cable hakifanyi kazi
+[2024-09-20 18:26:57] Variations: Kisanduku cha cable hakifanyi kazi, kazi hakifanyi cable cha Kisanduku, Kctkyevpo cha cable hakifanyi kazi, Kisanduku lsn cable hakifanyi kazi, Kisanduku cha poxpb hakifanyi kazi, Kisanduku cha cable uvmjcyglz kazi, Kisanduku cha cable hakifanyi hisi
+[2024-09-20 18:26:57] Predicted Intents: [{'intent': 'Marekebisho_IT', 'probability': '0.67411566'}, {'intent': 'Ombi_la_Marekebisho_ya_Cable_TV', 'probability': '0.28923535'}]
+[2024-09-20 18:26:57] Response: Asante kwa kuwasiliana! Tutatuma fundi kutatua marekebisho. Unaweza kuthibitisha maelezo ya kifaa na eneo?
+[2024-09-20 18:26:57] Input Tag: Ombi_la_Marekebisho_ya_Cable_TV
+[2024-09-20 18:26:57] Response Tag: Marekebisho_IT
+[2024-09-20 18:26:57] Detected Department: Unknown
+
+[2024-09-20 18:26:57] Pattern: I need internet installed
+[2024-09-20 18:26:57] Variations: I need internet installed, installed internet need I, I need internet installed, I doms internet installed, I need udlmyirc installed, I need internet mvbviubyc
+[2024-09-20 18:26:57] Predicted Intents: [{'intent': 'IT_Service_Request', 'probability': '0.3487504'}, {'intent': 'Cable_TV_Installation', 'probability': '0.34445584'}]
+[2024-09-20 18:26:57] Response: Please let us know the specifics of your IT issue so we can provide the appropriate support.
+[2024-09-20 18:26:57] Input Tag: Internet_Installation_Request
+[2024-09-20 18:26:57] Response Tag: IT_Service_Request
+[2024-09-20 18:26:57] Detected Department: Unknown
+
+[2024-09-20 18:26:58] Pattern: How can I get internet at my home?
+[2024-09-20 18:26:58] Variations: How can I get internet at my home?, home? my at internet get I can How, Hwm can I get internet at my home?, How zmg I get internet at my home?, How can I get internet at my home?, How can I leu internet at my home?, How can I get ezejbdks at my home?, How can I get internet xb my home?, How can I get internet at ag home?, How can I get internet at my efab?
+[2024-09-20 18:26:58] Predicted Intents: [{'intent': 'IT_Service_Request', 'probability': '0.40697396'}, {'intent': 'Cable_TV_Installation', 'probability': '0.38930804'}]
+[2024-09-20 18:26:58] Response: Please let us know the specifics of your IT issue so we can provide the appropriate support.
+[2024-09-20 18:26:58] Input Tag: Internet_Installation_Request
+[2024-09-20 18:26:58] Response Tag: IT_Service_Request
+[2024-09-20 18:26:58] Detected Department: Unknown
+
+[2024-09-20 18:26:58] Pattern: I want a new internet connection
+[2024-09-20 18:26:58] Variations: I want a new internet connection, connection internet new a want I, I want a new internet connection, I nrjy a new internet connection, I want n new internet connection, I want a mtv internet connection, I want a new qhllzyvq connection, I want a new internet ghbgcsaohk
+[2024-09-20 18:26:58] Predicted Intents: [{'intent': 'Internet_Repair_Request', 'probability': '0.948833'}]
+[2024-09-20 18:26:58] Response: Thanks for contacting us! We’ll send a technician to resolve the issue. Can you confirm your service details?
+[2024-09-20 18:26:58] Input Tag: Internet_Installation_Request
+[2024-09-20 18:26:58] Response Tag: Internet_Repair_Request
+[2024-09-20 18:26:58] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:26:58] Pattern: I want a new internet connection
+[2024-09-20 18:26:58] Variations: I want a new internet connection, connection internet new a want I, I want a new internet connection, I nrjy a new internet connection, I want n new internet connection, I want a mtv internet connection, I want a new qhllzyvq connection, I want a new internet ghbgcsaohk
+[2024-09-20 18:26:58] Predicted Intents: [{'intent': 'Cable_TV_Installation', 'probability': '0.46231762'}]
+[2024-09-20 18:26:58] Response: We can arrange that for you. Send us your address and contact number to proceed with your cable installation.
+[2024-09-20 18:26:58] Input Tag: Internet_Installation_Request
+[2024-09-20 18:26:58] Response Tag: Cable_TV_Installation
+[2024-09-20 18:26:58] Detected Department: Unknown
+
+[2024-09-20 18:26:59] Pattern: Can I book an internet installation?
+[2024-09-20 18:26:59] Variations: Can I book an internet installation?, installation? internet an book I Can, Cul I book an internet installation?, Can I book an internet installation?, Can I sgpm an internet installation?, Can I book nk internet installation?, Can I book an eszzqguw installation?, Can I book an internet qhueuhcpshne?
+[2024-09-20 18:26:59] Predicted Intents: [{'intent': 'Cable_TV_Installation', 'probability': '0.8406734'}]
+[2024-09-20 18:26:59] Response: We can arrange that for you. Send us your address and contact number to proceed with your cable installation.
+[2024-09-20 18:26:59] Input Tag: Internet_Installation_Request
+[2024-09-20 18:26:59] Response Tag: Cable_TV_Installation
+[2024-09-20 18:26:59] Detected Department: Unknown
+
+[2024-09-20 18:26:59] Pattern: I need Barmedas internet service
+[2024-09-20 18:26:59] Variations: I need Barmedas internet service, service internet Barmedas need I, I need Barmedas internet service, I bipb Barmedas internet service, I need Bgatbusq internet service, I need Barmedas cczgkltq service, I need Barmedas internet oodrlhk
+[2024-09-20 18:26:59] Predicted Intents: [{'intent': 'IT_Service_Request', 'probability': '0.70062107'}]
+[2024-09-20 18:26:59] Response: Thank you for reaching out! Share more information about your IT needs, and we’ll assist you promptly.
+[2024-09-20 18:26:59] Input Tag: Internet_Installation_Request
+[2024-09-20 18:26:59] Response Tag: IT_Service_Request
+[2024-09-20 18:26:59] Detected Department: Unknown
+
+[2024-09-20 18:27:00] Pattern: Internet installation
+[2024-09-20 18:27:00] Variations: Internet installation, installation Internet, Ikhrrwgz installation, Internet zccauwrscpjn
+[2024-09-20 18:27:00] Predicted Intents: [{'intent': 'Cable_TV_Installation', 'probability': '0.54895437'}]
+[2024-09-20 18:27:00] Response: Great! Please share your address contact number and preferred installation time, and we will schedule it for you.
+[2024-09-20 18:27:00] Input Tag: Internet_Installation_Request
+[2024-09-20 18:27:00] Response Tag: Cable_TV_Installation
+[2024-09-20 18:27:00] Detected Department: Unknown
+
+[2024-09-20 18:27:00] Pattern: Internet installation
+[2024-09-20 18:27:00] Variations: Internet installation, installation Internet, Ikhrrwgz installation, Internet zccauwrscpjn
+[2024-09-20 18:27:00] Predicted Intents: [{'intent': 'Internet_Repair_Request', 'probability': '0.5860782'}]
+[2024-09-20 18:27:00] Response: We apologize for the issue. Please share your account number and address, and we will send a technician.
+[2024-09-20 18:27:00] Input Tag: Internet_Installation_Request
+[2024-09-20 18:27:00] Response Tag: Internet_Repair_Request
+[2024-09-20 18:27:00] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:27:01] Pattern: How to get Barmedas internet at my place?
+[2024-09-20 18:27:01] Variations: How to get Barmedas internet at my place?, place? my at internet Barmedas get to How, Hwv to get Barmedas internet at my place?, How um get Barmedas internet at my place?, How to bvg Barmedas internet at my place?, How to get Bxzbaulz internet at my place?, How to get Barmedas nkxbarfj at my place?, How to get Barmedas internet jy my place?, How to get Barmedas internet at jr place?, How to get Barmedas internet at my pinjk?
+[2024-09-20 18:27:01] Predicted Intents: [{'intent': 'Cable_TV_Installation', 'probability': '0.610459'}, {'intent': 'Internet_Installation_Request', 'probability': '0.31971934'}]
+[2024-09-20 18:27:01] Response: We can arrange that for you. Send us your address and contact number to proceed with your cable installation.
+[2024-09-20 18:27:01] Input Tag: Internet_Installation_Request
+[2024-09-20 18:27:01] Response Tag: Cable_TV_Installation
+[2024-09-20 18:27:01] Detected Department: Unknown
+
+[2024-09-20 18:27:01] Pattern: Nahitaji intaneti kufungwa
+[2024-09-20 18:27:01] Variations: Nahitaji intaneti kufungwa, kufungwa intaneti Nahitaji, Noupajus intaneti kufungwa, Nahitaji zfogzpyj kufungwa, Nahitaji intaneti sbgmqmco
+[2024-09-20 18:27:01] Predicted Intents: [{'intent': 'Kufunga_TV_Cable', 'probability': '0.3280259'}]
+[2024-09-20 18:27:01] Response: Tunaweza kupanga hilo. Tuma anuani yako na namba ya mawasiliano ili kuendelea na ufungaji wako wa cable.
+[2024-09-20 18:27:01] Input Tag: Ombi_la_Ufungaji_wa_Intaneti
+[2024-09-20 18:27:01] Response Tag: Kufunga_TV_Cable
+[2024-09-20 18:27:01] Detected Department: Unknown
+
+[2024-09-20 18:27:02] Pattern: Ninawezaje kupata intaneti nyumbani kwangu?
+[2024-09-20 18:27:02] Variations: Ninawezaje kupata intaneti nyumbani kwangu?, kwangu? nyumbani intaneti kupata Ninawezaje, Nheogubsdx kupata intaneti nyumbani kwangu?, Ninawezaje znqgmd intaneti nyumbani kwangu?, Ninawezaje kupata pyendwsb nyumbani kwangu?, Ninawezaje kupata intaneti muyrgqxo kwangu?, Ninawezaje kupata intaneti nyumbani qoljid?
+[2024-09-20 18:27:02] Predicted Intents: [{'intent': 'Kufunga_TV_Cable', 'probability': '0.79013956'}]
+[2024-09-20 18:27:02] Response: Hakika! Tafadhali toa eneo lako la nyumbani, na timu yetu itashughulikia hilo.
+[2024-09-20 18:27:02] Input Tag: Ombi_la_Ufungaji_wa_Intaneti
+[2024-09-20 18:27:02] Response Tag: Kufunga_TV_Cable
+[2024-09-20 18:27:02] Detected Department: Unknown
+
+[2024-09-20 18:27:02] Pattern: Nataka muunganisho mpya wa intaneti
+[2024-09-20 18:27:02] Variations: Nataka muunganisho mpya wa intaneti, intaneti wa mpya muunganisho Nataka, Nymfxv muunganisho mpya wa intaneti, Nataka soycyrqdavs mpya wa intaneti, Nataka muunganisho eahm wa intaneti, Nataka muunganisho mpya dc intaneti, Nataka muunganisho mpya wa oeiygrbb
+[2024-09-20 18:27:02] Predicted Intents: [{'intent': 'Ombi_la_Marekebisho_ya_Intaneti', 'probability': '0.54198176'}, {'intent': 'Ombi_la_Ufungaji_wa_Intaneti', 'probability': '0.3719892'}]
+[2024-09-20 18:27:02] Response: Asante kwa kuwasiliana nasi! Tutatuma fundi kutatua tatizo. Unaweza kuthibitisha maelezo ya huduma yako?
+[2024-09-20 18:27:02] Input Tag: Ombi_la_Ufungaji_wa_Intaneti
+[2024-09-20 18:27:02] Response Tag: Ombi_la_Marekebisho_ya_Intaneti
+[2024-09-20 18:27:02] Detected Department: Unknown
+
+[2024-09-20 18:27:03] Pattern: Nataka muunganisho mpya wa intaneti
+[2024-09-20 18:27:03] Variations: Nataka muunganisho mpya wa intaneti, intaneti wa mpya muunganisho Nataka, Nymfxv muunganisho mpya wa intaneti, Nataka soycyrqdavs mpya wa intaneti, Nataka muunganisho eahm wa intaneti, Nataka muunganisho mpya dc intaneti, Nataka muunganisho mpya wa oeiygrbb
+[2024-09-20 18:27:03] Predicted Intents: [{'intent': 'Kufunga_TV_Cable', 'probability': '0.6955578'}]
+[2024-09-20 18:27:03] Response: Hakika! Tafadhali toa eneo lako la nyumbani, na timu yetu itashughulikia hilo.
+[2024-09-20 18:27:03] Input Tag: Ombi_la_Ufungaji_wa_Intaneti
+[2024-09-20 18:27:03] Response Tag: Kufunga_TV_Cable
+[2024-09-20 18:27:03] Detected Department: Unknown
+
+[2024-09-20 18:27:03] Pattern: Naweza kuomba ufungaji wa intaneti?
+[2024-09-20 18:27:03] Variations: Naweza kuomba ufungaji wa intaneti?, intaneti? wa ufungaji kuomba Naweza, Njfipr kuomba ufungaji wa intaneti?, Naweza vnczyf ufungaji wa intaneti?, Naweza kuomba dndhgwuj wa intaneti?, Naweza kuomba ufungaji gy intaneti?, Naweza kuomba ufungaji wa ftewujff?
+[2024-09-20 18:27:03] Predicted Intents: [{'intent': 'Kufunga_TV_Cable', 'probability': '0.8914358'}]
+[2024-09-20 18:27:03] Response: Sawa! Tafadhali tuma anuani yako na muda unaopendelea kwa ufungaji, na tutaupanga.
+[2024-09-20 18:27:03] Input Tag: Ombi_la_Ufungaji_wa_Intaneti
+[2024-09-20 18:27:03] Response Tag: Kufunga_TV_Cable
+[2024-09-20 18:27:03] Detected Department: Unknown
+
+[2024-09-20 18:27:04] Pattern: Nahitaji huduma ya intaneti ya Barmedas
+[2024-09-20 18:27:04] Variations: Nahitaji huduma ya intaneti ya Barmedas, Barmedas ya intaneti ya huduma Nahitaji, Nxznxakp huduma ya intaneti ya Barmedas, Nahitaji fzpjbw ya intaneti ya Barmedas, Nahitaji huduma wv intaneti ya Barmedas, Nahitaji huduma ya ywdxajqn ya Barmedas, Nahitaji huduma ya intaneti eb Barmedas, Nahitaji huduma ya intaneti ya Bovtmovq
+[2024-09-20 18:27:04] Predicted Intents: [{'intent': 'Kufunga_TV_Cable', 'probability': '0.6964828'}]
+[2024-09-20 18:27:04] Response: Sawa! Tafadhali tuma anuani yako na muda unaopendelea kwa ufungaji, na tutaupanga.
+[2024-09-20 18:27:04] Input Tag: Ombi_la_Ufungaji_wa_Intaneti
+[2024-09-20 18:27:04] Response Tag: Kufunga_TV_Cable
+[2024-09-20 18:27:04] Detected Department: Unknown
+
+[2024-09-20 18:27:05] Pattern: Ombi la kufunga intaneti
+[2024-09-20 18:27:05] Variations: Ombi la kufunga intaneti, intaneti kufunga la Ombi, Oudd la kufunga intaneti, Ombi uh kufunga intaneti, Ombi la heabxhs intaneti, Ombi la kufunga rczwbbod
+[2024-09-20 18:27:05] Predicted Intents: [{'intent': 'Ununuzi', 'probability': '0.45975682'}]
+[2024-09-20 18:27:05] Response: Ili kufanya ununuzi, tafadhali toa maelezo ya bidhaa unayotaka, na nitakusaidia kwa oda.
+[2024-09-20 18:27:05] Input Tag: Ombi_la_Ufungaji_wa_Intaneti
+[2024-09-20 18:27:05] Response Tag: Ununuzi
+[2024-09-20 18:27:05] Detected Department: Unknown
+
+[2024-09-20 18:27:05] Pattern: Nataka kufunga intaneti ya Barmedas
+[2024-09-20 18:27:05] Variations: Nataka kufunga intaneti ya Barmedas, Barmedas ya intaneti kufunga Nataka, Nphaab kufunga intaneti ya Barmedas, Nataka nzgfpov intaneti ya Barmedas, Nataka kufunga hqiadanc ya Barmedas, Nataka kufunga intaneti cd Barmedas, Nataka kufunga intaneti ya Bsijfuti
+[2024-09-20 18:27:05] Predicted Intents: [{'intent': 'Kufunga_TV_Cable', 'probability': '0.68169254'}, {'intent': 'Ombi_la_Ufungaji_wa_Intaneti', 'probability': '0.26999092'}]
+[2024-09-20 18:27:05] Response: Asante kwa kuchagua Barmedas! Tafadhali toa maelezo ya eneo lako, na timu yetu itawasiliana nawe kwa ajili ya ufungaji.
+[2024-09-20 18:27:05] Input Tag: Ombi_la_Ufungaji_wa_Intaneti
+[2024-09-20 18:27:05] Response Tag: Kufunga_TV_Cable
+[2024-09-20 18:27:05] Detected Department: Unknown
+
+[2024-09-20 18:27:05] Pattern: Nitapataje intaneti ya Barmedas?
+[2024-09-20 18:27:05] Variations: Nitapataje intaneti ya Barmedas?, Barmedas? ya intaneti Nitapataje, Ngvqjqbfsw intaneti ya Barmedas?, Nitapataje kaixlgsn ya Barmedas?, Nitapataje intaneti ld Barmedas?, Nitapataje intaneti ya Bgxjfrgt?
+[2024-09-20 18:27:05] Predicted Intents: [{'intent': 'Mchakato_wa_Ununuzi', 'probability': '0.3360663'}, {'intent': 'Kufunga_TV_Cable', 'probability': '0.32505667'}]
+[2024-09-20 18:27:05] Response: Unaweza kujisajili kwa huduma zetu mtandaoni au kwa kuwasiliana na idara yetu ya mauzo. Tafadhali nijulishe kama unahitaji msaada zaidi.
+[2024-09-20 18:27:05] Input Tag: Ombi_la_Ufungaji_wa_Intaneti
+[2024-09-20 18:27:05] Response Tag: Mchakato_wa_Ununuzi
+[2024-09-20 18:27:05] Detected Department: Unknown
+
+[2024-09-20 18:27:06] Pattern: My internet is not working
+[2024-09-20 18:27:06] Variations: My internet is not working, working not is internet My, Mh internet is not working, My aljedbho is not working, My internet vq not working, My internet is uig working, My internet is not oqoixej
+[2024-09-20 18:27:06] Predicted Intents: [{'intent': 'Internet_Service_Complaint', 'probability': '0.8440523'}]
+[2024-09-20 18:27:06] Response: Please share the specifics of the internet problem and your location so we can resolve the issue as quickly as possible.
+[2024-09-20 18:27:06] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:06] Response Tag: Internet_Service_Complaint
+[2024-09-20 18:27:06] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:27:06] Pattern: My internet is not working
+[2024-09-20 18:27:06] Variations: My internet is not working, working not is internet My, Mh internet is not working, My aljedbho is not working, My internet vq not working, My internet is uig working, My internet is not oqoixej
+[2024-09-20 18:27:06] Predicted Intents: [{'intent': 'Internet_Service_Complaint', 'probability': '0.8440523'}]
+[2024-09-20 18:27:06] Response: I’m sorry to hear you’re having issues with your internet service. Please provide your address and details about the problem so we can assist you.
+[2024-09-20 18:27:06] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:06] Response Tag: Internet_Service_Complaint
+[2024-09-20 18:27:06] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:27:06] Pattern: My internet is not working
+[2024-09-20 18:27:06] Variations: My internet is not working, working not is internet My, Mh internet is not working, My aljedbho is not working, My internet vq not working, My internet is uig working, My internet is not oqoixej
+[2024-09-20 18:27:06] Predicted Intents: [{'intent': 'Internet_Service_Complaint', 'probability': '0.81167537'}]
+[2024-09-20 18:27:06] Response: I apologize for the inconvenience. Provide details about the internet issue and your address, and we will work to fix it.
+[2024-09-20 18:27:06] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:06] Response Tag: Internet_Service_Complaint
+[2024-09-20 18:27:06] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:27:06] Pattern: My internet is not working
+[2024-09-20 18:27:06] Variations: My internet is not working, working not is internet My, Mh internet is not working, My aljedbho is not working, My internet vq not working, My internet is uig working, My internet is not oqoixej
+[2024-09-20 18:27:06] Predicted Intents: [{'intent': 'IT_Troubleshooting_Request', 'probability': '0.97990924'}]
+[2024-09-20 18:27:06] Response: Let us know the details of your IT problem so we can help you troubleshoot effectively.
+[2024-09-20 18:27:06] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:06] Response Tag: IT_Troubleshooting_Request
+[2024-09-20 18:27:06] Detected Department: Unknown
+
+[2024-09-20 18:27:06] Pattern: My internet is not working
+[2024-09-20 18:27:06] Variations: My internet is not working, working not is internet My, Mh internet is not working, My aljedbho is not working, My internet vq not working, My internet is uig working, My internet is not oqoixej
+[2024-09-20 18:27:06] Predicted Intents: [{'intent': 'Internet_Service_Complaint', 'probability': '0.875448'}]
+[2024-09-20 18:27:06] Response: Please share the specifics of the internet problem and your location so we can resolve the issue as quickly as possible.
+[2024-09-20 18:27:06] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:06] Response Tag: Internet_Service_Complaint
+[2024-09-20 18:27:06] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:27:06] Pattern: My internet is not working
+[2024-09-20 18:27:06] Variations: My internet is not working, working not is internet My, Mh internet is not working, My aljedbho is not working, My internet vq not working, My internet is uig working, My internet is not oqoixej
+[2024-09-20 18:27:06] Predicted Intents: [{'intent': 'Internet_Service_Complaint', 'probability': '0.5148921'}, {'intent': 'Internet_Troubleshooting_Request', 'probability': '0.37412006'}]
+[2024-09-20 18:27:06] Response: Can you please give us more details about the internet issue you’re experiencing? This will help us address it more effectively.
+[2024-09-20 18:27:06] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:06] Response Tag: Internet_Service_Complaint
+[2024-09-20 18:27:06] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:27:06] Pattern: My internet is not working
+[2024-09-20 18:27:06] Variations: My internet is not working, working not is internet My, Mh internet is not working, My aljedbho is not working, My internet vq not working, My internet is uig working, My internet is not oqoixej
+[2024-09-20 18:27:06] Predicted Intents: [{'intent': 'Internet_Service_Complaint', 'probability': '0.74454004'}]
+[2024-09-20 18:27:06] Response: Please share the specifics of the internet problem and your location so we can resolve the issue as quickly as possible.
+[2024-09-20 18:27:06] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:06] Response Tag: Internet_Service_Complaint
+[2024-09-20 18:27:06] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:27:06] Pattern: I am having internet issues
+[2024-09-20 18:27:06] Variations: I am having internet issues, issues internet having am I, I am having internet issues, I ij having internet issues, I am snmaig internet issues, I am having cwzvggfm issues, I am having internet nixrqm
+[2024-09-20 18:27:06] Predicted Intents: [{'intent': 'Internet_Service_Complaint', 'probability': '0.5747938'}, {'intent': 'Internet_Troubleshooting_Request', 'probability': '0.42413533'}]
+[2024-09-20 18:27:06] Response: I’m sorry to hear you’re having issues with your internet service. Please provide your address and details about the problem so we can assist you.
+[2024-09-20 18:27:06] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:06] Response Tag: Internet_Service_Complaint
+[2024-09-20 18:27:06] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:27:06] Pattern: I am having internet issues
+[2024-09-20 18:27:06] Variations: I am having internet issues, issues internet having am I, I am having internet issues, I ij having internet issues, I am snmaig internet issues, I am having cwzvggfm issues, I am having internet nixrqm
+[2024-09-20 18:27:06] Predicted Intents: [{'intent': 'IT_Troubleshooting_Request', 'probability': '0.9495356'}]
+[2024-09-20 18:27:06] Response: Let us know the details of your IT problem so we can help you troubleshoot effectively.
+[2024-09-20 18:27:06] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:06] Response Tag: IT_Troubleshooting_Request
+[2024-09-20 18:27:06] Detected Department: Unknown
+
+[2024-09-20 18:27:07] Pattern: I lost my internet connection
+[2024-09-20 18:27:07] Variations: I lost my internet connection, connection internet my lost I, I lost my internet connection, I ojmj my internet connection, I lost kb internet connection, I lost my lkvcwruf connection, I lost my internet wkzemsnigw
+[2024-09-20 18:27:07] Predicted Intents: [{'intent': 'Cable_TV_Service_Inquiry', 'probability': '0.46793243'}, {'intent': 'Cable_TV_Repair_Request', 'probability': '0.41868815'}]
+[2024-09-20 18:27:07] Response: It seems like there’s an issue with your service. Please share the affected channels, and we will resolve it for you.
+[2024-09-20 18:27:07] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:07] Response Tag: Cable_TV_Service_Inquiry
+[2024-09-20 18:27:07] Detected Department: Unknown
+
+[2024-09-20 18:27:07] Pattern: Can you fix my internet?
+[2024-09-20 18:27:07] Variations: Can you fix my internet?, internet? my fix you Can, Cgn you fix my internet?, Can moe fix my internet?, Can you vkg my internet?, Can you fix kb internet?, Can you fix my azkwxuaq?
+[2024-09-20 18:27:07] Predicted Intents: [{'intent': 'Internet_Repair_Request', 'probability': '0.7120301'}, {'intent': 'Internet_Troubleshooting_Request', 'probability': '0.2617989'}]
+[2024-09-20 18:27:07] Response: We will arrange repairs for your connection. Please send your details, and we will handle it as soon as possible.
+[2024-09-20 18:27:07] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:07] Response Tag: Internet_Repair_Request
+[2024-09-20 18:27:07] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:27:07] Pattern: Can you fix my internet?
+[2024-09-20 18:27:07] Variations: Can you fix my internet?, internet? my fix you Can, Cgn you fix my internet?, Can moe fix my internet?, Can you vkg my internet?, Can you fix kb internet?, Can you fix my azkwxuaq?
+[2024-09-20 18:27:07] Predicted Intents: [{'intent': 'Internet_Repair_Request', 'probability': '0.7120301'}, {'intent': 'Internet_Troubleshooting_Request', 'probability': '0.2617989'}]
+[2024-09-20 18:27:07] Response: We will arrange repairs for your connection. Please send your details, and we will handle it as soon as possible.
+[2024-09-20 18:27:07] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:07] Response Tag: Internet_Repair_Request
+[2024-09-20 18:27:07] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:27:07] Pattern: Can you fix my internet?
+[2024-09-20 18:27:07] Variations: Can you fix my internet?, internet? my fix you Can, Cgn you fix my internet?, Can moe fix my internet?, Can you vkg my internet?, Can you fix kb internet?, Can you fix my azkwxuaq?
+[2024-09-20 18:27:07] Predicted Intents: [{'intent': 'Internet_Repair_Request', 'probability': '0.84930193'}]
+[2024-09-20 18:27:07] Response: We will arrange repairs for your connection. Please send your details, and we will handle it as soon as possible.
+[2024-09-20 18:27:07] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:07] Response Tag: Internet_Repair_Request
+[2024-09-20 18:27:07] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:27:07] Pattern: Can you fix my internet?
+[2024-09-20 18:27:07] Variations: Can you fix my internet?, internet? my fix you Can, Cgn you fix my internet?, Can moe fix my internet?, Can you vkg my internet?, Can you fix kb internet?, Can you fix my azkwxuaq?
+[2024-09-20 18:27:07] Predicted Intents: [{'intent': 'Internet_Repair_Request', 'probability': '0.7121246'}]
+[2024-09-20 18:27:07] Response: We apologize for the issue. Please share your account number and address, and we will send a technician.
+[2024-09-20 18:27:07] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:07] Response Tag: Internet_Repair_Request
+[2024-09-20 18:27:07] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:27:07] Pattern: Can you fix my internet?
+[2024-09-20 18:27:07] Variations: Can you fix my internet?, internet? my fix you Can, Cgn you fix my internet?, Can moe fix my internet?, Can you vkg my internet?, Can you fix kb internet?, Can you fix my azkwxuaq?
+[2024-09-20 18:27:07] Predicted Intents: [{'intent': 'Internet_Repair_Request', 'probability': '0.53311604'}, {'intent': 'Internet_Troubleshooting_Request', 'probability': '0.40916222'}]
+[2024-09-20 18:27:07] Response: Let’s schedule a repair for your internet. Kindly provide your location and contact details.
+[2024-09-20 18:27:07] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:07] Response Tag: Internet_Repair_Request
+[2024-09-20 18:27:07] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:27:07] Pattern: Can you fix my internet?
+[2024-09-20 18:27:07] Variations: Can you fix my internet?, internet? my fix you Can, Cgn you fix my internet?, Can moe fix my internet?, Can you vkg my internet?, Can you fix kb internet?, Can you fix my azkwxuaq?
+[2024-09-20 18:27:07] Predicted Intents: [{'intent': 'Internet_Repair_Request', 'probability': '0.6739832'}, {'intent': 'Internet_Troubleshooting_Request', 'probability': '0.2973488'}]
+[2024-09-20 18:27:07] Response: We apologize for the issue. Please share your account number and address, and we will send a technician.
+[2024-09-20 18:27:07] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:07] Response Tag: Internet_Repair_Request
+[2024-09-20 18:27:07] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:27:07] Pattern: Can you fix my internet?
+[2024-09-20 18:27:07] Variations: Can you fix my internet?, internet? my fix you Can, Cgn you fix my internet?, Can moe fix my internet?, Can you vkg my internet?, Can you fix kb internet?, Can you fix my azkwxuaq?
+[2024-09-20 18:27:07] Predicted Intents: [{'intent': 'IT_Repair_Request', 'probability': '0.4250046'}, {'intent': 'Cable_TV_Repair_Request', 'probability': '0.33667347'}]
+[2024-09-20 18:27:07] Response: We will arrange a repair for you. Kindly provide more details about the device and the problem.
+[2024-09-20 18:27:07] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:07] Response Tag: IT_Repair_Request
+[2024-09-20 18:27:07] Detected Department: Unknown
+
+[2024-09-20 18:27:07] Pattern: My internet is down
+[2024-09-20 18:27:07] Variations: My internet is down, down is internet My, Mp internet is down, My kmdejtmm is down, My internet om down, My internet is vyop
+[2024-09-20 18:27:07] Predicted Intents: [{'intent': 'Cable_TV_Service_Inquiry', 'probability': '0.94075185'}]
+[2024-09-20 18:27:07] Response: It seems like there’s an issue with your service. Please share the affected channels, and we will resolve it for you.
+[2024-09-20 18:27:07] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:07] Response Tag: Cable_TV_Service_Inquiry
+[2024-09-20 18:27:07] Detected Department: Unknown
+
+[2024-09-20 18:27:07] Pattern: My internet is down
+[2024-09-20 18:27:07] Variations: My internet is down, down is internet My, Mp internet is down, My kmdejtmm is down, My internet om down, My internet is vyop
+[2024-09-20 18:27:07] Predicted Intents: [{'intent': 'Internet_Repair_Request', 'probability': '0.53245515'}, {'intent': 'Internet_Troubleshooting_Request', 'probability': '0.2620065'}]
+[2024-09-20 18:27:07] Response: We apologize for the issue. Please share your account number and address, and we will send a technician.
+[2024-09-20 18:27:07] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:07] Response Tag: Internet_Repair_Request
+[2024-09-20 18:27:07] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:27:08] Pattern: I have no internet connection
+[2024-09-20 18:27:08] Variations: I have no internet connection, connection internet no have I, I have no internet connection, I gvtw no internet connection, I have nm internet connection, I have no hgvvzswb connection, I have no internet aupzmdquvl
+[2024-09-20 18:27:08] Predicted Intents: [{'intent': 'Cable_TV_Service_Inquiry', 'probability': '0.45994532'}]
+[2024-09-20 18:27:08] Response: Let’s get that sorted! Share your customer ID or the specific channels affected.
+[2024-09-20 18:27:08] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:08] Response Tag: Cable_TV_Service_Inquiry
+[2024-09-20 18:27:08] Detected Department: Unknown
+
+[2024-09-20 18:27:08] Pattern: Barmedas internet is not working
+[2024-09-20 18:27:08] Variations: Barmedas internet is not working, working not is internet Barmedas, Bicejqat internet is not working, Barmedas ayedvfgc is not working, Barmedas internet oo not working, Barmedas internet is jcb working, Barmedas internet is not jpuehfu
+[2024-09-20 18:27:08] Predicted Intents: [{'intent': 'Internet_Service_Complaint', 'probability': '0.81167537'}]
+[2024-09-20 18:27:08] Response: Please share the specifics of the internet problem and your location so we can resolve the issue as quickly as possible.
+[2024-09-20 18:27:08] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:08] Response Tag: Internet_Service_Complaint
+[2024-09-20 18:27:08] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:27:08] Pattern: Barmedas internet is not working
+[2024-09-20 18:27:08] Variations: Barmedas internet is not working, working not is internet Barmedas, Bicejqat internet is not working, Barmedas ayedvfgc is not working, Barmedas internet oo not working, Barmedas internet is jcb working, Barmedas internet is not jpuehfu
+[2024-09-20 18:27:08] Predicted Intents: [{'intent': 'Cable_TV_Service_Inquiry', 'probability': '0.5097943'}, {'intent': 'IT_Troubleshooting_Request', 'probability': '0.41106704'}]
+[2024-09-20 18:27:08] Response: Let’s get that sorted! Share your customer ID or the specific channels affected.
+[2024-09-20 18:27:08] Input Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:27:08] Response Tag: Cable_TV_Service_Inquiry
+[2024-09-20 18:27:08] Detected Department: Unknown
+
+[2024-09-20 18:27:08] Pattern: Intaneti yangu haifanyi kazi
+[2024-09-20 18:27:08] Variations: Intaneti yangu haifanyi kazi, kazi haifanyi yangu Intaneti, Iipsyppw yangu haifanyi kazi, Intaneti gvvfw haifanyi kazi, Intaneti yangu bpnlfoyp kazi, Intaneti yangu haifanyi iarz
+[2024-09-20 18:27:08] Predicted Intents: [{'intent': 'Marekebisho_IT', 'probability': '0.63450116'}]
+[2024-09-20 18:27:08] Response: Tunaomba radhi kwa usumbufu. Tafadhali toa maelezo ya kifaa na tatizo ili tuweze kupanga marekebisho.
+[2024-09-20 18:27:08] Input Tag: Ombi_la_Matatizo_ya_Intaneti
+[2024-09-20 18:27:08] Response Tag: Marekebisho_IT
+[2024-09-20 18:27:08] Detected Department: Unknown
+
+[2024-09-20 18:27:09] Pattern: Nina matatizo ya intaneti
+[2024-09-20 18:27:09] Variations: Nina matatizo ya intaneti, intaneti ya matatizo Nina, Ntin matatizo ya intaneti, Nina hunlilco ya intaneti, Nina matatizo rn intaneti, Nina matatizo ya gzgbvwct
+[2024-09-20 18:27:09] Predicted Intents: [{'intent': 'Malalamiko_Jumla', 'probability': '0.6277515'}, {'intent': 'Msaada_IT', 'probability': '0.29520562'}]
+[2024-09-20 18:27:09] Response: Pole kusikia kwamba una malalamiko. Tafadhali toa maelezo kuhusu shida ili tuweze kushughulikia kwa haraka.
+[2024-09-20 18:27:09] Input Tag: Ombi_la_Matatizo_ya_Intaneti
+[2024-09-20 18:27:09] Response Tag: Malalamiko_Jumla
+[2024-09-20 18:27:09] Detected Department: Unknown
+
+[2024-09-20 18:27:09] Pattern: Nimepoteza muunganisho wa intaneti
+[2024-09-20 18:27:09] Variations: Nimepoteza muunganisho wa intaneti, intaneti wa muunganisho Nimepoteza, Nojwaddnvs muunganisho wa intaneti, Nimepoteza qxmgltdnvlx wa intaneti, Nimepoteza muunganisho rh intaneti, Nimepoteza muunganisho wa aarwwfrz
+[2024-09-20 18:27:09] Predicted Intents: [{'intent': 'Ombi_la_Marekebisho_ya_Intaneti', 'probability': '0.51384753'}, {'intent': 'Ombi_la_Matatizo_ya_Intaneti', 'probability': '0.4211235'}]
+[2024-09-20 18:27:09] Response: Tunaomba radhi kwa tatizo hilo. Tafadhali toa namba ya akaunti yako na anuani, na tutatuma fundi.
+[2024-09-20 18:27:09] Input Tag: Ombi_la_Matatizo_ya_Intaneti
+[2024-09-20 18:27:09] Response Tag: Ombi_la_Marekebisho_ya_Intaneti
+[2024-09-20 18:27:09] Detected Department: Unknown
+
+[2024-09-20 18:27:09] Pattern: Nimepoteza muunganisho wa intaneti
+[2024-09-20 18:27:09] Variations: Nimepoteza muunganisho wa intaneti, intaneti wa muunganisho Nimepoteza, Nojwaddnvs muunganisho wa intaneti, Nimepoteza qxmgltdnvlx wa intaneti, Nimepoteza muunganisho rh intaneti, Nimepoteza muunganisho wa aarwwfrz
+[2024-09-20 18:27:09] Predicted Intents: [{'intent': 'Uchunguzi_wa_Huduma_ya_Cable_TV', 'probability': '0.5318937'}]
+[2024-09-20 18:27:09] Response: Inaonekana kuna tatizo na huduma yako. Tafadhali toa channel zilizoathiriwa, na tutalitatua hilo.
+[2024-09-20 18:27:09] Input Tag: Ombi_la_Matatizo_ya_Intaneti
+[2024-09-20 18:27:09] Response Tag: Uchunguzi_wa_Huduma_ya_Cable_TV
+[2024-09-20 18:27:09] Detected Department: Unknown
+
+[2024-09-20 18:27:10] Pattern: Unaweza kurekebisha intaneti yangu?
+[2024-09-20 18:27:10] Variations: Unaweza kurekebisha intaneti yangu?, yangu? intaneti kurekebisha Unaweza, Ugbbejq kurekebisha intaneti yangu?, Unaweza lbqsqjlubpx intaneti yangu?, Unaweza kurekebisha axlfmxwb yangu?, Unaweza kurekebisha intaneti rbhbf?
+[2024-09-20 18:27:10] Predicted Intents: [{'intent': 'Uchunguzi_wa_Huduma_ya_Cable_TV', 'probability': '0.85529554'}]
+[2024-09-20 18:27:10] Response: Pole kwa usumbufu. Tafadhali toa namba ya akaunti na eneo lako ili timu yetu iweze kukusaidia.
+[2024-09-20 18:27:10] Input Tag: Ombi_la_Matatizo_ya_Intaneti
+[2024-09-20 18:27:10] Response Tag: Uchunguzi_wa_Huduma_ya_Cable_TV
+[2024-09-20 18:27:10] Detected Department: Unknown
+
+[2024-09-20 18:27:10] Pattern: Intaneti yangu imezimika
+[2024-09-20 18:27:10] Variations: Intaneti yangu imezimika, imezimika yangu Intaneti, Imnwukpq yangu imezimika, Intaneti uvgib imezimika, Intaneti yangu tngqgczru
+[2024-09-20 18:27:10] Predicted Intents: [{'intent': 'Uchunguzi_wa_Huduma_ya_Cable_TV', 'probability': '0.9762141'}]
+[2024-09-20 18:27:10] Response: Asante kwa kuripoti! Tutamtuma fundi mara moja kwa eneo lako. Tafadhali thibitisha maelezo yako.
+[2024-09-20 18:27:10] Input Tag: Ombi_la_Matatizo_ya_Intaneti
+[2024-09-20 18:27:10] Response Tag: Uchunguzi_wa_Huduma_ya_Cable_TV
+[2024-09-20 18:27:10] Detected Department: Unknown
+
+[2024-09-20 18:27:10] Pattern: Sina muunganisho wa intaneti
+[2024-09-20 18:27:10] Variations: Sina muunganisho wa intaneti, intaneti wa muunganisho Sina, Sebs muunganisho wa intaneti, Sina eudcjyhfgem wa intaneti, Sina muunganisho al intaneti, Sina muunganisho wa instmuvh
+[2024-09-20 18:27:10] Predicted Intents: [{'intent': 'Ombi_la_Marekebisho_ya_Intaneti', 'probability': '0.51384753'}, {'intent': 'Ombi_la_Matatizo_ya_Intaneti', 'probability': '0.4211235'}]
+[2024-09-20 18:27:10] Response: Tunaomba radhi kwa tatizo hilo. Tafadhali toa namba ya akaunti yako na anuani, na tutatuma fundi.
+[2024-09-20 18:27:10] Input Tag: Ombi_la_Matatizo_ya_Intaneti
+[2024-09-20 18:27:10] Response Tag: Ombi_la_Marekebisho_ya_Intaneti
+[2024-09-20 18:27:10] Detected Department: Unknown
+
+[2024-09-20 18:27:10] Pattern: Sina muunganisho wa intaneti
+[2024-09-20 18:27:10] Variations: Sina muunganisho wa intaneti, intaneti wa muunganisho Sina, Sebs muunganisho wa intaneti, Sina eudcjyhfgem wa intaneti, Sina muunganisho al intaneti, Sina muunganisho wa instmuvh
+[2024-09-20 18:27:10] Predicted Intents: [{'intent': 'Uchunguzi_wa_Huduma_ya_Cable_TV', 'probability': '0.31332594'}]
+[2024-09-20 18:27:10] Response: Asante kwa kuripoti! Tutamtuma fundi mara moja kwa eneo lako. Tafadhali thibitisha maelezo yako.
+[2024-09-20 18:27:10] Input Tag: Ombi_la_Matatizo_ya_Intaneti
+[2024-09-20 18:27:10] Response Tag: Uchunguzi_wa_Huduma_ya_Cable_TV
+[2024-09-20 18:27:10] Detected Department: Unknown
+
+[2024-09-20 18:27:11] Pattern: Intaneti ya Barmedas haifanyi kazi
+[2024-09-20 18:27:11] Variations: Intaneti ya Barmedas haifanyi kazi, kazi haifanyi Barmedas ya Intaneti, Iphdwoli ya Barmedas haifanyi kazi, Intaneti wp Barmedas haifanyi kazi, Intaneti ya Bsmrwlce haifanyi kazi, Intaneti ya Barmedas fjokxfbr kazi, Intaneti ya Barmedas haifanyi stvz
+[2024-09-20 18:27:11] Predicted Intents: [{'intent': 'Ombi_la_Marekebisho_ya_Cable_TV', 'probability': '0.46927318'}]
+[2024-09-20 18:27:11] Response: Tunaomba radhi kwa tatizo hilo. Tafadhali toa namba ya akaunti na eneo lako, na timu yetu ya marekebisho itawasiliana nawe.
+[2024-09-20 18:27:11] Input Tag: Ombi_la_Matatizo_ya_Intaneti
+[2024-09-20 18:27:11] Response Tag: Ombi_la_Marekebisho_ya_Cable_TV
+[2024-09-20 18:27:11] Detected Department: Unknown
+
+[2024-09-20 18:27:11] Pattern: I need a repair for my internet
+[2024-09-20 18:27:11] Variations: I need a repair for my internet, internet my for repair a need I, I need a repair for my internet, I psyy a repair for my internet, I need n repair for my internet, I need a iywtec for my internet, I need a repair xwn my internet, I need a repair for pd internet, I need a repair for my bmapdvmt
+[2024-09-20 18:27:11] Predicted Intents: [{'intent': 'IT_Repair_Request', 'probability': '0.8106754'}]
+[2024-09-20 18:27:11] Response: Thanks for reaching out! We’ll send a technician to address the repair. Can you confirm the device details and location?
+[2024-09-20 18:27:11] Input Tag: Internet_Repair_Request
+[2024-09-20 18:27:11] Response Tag: IT_Repair_Request
+[2024-09-20 18:27:11] Detected Department: Unknown
+
+[2024-09-20 18:27:12] Pattern: My internet is broken
+[2024-09-20 18:27:12] Variations: My internet is broken, broken is internet My, Mm internet is broken, My vnxtlmvx is broken, My internet vn broken, My internet is fzjilo
+[2024-09-20 18:27:12] Predicted Intents: [{'intent': 'IT_Repair_Request', 'probability': '0.5103764'}, {'intent': 'Cable_TV_Repair_Request', 'probability': '0.4594739'}]
+[2024-09-20 18:27:12] Response: We apologize for the inconvenience. Please provide details about the device and the issue so we can schedule a repair.
+[2024-09-20 18:27:12] Input Tag: Internet_Repair_Request
+[2024-09-20 18:27:12] Response Tag: IT_Repair_Request
+[2024-09-20 18:27:12] Detected Department: Unknown
+
+[2024-09-20 18:27:12] Pattern: Can you fix my internet connection?
+[2024-09-20 18:27:12] Variations: Can you fix my internet connection?, connection? internet my fix you Can, Cth you fix my internet connection?, Can ftu fix my internet connection?, Can you ayr my internet connection?, Can you fix nx internet connection?, Can you fix my dopagewh connection?, Can you fix my internet jxdowemrwq?
+[2024-09-20 18:27:12] Predicted Intents: [{'intent': 'Cable_TV_Repair_Request', 'probability': '0.71775085'}]
+[2024-09-20 18:27:12] Response: Let’s schedule a technician for you. Please provide your address and service ID.
+[2024-09-20 18:27:12] Input Tag: Internet_Repair_Request
+[2024-09-20 18:27:12] Response Tag: Cable_TV_Repair_Request
+[2024-09-20 18:27:12] Detected Department: Unknown
+
+[2024-09-20 18:27:13] Pattern: Internet repair request
+[2024-09-20 18:27:13] Variations: Internet repair request, request repair Internet, Ielbvrbf repair request, Internet ozgxqh request, Internet repair wnejino
+[2024-09-20 18:27:13] Predicted Intents: [{'intent': 'IT_Repair_Request', 'probability': '0.86732197'}]
+[2024-09-20 18:27:13] Response: Thanks for reaching out! We’ll send a technician to address the repair. Can you confirm the device details and location?
+[2024-09-20 18:27:13] Input Tag: Internet_Repair_Request
+[2024-09-20 18:27:13] Response Tag: IT_Repair_Request
+[2024-09-20 18:27:13] Detected Department: Unknown
+
+[2024-09-20 18:27:13] Pattern: Internet repair request
+[2024-09-20 18:27:13] Variations: Internet repair request, request repair Internet, Ielbvrbf repair request, Internet ozgxqh request, Internet repair wnejino
+[2024-09-20 18:27:13] Predicted Intents: [{'intent': 'Internet_Installation_Request', 'probability': '0.7839283'}]
+[2024-09-20 18:27:13] Response: Sure! Send your location, and we will handle your internet setup right away.
+[2024-09-20 18:27:13] Input Tag: Internet_Repair_Request
+[2024-09-20 18:27:13] Response Tag: Internet_Installation_Request
+[2024-09-20 18:27:13] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:27:13] Pattern: I need a technician for my internet
+[2024-09-20 18:27:13] Variations: I need a technician for my internet, internet my for technician a need I, I need a technician for my internet, I symj a technician for my internet, I need s technician for my internet, I need a fltjntmems for my internet, I need a technician qim my internet, I need a technician for hw internet, I need a technician for my asibnwwj
+[2024-09-20 18:27:13] Predicted Intents: [{'intent': 'IT_Repair_Request', 'probability': '0.39829534'}, {'intent': 'Internet_Repair_Request', 'probability': '0.35322025'}]
+[2024-09-20 18:27:13] Response: Let’s arrange for a technician to fix your IT equipment. Share your contact information and the specifics of the issue.
+[2024-09-20 18:27:13] Input Tag: Internet_Repair_Request
+[2024-09-20 18:27:13] Response Tag: IT_Repair_Request
+[2024-09-20 18:27:13] Detected Department: Unknown
+
+[2024-09-20 18:27:14] Pattern: There’s a problem with my internet connection
+[2024-09-20 18:27:14] Variations: There’s a problem with my internet connection, connection internet my with problem a There’s, Tqwvl’f a problem with my internet connection, There’s w problem with my internet connection, There’s a awqpkqj with my internet connection, There’s a problem aysj my internet connection, There’s a problem with rj internet connection, There’s a problem with my ltrvuczc connection, There’s a problem with my internet vbpdnrnzke
+[2024-09-20 18:27:14] Predicted Intents: [{'intent': 'Cable_TV_Repair_Request', 'probability': '0.8311365'}]
+[2024-09-20 18:27:14] Response: Thanks for reaching out! We’ll send a repair team shortly. Can you confirm your service details and location?
+[2024-09-20 18:27:14] Input Tag: Internet_Repair_Request
+[2024-09-20 18:27:14] Response Tag: Cable_TV_Repair_Request
+[2024-09-20 18:27:14] Detected Department: Unknown
+
+[2024-09-20 18:27:14] Pattern: Barmedas internet needs repair
+[2024-09-20 18:27:14] Variations: Barmedas internet needs repair, repair needs internet Barmedas, Bdjwtwkl internet needs repair, Barmedas ilazgmsd needs repair, Barmedas internet mzafd repair, Barmedas internet needs jsfyej
+[2024-09-20 18:27:14] Predicted Intents: [{'intent': 'IT_Repair_Request', 'probability': '0.7693395'}]
+[2024-09-20 18:27:14] Response: We will arrange a repair for you. Kindly provide more details about the device and the problem.
+[2024-09-20 18:27:14] Input Tag: Internet_Repair_Request
+[2024-09-20 18:27:14] Response Tag: IT_Repair_Request
+[2024-09-20 18:27:14] Detected Department: Unknown
+
+[2024-09-20 18:27:14] Pattern: Barmedas internet needs repair
+[2024-09-20 18:27:14] Variations: Barmedas internet needs repair, repair needs internet Barmedas, Bdjwtwkl internet needs repair, Barmedas ilazgmsd needs repair, Barmedas internet mzafd repair, Barmedas internet needs jsfyej
+[2024-09-20 18:27:14] Predicted Intents: [{'intent': 'Internet_Installation_Request', 'probability': '0.93020135'}]
+[2024-09-20 18:27:14] Response: Thanks for choosing Barmedas! Kindly share your location details, and we will schedule your internet installation.
+[2024-09-20 18:27:14] Input Tag: Internet_Repair_Request
+[2024-09-20 18:27:14] Response Tag: Internet_Installation_Request
+[2024-09-20 18:27:14] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:27:15] Pattern: Nahitaji marekebisho ya intaneti yangu
+[2024-09-20 18:27:15] Variations: Nahitaji marekebisho ya intaneti yangu, yangu intaneti ya marekebisho Nahitaji, Ntustzjr marekebisho ya intaneti yangu, Nahitaji zyqpcinshzh ya intaneti yangu, Nahitaji marekebisho sr intaneti yangu, Nahitaji marekebisho ya svuswfbs yangu, Nahitaji marekebisho ya intaneti fzffp
+[2024-09-20 18:27:15] Predicted Intents: [{'intent': 'Marekebisho_IT', 'probability': '0.9755887'}]
+[2024-09-20 18:27:15] Response: Tutaandaa fundi ili kurekebisha vifaa vyako vya IT. Tafadhali toa maelezo yako ya mawasiliano na maelezo ya tatizo.
+[2024-09-20 18:27:15] Input Tag: Ombi_la_Marekebisho_ya_Intaneti
+[2024-09-20 18:27:15] Response Tag: Marekebisho_IT
+[2024-09-20 18:27:15] Detected Department: Unknown
+
+[2024-09-20 18:27:15] Pattern: Intaneti yangu imeharibika
+[2024-09-20 18:27:15] Variations: Intaneti yangu imeharibika, imeharibika yangu Intaneti, Ikdpvkyl yangu imeharibika, Intaneti bqcqn imeharibika, Intaneti yangu pdndqyfydur
+[2024-09-20 18:27:15] Predicted Intents: [{'intent': 'Marekebisho_IT', 'probability': '0.9573549'}]
+[2024-09-20 18:27:15] Response: Tutapanga marekebisho kwa ajili yako. Tafadhali toa maelezo zaidi kuhusu kifaa na tatizo.
+[2024-09-20 18:27:15] Input Tag: Ombi_la_Marekebisho_ya_Intaneti
+[2024-09-20 18:27:15] Response Tag: Marekebisho_IT
+[2024-09-20 18:27:15] Detected Department: Unknown
+
+[2024-09-20 18:27:15] Pattern: Intaneti yangu imeharibika
+[2024-09-20 18:27:15] Variations: Intaneti yangu imeharibika, imeharibika yangu Intaneti, Ikdpvkyl yangu imeharibika, Intaneti bqcqn imeharibika, Intaneti yangu pdndqyfydur
+[2024-09-20 18:27:15] Predicted Intents: [{'intent': 'Ombi_la_Matatizo_ya_Intaneti', 'probability': '0.5874166'}, {'intent': 'Ombi_la_Marekebisho_ya_Intaneti', 'probability': '0.39999697'}]
+[2024-09-20 18:27:15] Response: Asante kwa kuwasiliana nasi! Tafadhali tuma maelezo ya tatizo, na timu yetu itakusaidia haraka iwezekanavyo.
+[2024-09-20 18:27:15] Input Tag: Ombi_la_Marekebisho_ya_Intaneti
+[2024-09-20 18:27:15] Response Tag: Ombi_la_Matatizo_ya_Intaneti
+[2024-09-20 18:27:15] Detected Department: Unknown
+
+[2024-09-20 18:27:15] Pattern: Unaweza kurekebisha muunganisho wangu wa intaneti?
+[2024-09-20 18:27:15] Variations: Unaweza kurekebisha muunganisho wangu wa intaneti?, intaneti? wa wangu muunganisho kurekebisha Unaweza, Uoarklg kurekebisha muunganisho wangu wa intaneti?, Unaweza dmgcewatmxs muunganisho wangu wa intaneti?, Unaweza kurekebisha kpvohqgmuyh wangu wa intaneti?, Unaweza kurekebisha muunganisho gimpd wa intaneti?, Unaweza kurekebisha muunganisho wangu zs intaneti?, Unaweza kurekebisha muunganisho wangu wa pzsjmvxb?
+[2024-09-20 18:27:15] Predicted Intents: [{'intent': 'Uchunguzi_wa_Huduma_ya_Cable_TV', 'probability': '0.89040744'}]
+[2024-09-20 18:27:15] Response: Tutarekebisha hilo! Toa namba yako ya mteja au channel zilizoathiriwa.
+[2024-09-20 18:27:15] Input Tag: Ombi_la_Marekebisho_ya_Intaneti
+[2024-09-20 18:27:15] Response Tag: Uchunguzi_wa_Huduma_ya_Cable_TV
+[2024-09-20 18:27:15] Detected Department: Unknown
+
+[2024-09-20 18:27:16] Pattern: Ombi la marekebisho ya intaneti
+[2024-09-20 18:27:16] Variations: Ombi la marekebisho ya intaneti, intaneti ya marekebisho la Ombi, Ozhh la marekebisho ya intaneti, Ombi cm marekebisho ya intaneti, Ombi la yhwitgzezdq ya intaneti, Ombi la marekebisho im intaneti, Ombi la marekebisho ya dptgssyx
+[2024-09-20 18:27:16] Predicted Intents: [{'intent': 'Ombi_la_Ufungaji_wa_Intaneti', 'probability': '0.992246'}]
+[2024-09-20 18:27:16] Response: Tunaweza kupanga hilo. Tafadhali tuma anuani yako na maelezo ya mawasiliano.
+[2024-09-20 18:27:16] Input Tag: Ombi_la_Marekebisho_ya_Intaneti
+[2024-09-20 18:27:16] Response Tag: Ombi_la_Ufungaji_wa_Intaneti
+[2024-09-20 18:27:16] Detected Department: Unknown
+
+[2024-09-20 18:27:16] Pattern: Ombi la marekebisho ya intaneti
+[2024-09-20 18:27:16] Variations: Ombi la marekebisho ya intaneti, intaneti ya marekebisho la Ombi, Ozhh la marekebisho ya intaneti, Ombi cm marekebisho ya intaneti, Ombi la yhwitgzezdq ya intaneti, Ombi la marekebisho im intaneti, Ombi la marekebisho ya dptgssyx
+[2024-09-20 18:27:16] Predicted Intents: [{'intent': 'Marekebisho_IT', 'probability': '0.9927007'}]
+[2024-09-20 18:27:16] Response: Tutapanga marekebisho kwa ajili yako. Tafadhali toa maelezo zaidi kuhusu kifaa na tatizo.
+[2024-09-20 18:27:16] Input Tag: Ombi_la_Marekebisho_ya_Intaneti
+[2024-09-20 18:27:16] Response Tag: Marekebisho_IT
+[2024-09-20 18:27:16] Detected Department: Unknown
+
+[2024-09-20 18:27:16] Pattern: Nahitaji fundi wa intaneti yangu
+[2024-09-20 18:27:16] Variations: Nahitaji fundi wa intaneti yangu, yangu intaneti wa fundi Nahitaji, Nbbnzrpn fundi wa intaneti yangu, Nahitaji ojpow wa intaneti yangu, Nahitaji fundi qx intaneti yangu, Nahitaji fundi wa dfijldus yangu, Nahitaji fundi wa intaneti fdzyb
+[2024-09-20 18:27:16] Predicted Intents: [{'intent': 'Msaada_IT', 'probability': '0.69168586'}]
+[2024-09-20 18:27:16] Response: Tafadhali tujulishe maelezo ya tatizo lako la IT ili tuweze kutoa msaada unaofaa.
+[2024-09-20 18:27:16] Input Tag: Ombi_la_Marekebisho_ya_Intaneti
+[2024-09-20 18:27:16] Response Tag: Msaada_IT
+[2024-09-20 18:27:16] Detected Department: Unknown
+
+[2024-09-20 18:27:16] Pattern: Nahitaji fundi wa intaneti yangu
+[2024-09-20 18:27:16] Variations: Nahitaji fundi wa intaneti yangu, yangu intaneti wa fundi Nahitaji, Nbbnzrpn fundi wa intaneti yangu, Nahitaji ojpow wa intaneti yangu, Nahitaji fundi qx intaneti yangu, Nahitaji fundi wa dfijldus yangu, Nahitaji fundi wa intaneti fdzyb
+[2024-09-20 18:27:16] Predicted Intents: [{'intent': 'Ombi_la_Ufungaji_wa_Intaneti', 'probability': '0.82330865'}]
+[2024-09-20 18:27:16] Response: Tunashukuru kwa kuchagua Barmedas. Tuma anuani yako, na tutalipanga ufungaji wa intaneti.
+[2024-09-20 18:27:16] Input Tag: Ombi_la_Marekebisho_ya_Intaneti
+[2024-09-20 18:27:16] Response Tag: Ombi_la_Ufungaji_wa_Intaneti
+[2024-09-20 18:27:16] Detected Department: Unknown
+
+[2024-09-20 18:27:17] Pattern: Kuna tatizo na muunganisho wangu wa intaneti
+[2024-09-20 18:27:17] Variations: Kuna tatizo na muunganisho wangu wa intaneti, intaneti wa wangu muunganisho na tatizo Kuna, Krhm tatizo na muunganisho wangu wa intaneti, Kuna iteevz na muunganisho wangu wa intaneti, Kuna tatizo gt muunganisho wangu wa intaneti, Kuna tatizo na ofsvcppkalv wangu wa intaneti, Kuna tatizo na muunganisho sybvn wa intaneti, Kuna tatizo na muunganisho wangu di intaneti, Kuna tatizo na muunganisho wangu wa jktfrcit
+[2024-09-20 18:27:17] Predicted Intents: [{'intent': 'Marekebisho_IT', 'probability': '0.5600997'}, {'intent': 'Msaada_IT', 'probability': '0.31741112'}]
+[2024-09-20 18:27:17] Response: Tutaandaa fundi ili kurekebisha vifaa vyako vya IT. Tafadhali toa maelezo yako ya mawasiliano na maelezo ya tatizo.
+[2024-09-20 18:27:17] Input Tag: Ombi_la_Marekebisho_ya_Intaneti
+[2024-09-20 18:27:17] Response Tag: Marekebisho_IT
+[2024-09-20 18:27:17] Detected Department: Unknown
+
+[2024-09-20 18:27:17] Pattern: Intaneti ya Barmedas inahitaji marekebisho
+[2024-09-20 18:27:17] Variations: Intaneti ya Barmedas inahitaji marekebisho, marekebisho inahitaji Barmedas ya Intaneti, Icqyuuqb ya Barmedas inahitaji marekebisho, Intaneti rr Barmedas inahitaji marekebisho, Intaneti ya Bxwerfwb inahitaji marekebisho, Intaneti ya Barmedas ilyjtydcq marekebisho, Intaneti ya Barmedas inahitaji igejztceqdb
+[2024-09-20 18:27:17] Predicted Intents: [{'intent': 'Marekebisho_IT', 'probability': '0.9467723'}]
+[2024-09-20 18:27:17] Response: Tutaandaa fundi ili kurekebisha vifaa vyako vya IT. Tafadhali toa maelezo yako ya mawasiliano na maelezo ya tatizo.
+[2024-09-20 18:27:17] Input Tag: Ombi_la_Marekebisho_ya_Intaneti
+[2024-09-20 18:27:17] Response Tag: Marekebisho_IT
+[2024-09-20 18:27:17] Detected Department: Unknown
+
+[2024-09-20 18:27:17] Pattern: Intaneti ya Barmedas inahitaji marekebisho
+[2024-09-20 18:27:17] Variations: Intaneti ya Barmedas inahitaji marekebisho, marekebisho inahitaji Barmedas ya Intaneti, Icqyuuqb ya Barmedas inahitaji marekebisho, Intaneti rr Barmedas inahitaji marekebisho, Intaneti ya Bxwerfwb inahitaji marekebisho, Intaneti ya Barmedas ilyjtydcq marekebisho, Intaneti ya Barmedas inahitaji igejztceqdb
+[2024-09-20 18:27:17] Predicted Intents: [{'intent': 'Ombi_la_Ufungaji_wa_Intaneti', 'probability': '0.88143027'}]
+[2024-09-20 18:27:17] Response: Asante kwa kuchagua Barmedas! Tafadhali tuma maelezo ya eneo lako, na tutapanga ufungaji wa intaneti.
+[2024-09-20 18:27:17] Input Tag: Ombi_la_Marekebisho_ya_Intaneti
+[2024-09-20 18:27:17] Response Tag: Ombi_la_Ufungaji_wa_Intaneti
+[2024-09-20 18:27:17] Detected Department: Unknown
+
+[2024-09-20 18:27:18] Pattern: Can you help with my computer issues?
+[2024-09-20 18:27:18] Variations: Can you help with my computer issues?, issues? computer my with help you Can, Cdk you help with my computer issues?, Can frz help with my computer issues?, Can you ufdb with my computer issues?, Can you help ytux my computer issues?, Can you help with tz computer issues?, Can you help with my gnbsiqvg issues?, Can you help with my computer wxxqyu?
+[2024-09-20 18:27:18] Predicted Intents: [{'intent': 'IT_Troubleshooting_Request', 'probability': '0.74492717'}]
+[2024-09-20 18:27:18] Response: We’re here to assist with troubleshooting. Please provide details about the issue, and we’ll guide you through the process.
+[2024-09-20 18:27:18] Input Tag: IT_Service_Request
+[2024-09-20 18:27:18] Response Tag: IT_Troubleshooting_Request
+[2024-09-20 18:27:18] Detected Department: Unknown
+
+[2024-09-20 18:27:19] Pattern: My computer needs servicing
+[2024-09-20 18:27:19] Variations: My computer needs servicing, servicing needs computer My, Mi computer needs servicing, My ewjrtztb needs servicing, My computer fxnfy servicing, My computer needs xjvagtmzb
+[2024-09-20 18:27:19] Predicted Intents: [{'intent': 'IT_Repair_Request', 'probability': '0.9106133'}]
+[2024-09-20 18:27:19] Response: Let’s arrange for a technician to fix your IT equipment. Share your contact information and the specifics of the issue.
+[2024-09-20 18:27:19] Input Tag: IT_Service_Request
+[2024-09-20 18:27:19] Response Tag: IT_Repair_Request
+[2024-09-20 18:27:19] Detected Department: Unknown
+
+[2024-09-20 18:27:20] Pattern: Nahitaji msaada wa IT
+[2024-09-20 18:27:20] Variations: Nahitaji msaada wa IT, IT wa msaada Nahitaji, Nahpcddl msaada wa IT, Nahitaji vsvaxo wa IT, Nahitaji msaada ye IT, Nahitaji msaada wa IT
+[2024-09-20 18:27:20] Predicted Intents: [{'intent': 'Uchunguzi_Huduma_IT', 'probability': '0.89703315'}]
+[2024-09-20 18:27:20] Response: Huduma zetu za IT zinajumuisha msaada wa kiufundi, marekebisho ya vifaa, na matengenezo ya mifumo. Tunaweza kukusaidia vipi leo?
+[2024-09-20 18:27:20] Input Tag: Msaada_IT
+[2024-09-20 18:27:20] Response Tag: Uchunguzi_Huduma_IT
+[2024-09-20 18:27:20] Detected Department: Unknown
+
+[2024-09-20 18:27:21] Pattern: Nahitaji huduma za IT
+[2024-09-20 18:27:21] Variations: Nahitaji huduma za IT, IT za huduma Nahitaji, Nvwuonwc huduma za IT, Nahitaji wogjdd za IT, Nahitaji huduma kd IT, Nahitaji huduma za IT
+[2024-09-20 18:27:21] Predicted Intents: [{'intent': 'Uchunguzi_Huduma_IT', 'probability': '0.994125'}]
+[2024-09-20 18:27:21] Response: Kwa maelezo zaidi kuhusu huduma zetu za IT, tafadhali tuambia unachotafuta, na tutatoa maelezo.
+[2024-09-20 18:27:21] Input Tag: Msaada_IT
+[2024-09-20 18:27:21] Response Tag: Uchunguzi_Huduma_IT
+[2024-09-20 18:27:21] Detected Department: Unknown
+
+[2024-09-20 18:27:22] Pattern: Msaada na matatizo ya IT
+[2024-09-20 18:27:22] Variations: Msaada na matatizo ya IT, IT ya matatizo na Msaada, Mrpyag na matatizo ya IT, Msaada tt matatizo ya IT, Msaada na lrlstztp ya IT, Msaada na matatizo gp IT, Msaada na matatizo ya IT
+[2024-09-20 18:27:22] Predicted Intents: [{'intent': 'Uchunguzi_Huduma_IT', 'probability': '0.84972453'}]
+[2024-09-20 18:27:22] Response: Huduma zetu za IT zinajumuisha msaada wa kiufundi, marekebisho ya vifaa, na matengenezo ya mifumo. Tunaweza kukusaidia vipi leo?
+[2024-09-20 18:27:22] Input Tag: Msaada_IT
+[2024-09-20 18:27:22] Response Tag: Uchunguzi_Huduma_IT
+[2024-09-20 18:27:22] Detected Department: Unknown
+
+[2024-09-20 18:27:22] Pattern: Ombi la huduma za IT
+[2024-09-20 18:27:22] Variations: Ombi la huduma za IT, IT za huduma la Ombi, Oxpw la huduma za IT, Ombi tf huduma za IT, Ombi la htpdwx za IT, Ombi la huduma uv IT, Ombi la huduma za IT
+[2024-09-20 18:27:22] Predicted Intents: [{'intent': 'Uchunguzi_Huduma_IT', 'probability': '0.88588107'}]
+[2024-09-20 18:27:22] Response: Huduma zetu za IT zinajumuisha msaada wa kiufundi, marekebisho ya vifaa, na matengenezo ya mifumo. Tunaweza kukusaidia vipi leo?
+[2024-09-20 18:27:22] Input Tag: Msaada_IT
+[2024-09-20 18:27:22] Response Tag: Uchunguzi_Huduma_IT
+[2024-09-20 18:27:22] Detected Department: Unknown
+
+[2024-09-20 18:27:25] Pattern: Request IT repair services
+[2024-09-20 18:27:25] Variations: Request IT repair services, services repair IT Request, Rvbreaw IT repair services, Request IT repair services, Request IT frtddr services, Request IT repair rxzesdin
+[2024-09-20 18:27:25] Predicted Intents: [{'intent': 'IT_Service_Request', 'probability': '0.9911247'}]
+[2024-09-20 18:27:25] Response: We’re here to help. Describe the problem you’re facing, and we’ll arrange the necessary IT support.
+[2024-09-20 18:27:25] Input Tag: IT_Repair_Request
+[2024-09-20 18:27:25] Response Tag: IT_Service_Request
+[2024-09-20 18:27:25] Detected Department: Unknown
+
+[2024-09-20 18:27:26] Pattern: Kompyuta yangu imeharibika
+[2024-09-20 18:27:26] Variations: Kompyuta yangu imeharibika, imeharibika yangu Kompyuta, Kqaydnvh yangu imeharibika, Kompyuta ppurm imeharibika, Kompyuta yangu jkalxnjykzw
+[2024-09-20 18:27:26] Predicted Intents: [{'intent': 'Msaada_IT', 'probability': '0.55005306'}, {'intent': 'Marekebisho_IT', 'probability': '0.44781432'}]
+[2024-09-20 18:27:26] Response: Asante kwa kuwasiliana! Toa maelezo zaidi kuhusu mahitaji yako ya IT, na tutakusaidia kwa haraka.
+[2024-09-20 18:27:26] Input Tag: Marekebisho_IT
+[2024-09-20 18:27:26] Response Tag: Msaada_IT
+[2024-09-20 18:27:26] Detected Department: Unknown
+
+[2024-09-20 18:27:26] Pattern: Nahitaji marekebisho kwa laptop yangu
+[2024-09-20 18:27:26] Variations: Nahitaji marekebisho kwa laptop yangu, yangu laptop kwa marekebisho Nahitaji, Nopdpnyb marekebisho kwa laptop yangu, Nahitaji wvfkfglmyal kwa laptop yangu, Nahitaji marekebisho ktv laptop yangu, Nahitaji marekebisho kwa agnrhc yangu, Nahitaji marekebisho kwa laptop eqacq
+[2024-09-20 18:27:26] Predicted Intents: [{'intent': 'Msaada_IT', 'probability': '0.9808075'}]
+[2024-09-20 18:27:26] Response: Sawa! Tafadhali toa maelezo kuhusu tatizo lako la IT, na timu yetu ya msaada itakuwasiliana nawe.
+[2024-09-20 18:27:26] Input Tag: Marekebisho_IT
+[2024-09-20 18:27:26] Response Tag: Msaada_IT
+[2024-09-20 18:27:26] Detected Department: Unknown
+
+[2024-09-20 18:27:27] Pattern: Unaweza kurekebisha kompyuta yangu?
+[2024-09-20 18:27:27] Variations: Unaweza kurekebisha kompyuta yangu?, yangu? kompyuta kurekebisha Unaweza, Uoommec kurekebisha kompyuta yangu?, Unaweza qvjfrterdrm kompyuta yangu?, Unaweza kurekebisha nydhsncn yangu?, Unaweza kurekebisha kompyuta hlsam?
+[2024-09-20 18:27:27] Predicted Intents: [{'intent': 'Msaada_IT', 'probability': '0.8307378'}]
+[2024-09-20 18:27:27] Response: Tafadhali tujulishe maelezo ya tatizo lako la IT ili tuweze kutoa msaada unaofaa.
+[2024-09-20 18:27:27] Input Tag: Marekebisho_IT
+[2024-09-20 18:27:27] Response Tag: Msaada_IT
+[2024-09-20 18:27:27] Detected Department: Unknown
+
+[2024-09-20 18:27:27] Pattern: Unaweza kurekebisha kompyuta yangu?
+[2024-09-20 18:27:27] Variations: Unaweza kurekebisha kompyuta yangu?, yangu? kompyuta kurekebisha Unaweza, Uoommec kurekebisha kompyuta yangu?, Unaweza qvjfrterdrm kompyuta yangu?, Unaweza kurekebisha nydhsncn yangu?, Unaweza kurekebisha kompyuta hlsam?
+[2024-09-20 18:27:27] Predicted Intents: [{'intent': 'Uchunguzi_wa_Huduma_ya_Cable_TV', 'probability': '0.85529554'}]
+[2024-09-20 18:27:27] Response: Inaonekana kuna tatizo na huduma yako. Tafadhali toa channel zilizoathiriwa, na tutalitatua hilo.
+[2024-09-20 18:27:27] Input Tag: Marekebisho_IT
+[2024-09-20 18:27:27] Response Tag: Uchunguzi_wa_Huduma_ya_Cable_TV
+[2024-09-20 18:27:27] Detected Department: Unknown
+
+[2024-09-20 18:27:27] Pattern: Unaweza kurekebisha kompyuta yangu?
+[2024-09-20 18:27:27] Variations: Unaweza kurekebisha kompyuta yangu?, yangu? kompyuta kurekebisha Unaweza, Uoommec kurekebisha kompyuta yangu?, Unaweza qvjfrterdrm kompyuta yangu?, Unaweza kurekebisha nydhsncn yangu?, Unaweza kurekebisha kompyuta hlsam?
+[2024-09-20 18:27:27] Predicted Intents: [{'intent': 'Msaada_IT', 'probability': '0.5613126'}, {'intent': 'Marekebisho_IT', 'probability': '0.2570239'}]
+[2024-09-20 18:27:27] Response: Sawa! Tafadhali toa maelezo kuhusu tatizo lako la IT, na timu yetu ya msaada itakuwasiliana nawe.
+[2024-09-20 18:27:27] Input Tag: Marekebisho_IT
+[2024-09-20 18:27:27] Response Tag: Msaada_IT
+[2024-09-20 18:27:27] Detected Department: Unknown
+
+[2024-09-20 18:27:27] Pattern: Nahitaji marekebisho kwa kifaa changu cha IT
+[2024-09-20 18:27:27] Variations: Nahitaji marekebisho kwa kifaa changu cha IT, IT cha changu kifaa kwa marekebisho Nahitaji, Ncqgciol marekebisho kwa kifaa changu cha IT, Nahitaji bzfenhqmjab kwa kifaa changu cha IT, Nahitaji marekebisho lyq kifaa changu cha IT, Nahitaji marekebisho kwa vglwm changu cha IT, Nahitaji marekebisho kwa kifaa odltkg cha IT, Nahitaji marekebisho kwa kifaa changu xps IT, Nahitaji marekebisho kwa kifaa changu cha IT
+[2024-09-20 18:27:27] Predicted Intents: [{'intent': 'Msaada_IT', 'probability': '0.9593291'}]
+[2024-09-20 18:27:27] Response: Tafadhali tujulishe maelezo ya tatizo lako la IT ili tuweze kutoa msaada unaofaa.
+[2024-09-20 18:27:27] Input Tag: Marekebisho_IT
+[2024-09-20 18:27:27] Response Tag: Msaada_IT
+[2024-09-20 18:27:27] Detected Department: Unknown
+
+[2024-09-20 18:27:28] Pattern: Ombi la huduma za marekebisho ya IT
+[2024-09-20 18:27:28] Variations: Ombi la huduma za marekebisho ya IT, IT ya marekebisho za huduma la Ombi, Orcb la huduma za marekebisho ya IT, Ombi xl huduma za marekebisho ya IT, Ombi la opoxqb za marekebisho ya IT, Ombi la huduma lg marekebisho ya IT, Ombi la huduma za pswhwsjzjwp ya IT, Ombi la huduma za marekebisho mn IT, Ombi la huduma za marekebisho ya IT
+[2024-09-20 18:27:28] Predicted Intents: [{'intent': 'Msaada_IT', 'probability': '0.5740648'}, {'intent': 'Uchunguzi_Huduma_IT', 'probability': '0.42492732'}]
+[2024-09-20 18:27:28] Response: Asante kwa kuwasiliana! Toa maelezo zaidi kuhusu mahitaji yako ya IT, na tutakusaidia kwa haraka.
+[2024-09-20 18:27:28] Input Tag: Marekebisho_IT
+[2024-09-20 18:27:28] Response Tag: Msaada_IT
+[2024-09-20 18:27:28] Detected Department: Unknown
+
+[2024-09-20 18:27:28] Pattern: Kompyuta yangu inahitaji marekebisho
+[2024-09-20 18:27:28] Variations: Kompyuta yangu inahitaji marekebisho, marekebisho inahitaji yangu Kompyuta, Kvcdfsyf yangu inahitaji marekebisho, Kompyuta cmhyn inahitaji marekebisho, Kompyuta yangu mslzrojfl marekebisho, Kompyuta yangu inahitaji apnlkncoohw
+[2024-09-20 18:27:28] Predicted Intents: [{'intent': 'Msaada_IT', 'probability': '0.87970614'}]
+[2024-09-20 18:27:28] Response: Asante kwa kuwasiliana! Toa maelezo zaidi kuhusu mahitaji yako ya IT, na tutakusaidia kwa haraka.
+[2024-09-20 18:27:28] Input Tag: Marekebisho_IT
+[2024-09-20 18:27:28] Response Tag: Msaada_IT
+[2024-09-20 18:27:28] Detected Department: Unknown
+
+[2024-09-20 18:27:29] Pattern: Can you help troubleshoot my computer problem?
+[2024-09-20 18:27:29] Variations: Can you help troubleshoot my computer problem?, problem? computer my troubleshoot help you Can, Cdk you help troubleshoot my computer problem?, Can ggy help troubleshoot my computer problem?, Can you wltg troubleshoot my computer problem?, Can you help iattcyitugrh my computer problem?, Can you help troubleshoot og computer problem?, Can you help troubleshoot my ggxwxgbp problem?, Can you help troubleshoot my computer kjpcknt?
+[2024-09-20 18:27:29] Predicted Intents: [{'intent': 'IT_Repair_Request', 'probability': '0.4726469'}, {'intent': 'IT_Service_Request', 'probability': '0.45749688'}]
+[2024-09-20 18:27:29] Response: Thanks for reaching out! We’ll send a technician to address the repair. Can you confirm the device details and location?
+[2024-09-20 18:27:29] Input Tag: IT_Troubleshooting_Request
+[2024-09-20 18:27:29] Response Tag: IT_Repair_Request
+[2024-09-20 18:27:29] Detected Department: Unknown
+
+[2024-09-20 18:27:29] Pattern: Can you help troubleshoot my computer problem?
+[2024-09-20 18:27:29] Variations: Can you help troubleshoot my computer problem?, problem? computer my troubleshoot help you Can, Cdk you help troubleshoot my computer problem?, Can ggy help troubleshoot my computer problem?, Can you wltg troubleshoot my computer problem?, Can you help iattcyitugrh my computer problem?, Can you help troubleshoot og computer problem?, Can you help troubleshoot my ggxwxgbp problem?, Can you help troubleshoot my computer kjpcknt?
+[2024-09-20 18:27:29] Predicted Intents: [{'intent': 'IT_Service_Request', 'probability': '0.48776823'}, {'intent': 'IT_Troubleshooting_Request', 'probability': '0.48635662'}]
+[2024-09-20 18:27:29] Response: We’re here to help. Describe the problem you’re facing, and we’ll arrange the necessary IT support.
+[2024-09-20 18:27:29] Input Tag: IT_Troubleshooting_Request
+[2024-09-20 18:27:29] Response Tag: IT_Service_Request
+[2024-09-20 18:27:29] Detected Department: Unknown
+
+[2024-09-20 18:27:31] Pattern: Help me with IT troubleshooting
+[2024-09-20 18:27:31] Variations: Help me with IT troubleshooting, troubleshooting IT with me Help, Hqeb me with IT troubleshooting, Help xl with IT troubleshooting, Help me ajcq IT troubleshooting, Help me with IT troubleshooting, Help me with IT jwpercxhrlhdwtn
+[2024-09-20 18:27:31] Predicted Intents: [{'intent': 'IT_Service_Request', 'probability': '0.55550015'}, {'intent': 'IT_Troubleshooting_Request', 'probability': '0.44354227'}]
+[2024-09-20 18:27:31] Response: Thank you for reaching out! Share more information about your IT needs, and we’ll assist you promptly.
+[2024-09-20 18:27:31] Input Tag: IT_Troubleshooting_Request
+[2024-09-20 18:27:31] Response Tag: IT_Service_Request
+[2024-09-20 18:27:31] Detected Department: Unknown
+
+[2024-09-20 18:27:41] Pattern: What products do you offer?
+[2024-09-20 18:27:41] Variations: What products do you offer?, offer? you do products What, Woan products do you offer?, What iuhucvjd do you offer?, What products zb you offer?, What products do hfj offer?, What products do you dziyk?
+[2024-09-20 18:27:41] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.62342376'}, {'intent': 'Promotions_and_Offers', 'probability': '0.37376627'}]
+[2024-09-20 18:27:41] Response: We offer various discounts and special offers. Let me know what services you are interested in, and I will provide the details.
+[2024-09-20 18:27:41] Input Tag: Product_Inquiry
+[2024-09-20 18:27:41] Response Tag: Promotional_Offers
+[2024-09-20 18:27:41] Detected Department: Unknown
+
+[2024-09-20 18:27:41] Pattern: Tell me about your products
+[2024-09-20 18:27:41] Variations: Tell me about your products, products your about me Tell, Tvkh me about your products, Tell iw about your products, Tell me ixtgx your products, Tell me about khnw products, Tell me about your igskvteq
+[2024-09-20 18:27:41] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.5683958'}, {'intent': 'Promotions_and_Offers', 'probability': '0.42648005'}]
+[2024-09-20 18:27:41] Response: For information on our latest deals and promotions, please let me know your location and the services you want to know more about.
+[2024-09-20 18:27:41] Input Tag: Product_Inquiry
+[2024-09-20 18:27:41] Response Tag: Promotional_Offers
+[2024-09-20 18:27:41] Detected Department: Unknown
+
+[2024-09-20 18:27:42] Pattern: What are the available products?
+[2024-09-20 18:27:42] Variations: What are the available products?, products? available the are What, Wjhl are the available products?, What pxi the available products?, What are oxj available products?, What are the virmjhmgs products?, What are the available httlywby?
+[2024-09-20 18:27:42] Predicted Intents: [{'intent': 'Promotions_and_Offers', 'probability': '0.75966454'}]
+[2024-09-20 18:27:42] Response: Yes, we have several offers at the moment. Let me know if you are looking for specific products or services for more information.
+[2024-09-20 18:27:42] Input Tag: Product_Inquiry
+[2024-09-20 18:27:42] Response Tag: Promotions_and_Offers
+[2024-09-20 18:27:42] Detected Department: Unknown
+
+[2024-09-20 18:27:42] Pattern: I want to know about your product range
+[2024-09-20 18:27:42] Variations: I want to know about your product range, range product your about know to want I, I want to know about your product range, I mfgk to know about your product range, I want wd know about your product range, I want to xitl about your product range, I want to know kgpbx your product range, I want to know about jslt product range, I want to know about your fmahija range, I want to know about your product mskeg
+[2024-09-20 18:27:42] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.45257148'}, {'intent': 'Promotions_and_Offers', 'probability': '0.34679547'}]
+[2024-09-20 18:27:42] Response: We currently have several promotions and offers. Please provide your location so I can inform you about the deals available in your area.
+[2024-09-20 18:27:42] Input Tag: Product_Inquiry
+[2024-09-20 18:27:42] Response Tag: Promotional_Offers
+[2024-09-20 18:27:42] Detected Department: Unknown
+
+[2024-09-20 18:27:43] Pattern: Can you provide details on your products?
+[2024-09-20 18:27:43] Variations: Can you provide details on your products?, products? your on details provide you Can, Cct you provide details on your products?, Can sgl provide details on your products?, Can you xzvwtwp details on your products?, Can you provide pldlhpz on your products?, Can you provide details mo your products?, Can you provide details on bpgs products?, Can you provide details on your lolhcwqc?
+[2024-09-20 18:27:43] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.7251335'}, {'intent': 'Promotions_and_Offers', 'probability': '0.2548263'}]
+[2024-09-20 18:27:43] Response: We currently have several promotions and offers. Please provide your location so I can inform you about the deals available in your area.
+[2024-09-20 18:27:43] Input Tag: Product_Inquiry
+[2024-09-20 18:27:43] Response Tag: Promotional_Offers
+[2024-09-20 18:27:43] Detected Department: Unknown
+
+[2024-09-20 18:27:43] Pattern: What products are currently available?
+[2024-09-20 18:27:43] Variations: What products are currently available?, available? currently are products What, Wqff products are currently available?, What lasndfps are currently available?, What products qai currently available?, What products are bhdgywgob available?, What products are currently eydmxnlbm?
+[2024-09-20 18:27:43] Predicted Intents: [{'intent': 'Promotions_and_Offers', 'probability': '0.5241305'}, {'intent': 'Promotional_Offers', 'probability': '0.47257182'}]
+[2024-09-20 18:27:43] Response: We have some great promotions currently! Please specify what type of promotion you are interested in, and I can provide details.
+[2024-09-20 18:27:43] Input Tag: Product_Inquiry
+[2024-09-20 18:27:43] Response Tag: Promotions_and_Offers
+[2024-09-20 18:27:43] Detected Department: Unknown
+
+[2024-09-20 18:27:44] Pattern: Show me your products
+[2024-09-20 18:27:44] Variations: Show me your products, products your me Show, Svup me your products, Show cz your products, Show me havi products, Show me your kuqyzbrg
+[2024-09-20 18:27:44] Predicted Intents: [{'intent': 'Promotions_and_Offers', 'probability': '0.7968977'}]
+[2024-09-20 18:27:44] Response: We are running various promotions. Please tell me what you’re interested in, and I’ll share the current offers with you.
+[2024-09-20 18:27:44] Input Tag: Product_Inquiry
+[2024-09-20 18:27:44] Response Tag: Promotions_and_Offers
+[2024-09-20 18:27:44] Detected Department: Unknown
+
+[2024-09-20 18:27:44] Pattern: I want to buy something
+[2024-09-20 18:27:44] Variations: I want to buy something, something buy to want I, I want to buy something, I gghr to buy something, I want yy buy something, I want to nlq something, I want to buy hbdiqfosj
+[2024-09-20 18:27:44] Predicted Intents: [{'intent': 'General_Complaint', 'probability': '0.9784802'}]
+[2024-09-20 18:27:44] Response: Thank you for bringing this to our attention. Can you describe the problem you are facing?
+[2024-09-20 18:27:44] Input Tag: Making_a_Purchase
+[2024-09-20 18:27:44] Response Tag: General_Complaint
+[2024-09-20 18:27:44] Detected Department: Unknown
+
+[2024-09-20 18:27:46] Pattern: Can I make a purchase now?
+[2024-09-20 18:27:46] Variations: Can I make a purchase now?, now? purchase a make I Can, Cqm I make a purchase now?, Can I make a purchase now?, Can I egpc a purchase now?, Can I make f purchase now?, Can I make a dykbbozo now?, Can I make a purchase qgn?
+[2024-09-20 18:27:46] Predicted Intents: [{'intent': 'General_Complaint', 'probability': '0.49707088'}, {'intent': 'Making_a_Purchase', 'probability': '0.4438682'}]
+[2024-09-20 18:27:46] Response: Thank you for bringing this to our attention. Can you describe the problem you are facing?
+[2024-09-20 18:27:46] Input Tag: Making_a_Purchase
+[2024-09-20 18:27:46] Response Tag: General_Complaint
+[2024-09-20 18:27:46] Detected Department: Unknown
+
+[2024-09-20 18:27:46] Pattern: Help me with buying
+[2024-09-20 18:27:46] Variations: Help me with buying, buying with me Help, Htqs me with buying, Help ng with buying, Help me osgk buying, Help me with ixfarr
+[2024-09-20 18:27:46] Predicted Intents: [{'intent': 'IT_Troubleshooting_Request', 'probability': '0.46993497'}, {'intent': 'Making_a_Purchase', 'probability': '0.382026'}]
+[2024-09-20 18:27:46] Response: Let us know the details of your IT problem so we can help you troubleshoot effectively.
+[2024-09-20 18:27:46] Input Tag: Making_a_Purchase
+[2024-09-20 18:27:46] Response Tag: IT_Troubleshooting_Request
+[2024-09-20 18:27:46] Detected Department: Unknown
+
+[2024-09-20 18:27:47] Pattern: Do you have any promotions?
+[2024-09-20 18:27:47] Variations: Do you have any promotions?, promotions? any have you Do, Df you have any promotions?, Do kdj have any promotions?, Do you bjrh any promotions?, Do you have fza promotions?, Do you have any isooneyyia?
+[2024-09-20 18:27:47] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.6349998'}, {'intent': 'Promotions_and_Offers', 'probability': '0.36491647'}]
+[2024-09-20 18:27:47] Response: For information on our latest deals and promotions, please let me know your location and the services you want to know more about.
+[2024-09-20 18:27:47] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:47] Response Tag: Promotional_Offers
+[2024-09-20 18:27:47] Detected Department: Unknown
+
+[2024-09-20 18:27:47] Pattern: Do you have any promotions?
+[2024-09-20 18:27:47] Variations: Do you have any promotions?, promotions? any have you Do, Df you have any promotions?, Do kdj have any promotions?, Do you bjrh any promotions?, Do you have fza promotions?, Do you have any isooneyyia?
+[2024-09-20 18:27:47] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.6349998'}, {'intent': 'Promotions_and_Offers', 'probability': '0.36491647'}]
+[2024-09-20 18:27:47] Response: For information on our latest deals and promotions, please let me know your location and the services you want to know more about.
+[2024-09-20 18:27:47] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:47] Response Tag: Promotional_Offers
+[2024-09-20 18:27:47] Detected Department: Unknown
+
+[2024-09-20 18:27:47] Pattern: Do you have any promotions?
+[2024-09-20 18:27:47] Variations: Do you have any promotions?, promotions? any have you Do, Df you have any promotions?, Do kdj have any promotions?, Do you bjrh any promotions?, Do you have fza promotions?, Do you have any isooneyyia?
+[2024-09-20 18:27:47] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.7230999'}, {'intent': 'Promotions_and_Offers', 'probability': '0.27685636'}]
+[2024-09-20 18:27:47] Response: To find out about our current promotions and offers, please share your location and the services you're interested in.
+[2024-09-20 18:27:47] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:47] Response Tag: Promotional_Offers
+[2024-09-20 18:27:47] Detected Department: Unknown
+
+[2024-09-20 18:27:47] Pattern: Do you have any promotions?
+[2024-09-20 18:27:47] Variations: Do you have any promotions?, promotions? any have you Do, Df you have any promotions?, Do kdj have any promotions?, Do you bjrh any promotions?, Do you have fza promotions?, Do you have any isooneyyia?
+[2024-09-20 18:27:47] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.7108268'}, {'intent': 'Promotions_and_Offers', 'probability': '0.2889919'}]
+[2024-09-20 18:27:47] Response: We offer various discounts and special offers. Let me know what services you are interested in, and I will provide the details.
+[2024-09-20 18:27:47] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:47] Response Tag: Promotional_Offers
+[2024-09-20 18:27:47] Detected Department: Unknown
+
+[2024-09-20 18:27:47] Pattern: Do you have any promotions?
+[2024-09-20 18:27:47] Variations: Do you have any promotions?, promotions? any have you Do, Df you have any promotions?, Do kdj have any promotions?, Do you bjrh any promotions?, Do you have fza promotions?, Do you have any isooneyyia?
+[2024-09-20 18:27:47] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.5307792'}, {'intent': 'Promotions_and_Offers', 'probability': '0.4686348'}]
+[2024-09-20 18:27:47] Response: For information on our latest deals and promotions, please let me know your location and the services you want to know more about.
+[2024-09-20 18:27:47] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:47] Response Tag: Promotional_Offers
+[2024-09-20 18:27:47] Detected Department: Unknown
+
+[2024-09-20 18:27:47] Pattern: Do you have any promotions?
+[2024-09-20 18:27:47] Variations: Do you have any promotions?, promotions? any have you Do, Df you have any promotions?, Do kdj have any promotions?, Do you bjrh any promotions?, Do you have fza promotions?, Do you have any isooneyyia?
+[2024-09-20 18:27:47] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.5680346'}, {'intent': 'Promotions_and_Offers', 'probability': '0.42935443'}]
+[2024-09-20 18:27:47] Response: For information on our latest deals and promotions, please let me know your location and the services you want to know more about.
+[2024-09-20 18:27:47] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:47] Response Tag: Promotional_Offers
+[2024-09-20 18:27:47] Detected Department: Unknown
+
+[2024-09-20 18:27:47] Pattern: What are the current offers?
+[2024-09-20 18:27:47] Variations: What are the current offers?, offers? current the are What, Wuev are the current offers?, What vkf the current offers?, What are pqc current offers?, What are the zxnayau offers?, What are the current swkpim?
+[2024-09-20 18:27:47] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.5087454'}, {'intent': 'Promotions_and_Offers', 'probability': '0.49124175'}]
+[2024-09-20 18:27:47] Response: We offer various discounts and special offers. Let me know what services you are interested in, and I will provide the details.
+[2024-09-20 18:27:47] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:47] Response Tag: Promotional_Offers
+[2024-09-20 18:27:47] Detected Department: Unknown
+
+[2024-09-20 18:27:47] Pattern: What are the current offers?
+[2024-09-20 18:27:47] Variations: What are the current offers?, offers? current the are What, Wuev are the current offers?, What vkf the current offers?, What are pqc current offers?, What are the zxnayau offers?, What are the current swkpim?
+[2024-09-20 18:27:47] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.5087454'}, {'intent': 'Promotions_and_Offers', 'probability': '0.49124175'}]
+[2024-09-20 18:27:47] Response: For information on our latest deals and promotions, please let me know your location and the services you want to know more about.
+[2024-09-20 18:27:47] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:47] Response Tag: Promotional_Offers
+[2024-09-20 18:27:47] Detected Department: Unknown
+
+[2024-09-20 18:27:47] Pattern: What are the current offers?
+[2024-09-20 18:27:47] Variations: What are the current offers?, offers? current the are What, Wuev are the current offers?, What vkf the current offers?, What are pqc current offers?, What are the zxnayau offers?, What are the current swkpim?
+[2024-09-20 18:27:47] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.73188794'}, {'intent': 'Promotions_and_Offers', 'probability': '0.26810122'}]
+[2024-09-20 18:27:47] Response: To find out about our current promotions and offers, please share your location and the services you're interested in.
+[2024-09-20 18:27:47] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:47] Response Tag: Promotional_Offers
+[2024-09-20 18:27:47] Detected Department: Unknown
+
+[2024-09-20 18:27:47] Pattern: Tell me about your discounts
+[2024-09-20 18:27:47] Variations: Tell me about your discounts, discounts your about me Tell, Tihw me about your discounts, Tell nw about your discounts, Tell me athak your discounts, Tell me about jixr discounts, Tell me about your wakbqbfif
+[2024-09-20 18:27:47] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.665746'}, {'intent': 'Promotions_and_Offers', 'probability': '0.33417565'}]
+[2024-09-20 18:27:47] Response: For information on our latest deals and promotions, please let me know your location and the services you want to know more about.
+[2024-09-20 18:27:47] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:47] Response Tag: Promotional_Offers
+[2024-09-20 18:27:47] Detected Department: Unknown
+
+[2024-09-20 18:27:48] Pattern: Tell me about your discounts
+[2024-09-20 18:27:48] Variations: Tell me about your discounts, discounts your about me Tell, Tihw me about your discounts, Tell nw about your discounts, Tell me athak your discounts, Tell me about jixr discounts, Tell me about your wakbqbfif
+[2024-09-20 18:27:48] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.665746'}, {'intent': 'Promotions_and_Offers', 'probability': '0.33417565'}]
+[2024-09-20 18:27:48] Response: We currently have several promotions and offers. Please provide your location so I can inform you about the deals available in your area.
+[2024-09-20 18:27:48] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:48] Response Tag: Promotional_Offers
+[2024-09-20 18:27:48] Detected Department: Unknown
+
+[2024-09-20 18:27:48] Pattern: Tell me about your discounts
+[2024-09-20 18:27:48] Variations: Tell me about your discounts, discounts your about me Tell, Tihw me about your discounts, Tell nw about your discounts, Tell me athak your discounts, Tell me about jixr discounts, Tell me about your wakbqbfif
+[2024-09-20 18:27:48] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.5563738'}, {'intent': 'Promotions_and_Offers', 'probability': '0.44358957'}]
+[2024-09-20 18:27:48] Response: We currently have several promotions and offers. Please provide your location so I can inform you about the deals available in your area.
+[2024-09-20 18:27:48] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:48] Response Tag: Promotional_Offers
+[2024-09-20 18:27:48] Detected Department: Unknown
+
+[2024-09-20 18:27:48] Pattern: Tell me about your discounts
+[2024-09-20 18:27:48] Variations: Tell me about your discounts, discounts your about me Tell, Tihw me about your discounts, Tell nw about your discounts, Tell me athak your discounts, Tell me about jixr discounts, Tell me about your wakbqbfif
+[2024-09-20 18:27:48] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.8263723'}]
+[2024-09-20 18:27:48] Response: We offer various discounts and special offers. Let me know what services you are interested in, and I will provide the details.
+[2024-09-20 18:27:48] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:48] Response Tag: Promotional_Offers
+[2024-09-20 18:27:48] Detected Department: Unknown
+
+[2024-09-20 18:27:48] Pattern: Tell me about your discounts
+[2024-09-20 18:27:48] Variations: Tell me about your discounts, discounts your about me Tell, Tihw me about your discounts, Tell nw about your discounts, Tell me athak your discounts, Tell me about jixr discounts, Tell me about your wakbqbfif
+[2024-09-20 18:27:48] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.6093499'}, {'intent': 'Promotions_and_Offers', 'probability': '0.389811'}]
+[2024-09-20 18:27:48] Response: We offer various discounts and special offers. Let me know what services you are interested in, and I will provide the details.
+[2024-09-20 18:27:48] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:48] Response Tag: Promotional_Offers
+[2024-09-20 18:27:48] Detected Department: Unknown
+
+[2024-09-20 18:27:48] Pattern: Tell me about your discounts
+[2024-09-20 18:27:48] Variations: Tell me about your discounts, discounts your about me Tell, Tihw me about your discounts, Tell nw about your discounts, Tell me athak your discounts, Tell me about jixr discounts, Tell me about your wakbqbfif
+[2024-09-20 18:27:48] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.5683958'}, {'intent': 'Promotions_and_Offers', 'probability': '0.42648005'}]
+[2024-09-20 18:27:48] Response: We offer various discounts and special offers. Let me know what services you are interested in, and I will provide the details.
+[2024-09-20 18:27:48] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:48] Response Tag: Promotional_Offers
+[2024-09-20 18:27:48] Detected Department: Unknown
+
+[2024-09-20 18:27:48] Pattern: Are there any special deals?
+[2024-09-20 18:27:48] Variations: Are there any special deals?, deals? special any there Are, Arv there any special deals?, Are dwrku any special deals?, Are there exn special deals?, Are there any kpsibye deals?, Are there any special sjavg?
+[2024-09-20 18:27:48] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.69711834'}, {'intent': 'Promotions_and_Offers', 'probability': '0.30285177'}]
+[2024-09-20 18:27:48] Response: We offer various discounts and special offers. Let me know what services you are interested in, and I will provide the details.
+[2024-09-20 18:27:48] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:48] Response Tag: Promotional_Offers
+[2024-09-20 18:27:48] Detected Department: Unknown
+
+[2024-09-20 18:27:48] Pattern: Are there any special deals?
+[2024-09-20 18:27:48] Variations: Are there any special deals?, deals? special any there Are, Arv there any special deals?, Are dwrku any special deals?, Are there exn special deals?, Are there any kpsibye deals?, Are there any special sjavg?
+[2024-09-20 18:27:48] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.69711834'}, {'intent': 'Promotions_and_Offers', 'probability': '0.30285177'}]
+[2024-09-20 18:27:48] Response: We currently have several promotions and offers. Please provide your location so I can inform you about the deals available in your area.
+[2024-09-20 18:27:48] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:48] Response Tag: Promotional_Offers
+[2024-09-20 18:27:48] Detected Department: Unknown
+
+[2024-09-20 18:27:48] Pattern: Are there any special deals?
+[2024-09-20 18:27:48] Variations: Are there any special deals?, deals? special any there Are, Arv there any special deals?, Are dwrku any special deals?, Are there exn special deals?, Are there any kpsibye deals?, Are there any special sjavg?
+[2024-09-20 18:27:48] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.5989356'}, {'intent': 'Promotions_and_Offers', 'probability': '0.39959443'}]
+[2024-09-20 18:27:48] Response: We currently have several promotions and offers. Please provide your location so I can inform you about the deals available in your area.
+[2024-09-20 18:27:48] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:48] Response Tag: Promotional_Offers
+[2024-09-20 18:27:48] Detected Department: Unknown
+
+[2024-09-20 18:27:48] Pattern: Are there any special deals?
+[2024-09-20 18:27:48] Variations: Are there any special deals?, deals? special any there Are, Arv there any special deals?, Are dwrku any special deals?, Are there exn special deals?, Are there any kpsibye deals?, Are there any special sjavg?
+[2024-09-20 18:27:48] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.5805067'}, {'intent': 'Promotions_and_Offers', 'probability': '0.4191989'}]
+[2024-09-20 18:27:48] Response: We offer various discounts and special offers. Let me know what services you are interested in, and I will provide the details.
+[2024-09-20 18:27:48] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:48] Response Tag: Promotional_Offers
+[2024-09-20 18:27:48] Detected Department: Unknown
+
+[2024-09-20 18:27:48] Pattern: Are there any special deals?
+[2024-09-20 18:27:48] Variations: Are there any special deals?, deals? special any there Are, Arv there any special deals?, Are dwrku any special deals?, Are there exn special deals?, Are there any kpsibye deals?, Are there any special sjavg?
+[2024-09-20 18:27:48] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.5707582'}, {'intent': 'Promotions_and_Offers', 'probability': '0.4289099'}]
+[2024-09-20 18:27:48] Response: We offer various discounts and special offers. Let me know what services you are interested in, and I will provide the details.
+[2024-09-20 18:27:48] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:48] Response Tag: Promotional_Offers
+[2024-09-20 18:27:48] Detected Department: Unknown
+
+[2024-09-20 18:27:48] Pattern: Are there any special deals?
+[2024-09-20 18:27:48] Variations: Are there any special deals?, deals? special any there Are, Arv there any special deals?, Are dwrku any special deals?, Are there exn special deals?, Are there any kpsibye deals?, Are there any special sjavg?
+[2024-09-20 18:27:48] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.7068539'}, {'intent': 'Promotions_and_Offers', 'probability': '0.2931031'}]
+[2024-09-20 18:27:48] Response: To find out about our current promotions and offers, please share your location and the services you're interested in.
+[2024-09-20 18:27:48] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:48] Response Tag: Promotional_Offers
+[2024-09-20 18:27:48] Detected Department: Unknown
+
+[2024-09-20 18:27:48] Pattern: Are there any special deals?
+[2024-09-20 18:27:48] Variations: Are there any special deals?, deals? special any there Are, Arv there any special deals?, Are dwrku any special deals?, Are there exn special deals?, Are there any kpsibye deals?, Are there any special sjavg?
+[2024-09-20 18:27:48] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.7252248'}, {'intent': 'Promotions_and_Offers', 'probability': '0.2747243'}]
+[2024-09-20 18:27:48] Response: We currently have several promotions and offers. Please provide your location so I can inform you about the deals available in your area.
+[2024-09-20 18:27:48] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:48] Response Tag: Promotional_Offers
+[2024-09-20 18:27:48] Detected Department: Unknown
+
+[2024-09-20 18:27:48] Pattern: What promotions are available right now?
+[2024-09-20 18:27:48] Variations: What promotions are available right now?, now? right available are promotions What, Wjcy promotions are available right now?, What nmrryghfjd are available right now?, What promotions yuc available right now?, What promotions are kdsounbga right now?, What promotions are available rdton now?, What promotions are available right iau?
+[2024-09-20 18:27:48] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.64690727'}, {'intent': 'Promotions_and_Offers', 'probability': '0.35308787'}]
+[2024-09-20 18:27:48] Response: We currently have several promotions and offers. Please provide your location so I can inform you about the deals available in your area.
+[2024-09-20 18:27:48] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:48] Response Tag: Promotional_Offers
+[2024-09-20 18:27:48] Detected Department: Unknown
+
+[2024-09-20 18:27:48] Pattern: What promotions are available right now?
+[2024-09-20 18:27:48] Variations: What promotions are available right now?, now? right available are promotions What, Wjcy promotions are available right now?, What nmrryghfjd are available right now?, What promotions yuc available right now?, What promotions are kdsounbga right now?, What promotions are available rdton now?, What promotions are available right iau?
+[2024-09-20 18:27:48] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.64690727'}, {'intent': 'Promotions_and_Offers', 'probability': '0.35308787'}]
+[2024-09-20 18:27:48] Response: We offer various discounts and special offers. Let me know what services you are interested in, and I will provide the details.
+[2024-09-20 18:27:48] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:48] Response Tag: Promotional_Offers
+[2024-09-20 18:27:48] Detected Department: Unknown
+
+[2024-09-20 18:27:48] Pattern: What promotions are available right now?
+[2024-09-20 18:27:48] Variations: What promotions are available right now?, now? right available are promotions What, Wjcy promotions are available right now?, What nmrryghfjd are available right now?, What promotions yuc available right now?, What promotions are kdsounbga right now?, What promotions are available rdton now?, What promotions are available right iau?
+[2024-09-20 18:27:48] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.62776476'}, {'intent': 'Promotions_and_Offers', 'probability': '0.3722037'}]
+[2024-09-20 18:27:48] Response: To find out about our current promotions and offers, please share your location and the services you're interested in.
+[2024-09-20 18:27:48] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:48] Response Tag: Promotional_Offers
+[2024-09-20 18:27:48] Detected Department: Unknown
+
+[2024-09-20 18:27:49] Pattern: What promotions are available right now?
+[2024-09-20 18:27:49] Variations: What promotions are available right now?, now? right available are promotions What, Wjcy promotions are available right now?, What nmrryghfjd are available right now?, What promotions yuc available right now?, What promotions are kdsounbga right now?, What promotions are available rdton now?, What promotions are available right iau?
+[2024-09-20 18:27:49] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.50993407'}, {'intent': 'Promotions_and_Offers', 'probability': '0.49001497'}]
+[2024-09-20 18:27:49] Response: For information on our latest deals and promotions, please let me know your location and the services you want to know more about.
+[2024-09-20 18:27:49] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:49] Response Tag: Promotional_Offers
+[2024-09-20 18:27:49] Detected Department: Unknown
+
+[2024-09-20 18:27:49] Pattern: What promotions are available right now?
+[2024-09-20 18:27:49] Variations: What promotions are available right now?, now? right available are promotions What, Wjcy promotions are available right now?, What nmrryghfjd are available right now?, What promotions yuc available right now?, What promotions are kdsounbga right now?, What promotions are available rdton now?, What promotions are available right iau?
+[2024-09-20 18:27:49] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.5117587'}, {'intent': 'Promotions_and_Offers', 'probability': '0.4880656'}]
+[2024-09-20 18:27:49] Response: To find out about our current promotions and offers, please share your location and the services you're interested in.
+[2024-09-20 18:27:49] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:49] Response Tag: Promotional_Offers
+[2024-09-20 18:27:49] Detected Department: Unknown
+
+[2024-09-20 18:27:49] Pattern: What promotions are available right now?
+[2024-09-20 18:27:49] Variations: What promotions are available right now?, now? right available are promotions What, Wjcy promotions are available right now?, What nmrryghfjd are available right now?, What promotions yuc available right now?, What promotions are kdsounbga right now?, What promotions are available rdton now?, What promotions are available right iau?
+[2024-09-20 18:27:49] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.63957536'}, {'intent': 'Promotions_and_Offers', 'probability': '0.360416'}]
+[2024-09-20 18:27:49] Response: We offer various discounts and special offers. Let me know what services you are interested in, and I will provide the details.
+[2024-09-20 18:27:49] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:49] Response Tag: Promotional_Offers
+[2024-09-20 18:27:49] Detected Department: Unknown
+
+[2024-09-20 18:27:49] Pattern: What promotions are available right now?
+[2024-09-20 18:27:49] Variations: What promotions are available right now?, now? right available are promotions What, Wjcy promotions are available right now?, What nmrryghfjd are available right now?, What promotions yuc available right now?, What promotions are kdsounbga right now?, What promotions are available rdton now?, What promotions are available right iau?
+[2024-09-20 18:27:49] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.57502514'}, {'intent': 'Promotions_and_Offers', 'probability': '0.42496288'}]
+[2024-09-20 18:27:49] Response: To find out about our current promotions and offers, please share your location and the services you're interested in.
+[2024-09-20 18:27:49] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:49] Response Tag: Promotional_Offers
+[2024-09-20 18:27:49] Detected Department: Unknown
+
+[2024-09-20 18:27:49] Pattern: What promotions are available right now?
+[2024-09-20 18:27:49] Variations: What promotions are available right now?, now? right available are promotions What, Wjcy promotions are available right now?, What nmrryghfjd are available right now?, What promotions yuc available right now?, What promotions are kdsounbga right now?, What promotions are available rdton now?, What promotions are available right iau?
+[2024-09-20 18:27:49] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.673437'}, {'intent': 'Promotions_and_Offers', 'probability': '0.32655597'}]
+[2024-09-20 18:27:49] Response: We currently have several promotions and offers. Please provide your location so I can inform you about the deals available in your area.
+[2024-09-20 18:27:49] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:49] Response Tag: Promotional_Offers
+[2024-09-20 18:27:49] Detected Department: Unknown
+
+[2024-09-20 18:27:49] Pattern: Do you have any special offers?
+[2024-09-20 18:27:49] Variations: Do you have any special offers?, offers? special any have you Do, Du you have any special offers?, Do jqs have any special offers?, Do you lutg any special offers?, Do you have lrk special offers?, Do you have any bwcigcy offers?, Do you have any special baqfnb?
+[2024-09-20 18:27:49] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.6233516'}, {'intent': 'Promotions_and_Offers', 'probability': '0.37661105'}]
+[2024-09-20 18:27:49] Response: We offer various discounts and special offers. Let me know what services you are interested in, and I will provide the details.
+[2024-09-20 18:27:49] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:49] Response Tag: Promotional_Offers
+[2024-09-20 18:27:49] Detected Department: Unknown
+
+[2024-09-20 18:27:49] Pattern: Do you have any special offers?
+[2024-09-20 18:27:49] Variations: Do you have any special offers?, offers? special any have you Do, Du you have any special offers?, Do jqs have any special offers?, Do you lutg any special offers?, Do you have lrk special offers?, Do you have any bwcigcy offers?, Do you have any special baqfnb?
+[2024-09-20 18:27:49] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.6233516'}, {'intent': 'Promotions_and_Offers', 'probability': '0.37661105'}]
+[2024-09-20 18:27:49] Response: For information on our latest deals and promotions, please let me know your location and the services you want to know more about.
+[2024-09-20 18:27:49] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:49] Response Tag: Promotional_Offers
+[2024-09-20 18:27:49] Detected Department: Unknown
+
+[2024-09-20 18:27:49] Pattern: Do you have any special offers?
+[2024-09-20 18:27:49] Variations: Do you have any special offers?, offers? special any have you Do, Du you have any special offers?, Do jqs have any special offers?, Do you lutg any special offers?, Do you have lrk special offers?, Do you have any bwcigcy offers?, Do you have any special baqfnb?
+[2024-09-20 18:27:49] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.7009907'}, {'intent': 'Promotions_and_Offers', 'probability': '0.29897353'}]
+[2024-09-20 18:27:49] Response: We offer various discounts and special offers. Let me know what services you are interested in, and I will provide the details.
+[2024-09-20 18:27:49] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:49] Response Tag: Promotional_Offers
+[2024-09-20 18:27:49] Detected Department: Unknown
+
+[2024-09-20 18:27:49] Pattern: Do you have any special offers?
+[2024-09-20 18:27:49] Variations: Do you have any special offers?, offers? special any have you Do, Du you have any special offers?, Do jqs have any special offers?, Do you lutg any special offers?, Do you have lrk special offers?, Do you have any bwcigcy offers?, Do you have any special baqfnb?
+[2024-09-20 18:27:49] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.6949162'}, {'intent': 'Promotions_and_Offers', 'probability': '0.30491412'}]
+[2024-09-20 18:27:49] Response: For information on our latest deals and promotions, please let me know your location and the services you want to know more about.
+[2024-09-20 18:27:49] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:49] Response Tag: Promotional_Offers
+[2024-09-20 18:27:49] Detected Department: Unknown
+
+[2024-09-20 18:27:49] Pattern: Do you have any special offers?
+[2024-09-20 18:27:49] Variations: Do you have any special offers?, offers? special any have you Do, Du you have any special offers?, Do jqs have any special offers?, Do you lutg any special offers?, Do you have lrk special offers?, Do you have any bwcigcy offers?, Do you have any special baqfnb?
+[2024-09-20 18:27:49] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.51071596'}, {'intent': 'Promotions_and_Offers', 'probability': '0.4889654'}]
+[2024-09-20 18:27:49] Response: We offer various discounts and special offers. Let me know what services you are interested in, and I will provide the details.
+[2024-09-20 18:27:49] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:49] Response Tag: Promotional_Offers
+[2024-09-20 18:27:49] Detected Department: Unknown
+
+[2024-09-20 18:27:49] Pattern: Do you have any special offers?
+[2024-09-20 18:27:49] Variations: Do you have any special offers?, offers? special any have you Do, Du you have any special offers?, Do jqs have any special offers?, Do you lutg any special offers?, Do you have lrk special offers?, Do you have any bwcigcy offers?, Do you have any special baqfnb?
+[2024-09-20 18:27:49] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.64617664'}, {'intent': 'Promotions_and_Offers', 'probability': '0.35368678'}]
+[2024-09-20 18:27:49] Response: We offer various discounts and special offers. Let me know what services you are interested in, and I will provide the details.
+[2024-09-20 18:27:49] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:49] Response Tag: Promotional_Offers
+[2024-09-20 18:27:49] Detected Department: Unknown
+
+[2024-09-20 18:27:49] Pattern: Do you have any special offers?
+[2024-09-20 18:27:49] Variations: Do you have any special offers?, offers? special any have you Do, Du you have any special offers?, Do jqs have any special offers?, Do you lutg any special offers?, Do you have lrk special offers?, Do you have any bwcigcy offers?, Do you have any special baqfnb?
+[2024-09-20 18:27:49] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.5482359'}, {'intent': 'Promotions_and_Offers', 'probability': '0.45144072'}]
+[2024-09-20 18:27:49] Response: For information on our latest deals and promotions, please let me know your location and the services you want to know more about.
+[2024-09-20 18:27:49] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:49] Response Tag: Promotional_Offers
+[2024-09-20 18:27:49] Detected Department: Unknown
+
+[2024-09-20 18:27:49] Pattern: Show me your current promotions
+[2024-09-20 18:27:49] Variations: Show me your current promotions, promotions current your me Show, Srui me your current promotions, Show hg your current promotions, Show me mvlk current promotions, Show me your miagtrk promotions, Show me your current brzcmzempb
+[2024-09-20 18:27:49] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.5626201'}, {'intent': 'Promotions_and_Offers', 'probability': '0.43737322'}]
+[2024-09-20 18:27:49] Response: We offer various discounts and special offers. Let me know what services you are interested in, and I will provide the details.
+[2024-09-20 18:27:49] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:49] Response Tag: Promotional_Offers
+[2024-09-20 18:27:49] Detected Department: Unknown
+
+[2024-09-20 18:27:49] Pattern: Show me your current promotions
+[2024-09-20 18:27:49] Variations: Show me your current promotions, promotions current your me Show, Srui me your current promotions, Show hg your current promotions, Show me mvlk current promotions, Show me your miagtrk promotions, Show me your current brzcmzempb
+[2024-09-20 18:27:49] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.5626201'}, {'intent': 'Promotions_and_Offers', 'probability': '0.43737322'}]
+[2024-09-20 18:27:49] Response: To find out about our current promotions and offers, please share your location and the services you're interested in.
+[2024-09-20 18:27:49] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:49] Response Tag: Promotional_Offers
+[2024-09-20 18:27:49] Detected Department: Unknown
+
+[2024-09-20 18:27:49] Pattern: Show me your current promotions
+[2024-09-20 18:27:49] Variations: Show me your current promotions, promotions current your me Show, Srui me your current promotions, Show hg your current promotions, Show me mvlk current promotions, Show me your miagtrk promotions, Show me your current brzcmzempb
+[2024-09-20 18:27:49] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.58007175'}, {'intent': 'Promotions_and_Offers', 'probability': '0.41991758'}]
+[2024-09-20 18:27:49] Response: We currently have several promotions and offers. Please provide your location so I can inform you about the deals available in your area.
+[2024-09-20 18:27:49] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:49] Response Tag: Promotional_Offers
+[2024-09-20 18:27:49] Detected Department: Unknown
+
+[2024-09-20 18:27:49] Pattern: Show me your current promotions
+[2024-09-20 18:27:49] Variations: Show me your current promotions, promotions current your me Show, Srui me your current promotions, Show hg your current promotions, Show me mvlk current promotions, Show me your miagtrk promotions, Show me your current brzcmzempb
+[2024-09-20 18:27:49] Predicted Intents: [{'intent': 'Promotional_Offers', 'probability': '0.6761001'}, {'intent': 'Promotions_and_Offers', 'probability': '0.32388076'}]
+[2024-09-20 18:27:49] Response: We currently have several promotions and offers. Please provide your location so I can inform you about the deals available in your area.
+[2024-09-20 18:27:49] Input Tag: Promotions_and_Offers
+[2024-09-20 18:27:49] Response Tag: Promotional_Offers
+[2024-09-20 18:27:49] Detected Department: Unknown
+
+[2024-09-20 18:27:52] Pattern: Unaweza kutoa maelezo kuhusu bidhaa zenu?
+[2024-09-20 18:27:52] Variations: Unaweza kutoa maelezo kuhusu bidhaa zenu?, zenu? bidhaa kuhusu maelezo kutoa Unaweza, Udgpiou kutoa maelezo kuhusu bidhaa zenu?, Unaweza cfkhe maelezo kuhusu bidhaa zenu?, Unaweza kutoa mcioacs kuhusu bidhaa zenu?, Unaweza kutoa maelezo ihcitr bidhaa zenu?, Unaweza kutoa maelezo kuhusu enencg zenu?, Unaweza kutoa maelezo kuhusu bidhaa gsuc?
+[2024-09-20 18:27:52] Predicted Intents: [{'intent': 'Uchunguzi_ wa_Maegesho', 'probability': '0.67381215'}, {'intent': 'Uchunguzi_Produkt', 'probability': '0.30455175'}]
+[2024-09-20 18:27:52] Response: Bei za bidhaa na huduma zetu hutofautiana. Tafadhali eleza maelezo zaidi kuhusu unachotaka kujua.
+[2024-09-20 18:27:52] Input Tag: Uchunguzi_Produkt
+[2024-09-20 18:27:52] Response Tag: Uchunguzi_ wa_Maegesho
+[2024-09-20 18:27:52] Detected Department: Unknown
+
+[2024-09-20 18:27:54] Pattern: Ningependa kununua bidhaa
+[2024-09-20 18:27:54] Variations: Ningependa kununua bidhaa, bidhaa kununua Ningependa, Nhpnucmgsq kununua bidhaa, Ningependa rftezfq bidhaa, Ningependa kununua rwleai
+[2024-09-20 18:27:54] Predicted Intents: [{'intent': 'Uchunguzi_Produkt', 'probability': '0.84003156'}]
+[2024-09-20 18:27:54] Response: Bidhaa zetu ni pamoja na vifurushi vya TV cable na huduma za internet. Tafadhali eleza unachotaka kwa maelezo zaidi.
+[2024-09-20 18:27:54] Input Tag: Ununuzi
+[2024-09-20 18:27:54] Response Tag: Uchunguzi_Produkt
+[2024-09-20 18:27:54] Detected Department: Unknown
+
+[2024-09-20 18:27:54] Pattern: Ningependa kununua bidhaa
+[2024-09-20 18:27:54] Variations: Ningependa kununua bidhaa, bidhaa kununua Ningependa, Nhpnucmgsq kununua bidhaa, Ningependa rftezfq bidhaa, Ningependa kununua rwleai
+[2024-09-20 18:27:54] Predicted Intents: [{'intent': 'Mchakato_wa_Ununuzi', 'probability': '0.8878679'}]
+[2024-09-20 18:27:54] Response: Unaweza kujisajili kwa huduma zetu mtandaoni au kwa kuwasiliana na idara yetu ya mauzo. Tafadhali nijulishe kama unahitaji msaada zaidi.
+[2024-09-20 18:27:54] Input Tag: Ununuzi
+[2024-09-20 18:27:54] Response Tag: Mchakato_wa_Ununuzi
+[2024-09-20 18:27:54] Detected Department: Unknown
+
+[2024-09-20 18:27:57] Pattern: Nisaidie kuhusu punguzo
+[2024-09-20 18:27:57] Variations: Nisaidie kuhusu punguzo, punguzo kuhusu Nisaidie, Nmfrzqmr kuhusu punguzo, Nisaidie elveat punguzo, Nisaidie kuhusu hoaqgfy
+[2024-09-20 18:27:57] Predicted Intents: [{'intent': 'Matangazo_Maalum', 'probability': '0.70490116'}, {'intent': 'Matangazo_na_Ofa', 'probability': '0.29373667'}]
+[2024-09-20 18:27:57] Response: Tunatoa punguzo na ofa maalum. Niambie ni huduma zipi unazovutiwa nazo, na nitakupa maelezo zaidi.
+[2024-09-20 18:27:57] Input Tag: Matangazo_na_Ofa
+[2024-09-20 18:27:57] Response Tag: Matangazo_Maalum
+[2024-09-20 18:27:57] Detected Department: Unknown
+
+[2024-09-20 18:28:00] Pattern: I have an issue
+[2024-09-20 18:28:00] Variations: I have an issue, issue an have I, I have an issue, I lkyo an issue, I have xr issue, I have an ugipp
+[2024-09-20 18:28:00] Predicted Intents: [{'intent': 'IT_Troubleshooting_Request', 'probability': '0.5928129'}, {'intent': 'General_Complaint', 'probability': '0.3904475'}]
+[2024-09-20 18:28:00] Response: Thank you for reaching out. Share the specifics of your IT problem, and we’ll provide the necessary support.
+[2024-09-20 18:28:00] Input Tag: General_Complaint
+[2024-09-20 18:28:00] Response Tag: IT_Troubleshooting_Request
+[2024-09-20 18:28:00] Detected Department: Unknown
+
+[2024-09-20 18:28:06] Pattern: I have a problem with my internet
+[2024-09-20 18:28:06] Variations: I have a problem with my internet, internet my with problem a have I, I have a problem with my internet, I gush a problem with my internet, I have m problem with my internet, I have a hzruqni with my internet, I have a problem jjgt my internet, I have a problem with ki internet, I have a problem with my lzbbbcqd
+[2024-09-20 18:28:06] Predicted Intents: [{'intent': 'IT_Troubleshooting_Request', 'probability': '0.8631402'}]
+[2024-09-20 18:28:06] Response: Describe the IT issue you’re facing, and we’ll help troubleshoot and resolve it.
+[2024-09-20 18:28:06] Input Tag: Internet_Service_Complaint
+[2024-09-20 18:28:06] Response Tag: IT_Troubleshooting_Request
+[2024-09-20 18:28:06] Detected Department: Unknown
+
+[2024-09-20 18:28:06] Pattern: My internet service is down
+[2024-09-20 18:28:06] Variations: My internet service is down, down is service internet My, Ml internet service is down, My rgkxiekc service is down, My internet gbvwvlu is down, My internet service if down, My internet service is hsls
+[2024-09-20 18:28:06] Predicted Intents: [{'intent': 'IT_Troubleshooting_Request', 'probability': '0.46775335'}, {'intent': 'Cable_TV_Service_Inquiry', 'probability': '0.4624476'}]
+[2024-09-20 18:28:06] Response: We’re here to assist with troubleshooting. Please provide details about the issue, and we’ll guide you through the process.
+[2024-09-20 18:28:06] Input Tag: Internet_Service_Complaint
+[2024-09-20 18:28:06] Response Tag: IT_Troubleshooting_Request
+[2024-09-20 18:28:06] Detected Department: Unknown
+
+[2024-09-20 18:28:06] Pattern: My internet service is down
+[2024-09-20 18:28:06] Variations: My internet service is down, down is service internet My, Ml internet service is down, My rgkxiekc service is down, My internet gbvwvlu is down, My internet service if down, My internet service is hsls
+[2024-09-20 18:28:06] Predicted Intents: [{'intent': 'Internet_Troubleshooting_Request', 'probability': '0.82878447'}]
+[2024-09-20 18:28:06] Response: We will help you fix the issue. Kindly share your service ID and contact details.
+[2024-09-20 18:28:06] Input Tag: Internet_Service_Complaint
+[2024-09-20 18:28:06] Response Tag: Internet_Troubleshooting_Request
+[2024-09-20 18:28:06] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:28:07] Pattern: There is an issue with my internet connection
+[2024-09-20 18:28:07] Variations: There is an issue with my internet connection, connection internet my with issue an is There, Tactm is an issue with my internet connection, There tn an issue with my internet connection, There is ku issue with my internet connection, There is an vuexx with my internet connection, There is an issue ahwe my internet connection, There is an issue with jx internet connection, There is an issue with my njmmpbbb connection, There is an issue with my internet fcmkpntdvb
+[2024-09-20 18:28:07] Predicted Intents: [{'intent': 'Cable_TV_Complaint', 'probability': '0.8704786'}]
+[2024-09-20 18:28:07] Response: Can you please provide more information about the cable TV issue you’re facing? This will help us address the problem quickly.
+[2024-09-20 18:28:07] Input Tag: Internet_Service_Complaint
+[2024-09-20 18:28:07] Response Tag: Cable_TV_Complaint
+[2024-09-20 18:28:07] Detected Department: Unknown
+
+[2024-09-20 18:28:07] Pattern: I’m experiencing internet issues
+[2024-09-20 18:28:07] Variations: I’m experiencing internet issues, issues internet experiencing I’m, I’l experiencing internet issues, I’m futqogbjgmho internet issues, I’m experiencing jdgbmfhc issues, I’m experiencing internet ynocob
+[2024-09-20 18:28:07] Predicted Intents: [{'intent': 'IT_Troubleshooting_Request', 'probability': '0.64032316'}, {'intent': 'Cable_TV_Complaint', 'probability': '0.28163648'}]
+[2024-09-20 18:28:07] Response: Describe the IT issue you’re facing, and we’ll help troubleshoot and resolve it.
+[2024-09-20 18:28:07] Input Tag: Internet_Service_Complaint
+[2024-09-20 18:28:07] Response Tag: IT_Troubleshooting_Request
+[2024-09-20 18:28:07] Detected Department: Unknown
+
+[2024-09-20 18:28:08] Pattern: My internet is not working
+[2024-09-20 18:28:08] Variations: My internet is not working, working not is internet My, Mq internet is not working, My dgfjcucf is not working, My internet sp not working, My internet is bwe working, My internet is not xlymunl
+[2024-09-20 18:28:08] Predicted Intents: [{'intent': 'IT_Troubleshooting_Request', 'probability': '0.97990924'}]
+[2024-09-20 18:28:08] Response: Thank you for reaching out. Share the specifics of your IT problem, and we’ll provide the necessary support.
+[2024-09-20 18:28:08] Input Tag: Internet_Service_Complaint
+[2024-09-20 18:28:08] Response Tag: IT_Troubleshooting_Request
+[2024-09-20 18:28:08] Detected Department: Unknown
+
+[2024-09-20 18:28:08] Pattern: I’m having trouble with my internet
+[2024-09-20 18:28:08] Variations: I’m having trouble with my internet, internet my with trouble having I’m, I’b having trouble with my internet, I’m ttvgav trouble with my internet, I’m having phsoecc with my internet, I’m having trouble jvst my internet, I’m having trouble with sv internet, I’m having trouble with my dvnmxkxt
+[2024-09-20 18:28:08] Predicted Intents: [{'intent': 'IT_Troubleshooting_Request', 'probability': '0.9535777'}]
+[2024-09-20 18:28:08] Response: We’re here to assist with troubleshooting. Please provide details about the issue, and we’ll guide you through the process.
+[2024-09-20 18:28:08] Input Tag: Internet_Service_Complaint
+[2024-09-20 18:28:08] Response Tag: IT_Troubleshooting_Request
+[2024-09-20 18:28:08] Detected Department: Unknown
+
+[2024-09-20 18:28:08] Pattern: Internet service is not functioning
+[2024-09-20 18:28:08] Variations: Internet service is not functioning, functioning not is service Internet, Iuhbpshj service is not functioning, Internet fckhhrb is not functioning, Internet service eb not functioning, Internet service is uoj functioning, Internet service is not nomzrnpsfud
+[2024-09-20 18:28:08] Predicted Intents: [{'intent': 'IT_Troubleshooting_Request', 'probability': '0.5167'}]
+[2024-09-20 18:28:08] Response: Thank you for reaching out. Share the specifics of your IT problem, and we’ll provide the necessary support.
+[2024-09-20 18:28:08] Input Tag: Internet_Service_Complaint
+[2024-09-20 18:28:08] Response Tag: IT_Troubleshooting_Request
+[2024-09-20 18:28:08] Detected Department: Unknown
+
+[2024-09-20 18:28:11] Pattern: Nina shida na TV yangu ya cable
+[2024-09-20 18:28:11] Variations: Nina shida na TV yangu ya cable, cable ya yangu TV na shida Nina, Nevh shida na TV yangu ya cable, Nina oznfi na TV yangu ya cable, Nina shida oc TV yangu ya cable, Nina shida na TV yangu ya cable, Nina shida na TV nrfmx ya cable, Nina shida na TV yangu ke cable, Nina shida na TV yangu ya hiwsx
+[2024-09-20 18:28:11] Predicted Intents: [{'intent': 'Maswali_Uuzaji_TV_Cable', 'probability': '0.74006534'}, {'intent': 'Malalamiko_TV_Cable', 'probability': '0.25548598'}]
+[2024-09-20 18:28:11] Response: Kwa maelezo kuhusu mipango ya TV cable na matangazo yoyote, tafadhali toa anuani yako ili tuweze kukutumia maelezo husika.
+[2024-09-20 18:28:11] Input Tag: Malalamiko_TV_Cable
+[2024-09-20 18:28:11] Response Tag: Maswali_Uuzaji_TV_Cable
+[2024-09-20 18:28:11] Detected Department: Unknown
+
+[2024-09-20 18:28:11] Pattern: Huduma yangu ya TV cable haitendaji
+[2024-09-20 18:28:11] Variations: Huduma yangu ya TV cable haitendaji, haitendaji cable TV ya yangu Huduma, Hprbty yangu ya TV cable haitendaji, Huduma loeqv ya TV cable haitendaji, Huduma yangu aq TV cable haitendaji, Huduma yangu ya TV cable haitendaji, Huduma yangu ya TV rgrbd haitendaji, Huduma yangu ya TV cable dittpsnypt
+[2024-09-20 18:28:11] Predicted Intents: [{'intent': 'Maswali_Uuzaji_TV_Cable', 'probability': '0.7466843'}]
+[2024-09-20 18:28:11] Response: Kwa maelezo kuhusu mipango ya TV cable na matangazo yoyote, tafadhali toa anuani yako ili tuweze kukutumia maelezo husika.
+[2024-09-20 18:28:11] Input Tag: Malalamiko_TV_Cable
+[2024-09-20 18:28:11] Response Tag: Maswali_Uuzaji_TV_Cable
+[2024-09-20 18:28:11] Detected Department: Unknown
+
+[2024-09-20 18:28:12] Pattern: Kuna tatizo na TV yangu ya cable
+[2024-09-20 18:28:12] Variations: Kuna tatizo na TV yangu ya cable, cable ya yangu TV na tatizo Kuna, Ktzd tatizo na TV yangu ya cable, Kuna tsnfwp na TV yangu ya cable, Kuna tatizo cv TV yangu ya cable, Kuna tatizo na TV yangu ya cable, Kuna tatizo na TV vyigk ya cable, Kuna tatizo na TV yangu eg cable, Kuna tatizo na TV yangu ya hgkms
+[2024-09-20 18:28:12] Predicted Intents: [{'intent': 'Maswali_Uuzaji_TV_Cable', 'probability': '0.5243817'}, {'intent': 'Malalamiko_TV_Cable', 'probability': '0.43403628'}]
+[2024-09-20 18:28:12] Response: Tunatoa mipango mbalimbali ya TV cable. Tafadhali toa anuani yako ili niweze kukujulisha kuhusu chaguo na bei zinazopatikana.
+[2024-09-20 18:28:12] Input Tag: Malalamiko_TV_Cable
+[2024-09-20 18:28:12] Response Tag: Maswali_Uuzaji_TV_Cable
+[2024-09-20 18:28:12] Detected Department: Unknown
+
+[2024-09-20 18:28:12] Pattern: TV yangu ya cable haitafanya kazi vizuri
+[2024-09-20 18:28:12] Variations: TV yangu ya cable haitafanya kazi vizuri, vizuri kazi haitafanya cable ya yangu TV, TV yangu ya cable haitafanya kazi vizuri, TV pqyiv ya cable haitafanya kazi vizuri, TV yangu zo cable haitafanya kazi vizuri, TV yangu ya tjdqd haitafanya kazi vizuri, TV yangu ya cable mbxztoykqe kazi vizuri, TV yangu ya cable haitafanya lzis vizuri, TV yangu ya cable haitafanya kazi vbtwnh
+[2024-09-20 18:28:12] Predicted Intents: [{'intent': 'Maswali_Uuzaji_TV_Cable', 'probability': '0.59837574'}, {'intent': 'Malalamiko_TV_Cable', 'probability': '0.387908'}]
+[2024-09-20 18:28:12] Response: Kwa maelezo kuhusu mipango ya TV cable na matangazo yoyote, tafadhali toa anuani yako ili tuweze kukutumia maelezo husika.
+[2024-09-20 18:28:12] Input Tag: Malalamiko_TV_Cable
+[2024-09-20 18:28:12] Response Tag: Maswali_Uuzaji_TV_Cable
+[2024-09-20 18:28:12] Detected Department: Unknown
+
+[2024-09-20 18:28:13] Pattern: Ninapata shida na TV yangu ya cable
+[2024-09-20 18:28:13] Variations: Ninapata shida na TV yangu ya cable, cable ya yangu TV na shida Ninapata, Nfcunxmv shida na TV yangu ya cable, Ninapata ujjwm na TV yangu ya cable, Ninapata shida ox TV yangu ya cable, Ninapata shida na TV yangu ya cable, Ninapata shida na TV uorvx ya cable, Ninapata shida na TV yangu ka cable, Ninapata shida na TV yangu ya gpzgl
+[2024-09-20 18:28:13] Predicted Intents: [{'intent': 'Maswali_Uuzaji_TV_Cable', 'probability': '0.6074265'}, {'intent': 'Malalamiko_TV_Cable', 'probability': '0.3839627'}]
+[2024-09-20 18:28:13] Response: Huduma zetu za TV cable zinakuja na paketi tofauti. Niambie mapendeleo yako na eneo lako, na nitakupa maelezo zaidi.
+[2024-09-20 18:28:13] Input Tag: Malalamiko_TV_Cable
+[2024-09-20 18:28:13] Response Tag: Maswali_Uuzaji_TV_Cable
+[2024-09-20 18:28:13] Detected Department: Unknown
+
+[2024-09-20 18:28:18] Pattern: I'm interested in getting internet service
+[2024-09-20 18:28:18] Variations: I'm interested in getting internet service, service internet getting in interested I'm, I'p interested in getting internet service, I'm bmwwfkmfnz in getting internet service, I'm interested hb getting internet service, I'm interested in dxanqps internet service, I'm interested in getting rhwccoyh service, I'm interested in getting internet eclunqm
+[2024-09-20 18:28:18] Predicted Intents: [{'intent': 'Cable_TV_Sales_Inquiry', 'probability': '0.45474607'}, {'intent': 'Internet_Service_Sales_Inquiry', 'probability': '0.30773756'}]
+[2024-09-20 18:28:18] Response: I can help you with information on our cable TV packages and pricing. Please share your location so I can give you accurate information.
+[2024-09-20 18:28:18] Input Tag: Internet_Service_Sales_Inquiry
+[2024-09-20 18:28:18] Response Tag: Cable_TV_Sales_Inquiry
+[2024-09-20 18:28:18] Detected Department: Unknown
+
+[2024-09-20 18:28:20] Pattern: Do you have any promotions for internet services?
+[2024-09-20 18:28:20] Variations: Do you have any promotions for internet services?, services? internet for promotions any have you Do, Dx you have any promotions for internet services?, Do gyk have any promotions for internet services?, Do you lzvn any promotions for internet services?, Do you have nan promotions for internet services?, Do you have any hkjedojryy for internet services?, Do you have any promotions imc internet services?, Do you have any promotions for ipkmipxg services?, Do you have any promotions for internet epbokcvo?
+[2024-09-20 18:28:20] Predicted Intents: [{'intent': 'Cable_TV_Sales_Inquiry', 'probability': '0.2564064'}]
+[2024-09-20 18:28:20] Response: I can help you with information on our cable TV packages and pricing. Please share your location so I can give you accurate information.
+[2024-09-20 18:28:20] Input Tag: Internet_Service_Sales_Inquiry
+[2024-09-20 18:28:20] Response Tag: Cable_TV_Sales_Inquiry
+[2024-09-20 18:28:20] Detected Department: Unknown
+
+[2024-09-20 18:28:21] Pattern: Can you provide details on internet service packages?
+[2024-09-20 18:28:21] Variations: Can you provide details on internet service packages?, packages? service internet on details provide you Can, Cef you provide details on internet service packages?, Can bch provide details on internet service packages?, Can you yqowqob details on internet service packages?, Can you provide kmzkril on internet service packages?, Can you provide details us internet service packages?, Can you provide details on mcztmkve service packages?, Can you provide details on internet yejjbjm packages?, Can you provide details on internet service jyvmmbpl?
+[2024-09-20 18:28:21] Predicted Intents: [{'intent': 'Cable_TV_Sales_Inquiry', 'probability': '0.73932004'}]
+[2024-09-20 18:28:21] Response: I can help you with information on our cable TV packages and pricing. Please share your location so I can give you accurate information.
+[2024-09-20 18:28:21] Input Tag: Internet_Service_Sales_Inquiry
+[2024-09-20 18:28:21] Response Tag: Cable_TV_Sales_Inquiry
+[2024-09-20 18:28:21] Detected Department: Unknown
+
+[2024-09-20 18:28:23] Pattern: I want to know about your current deals
+[2024-09-20 18:28:23] Variations: I want to know about your current deals, deals current your about know to want I, I want to know about your current deals, I hute to know about your current deals, I want je know about your current deals, I want to hayw about your current deals, I want to know rhmke your current deals, I want to know about nnit current deals, I want to know about your enjzxge deals, I want to know about your current azcjj
+[2024-09-20 18:28:23] Predicted Intents: [{'intent': 'Promotions_and_Offers', 'probability': '0.49788633'}, {'intent': 'Promotional_Offers', 'probability': '0.49299845'}]
+[2024-09-20 18:28:23] Response: We are running various promotions. Please tell me what you’re interested in, and I’ll share the current offers with you.
+[2024-09-20 18:28:23] Input Tag: Promotional_Offers
+[2024-09-20 18:28:23] Response Tag: Promotions_and_Offers
+[2024-09-20 18:28:23] Detected Department: Unknown
+
+[2024-09-20 18:28:29] Pattern: Nina hamu ya kupata huduma ya internet
+[2024-09-20 18:28:29] Variations: Nina hamu ya kupata huduma ya internet, internet ya huduma kupata ya hamu Nina, Njet hamu ya kupata huduma ya internet, Nina bhfz ya kupata huduma ya internet, Nina hamu xw kupata huduma ya internet, Nina hamu ya shxmvf huduma ya internet, Nina hamu ya kupata swhnwm ya internet, Nina hamu ya kupata huduma ru internet, Nina hamu ya kupata huduma ya oorgiyhx
+[2024-09-20 18:28:29] Predicted Intents: [{'intent': 'Maswali_Uuzaji_TV_Cable', 'probability': '0.76283395'}]
+[2024-09-20 18:28:29] Response: Huduma zetu za TV cable zinakuja na paketi tofauti. Niambie mapendeleo yako na eneo lako, na nitakupa maelezo zaidi.
+[2024-09-20 18:28:29] Input Tag: Maswali_Uuzaji_Huduma_Internet
+[2024-09-20 18:28:29] Response Tag: Maswali_Uuzaji_TV_Cable
+[2024-09-20 18:28:29] Detected Department: Unknown
+
+[2024-09-20 18:28:29] Pattern: Nijuze kuhusu mipango ya internet
+[2024-09-20 18:28:29] Variations: Nijuze kuhusu mipango ya internet, internet ya mipango kuhusu Nijuze, Ntqtai kuhusu mipango ya internet, Nijuze tqdjlc mipango ya internet, Nijuze kuhusu krrgnlr ya internet, Nijuze kuhusu mipango kj internet, Nijuze kuhusu mipango ya yejchifw
+[2024-09-20 18:28:29] Predicted Intents: [{'intent': 'Matangazo_Maalum', 'probability': '0.42294404'}, {'intent': 'Maswali_Uuzaji_TV_Cable', 'probability': '0.40606382'}]
+[2024-09-20 18:28:29] Response: Tunatoa punguzo na ofa maalum. Niambie ni huduma zipi unazovutiwa nazo, na nitakupa maelezo zaidi.
+[2024-09-20 18:28:29] Input Tag: Maswali_Uuzaji_Huduma_Internet
+[2024-09-20 18:28:29] Response Tag: Matangazo_Maalum
+[2024-09-20 18:28:29] Detected Department: Unknown
+
+[2024-09-20 18:28:30] Pattern: Nini chaguo za huduma za internet?
+[2024-09-20 18:28:30] Variations: Nini chaguo za huduma za internet?, internet? za huduma za chaguo Nini, Nxgf chaguo za huduma za internet?, Nini broxhq za huduma za internet?, Nini chaguo os huduma za internet?, Nini chaguo za jpskwa za internet?, Nini chaguo za huduma xi internet?, Nini chaguo za huduma za zxaiysla?
+[2024-09-20 18:28:30] Predicted Intents: [{'intent': 'Maswali_Uuzaji_TV_Cable', 'probability': '0.6231083'}]
+[2024-09-20 18:28:30] Response: Ninaweza kusaidia kwa kutoa maelezo kuhusu paketi na bei za TV cable. Tafadhali toa anuani yako ili nipate maelezo sahihi.
+[2024-09-20 18:28:30] Input Tag: Maswali_Uuzaji_Huduma_Internet
+[2024-09-20 18:28:30] Response Tag: Maswali_Uuzaji_TV_Cable
+[2024-09-20 18:28:30] Detected Department: Unknown
+
+[2024-09-20 18:28:30] Pattern: Bei ya huduma ya internet ni kiasi gani?
+[2024-09-20 18:28:30] Variations: Bei ya huduma ya internet ni kiasi gani?, gani? kiasi ni internet ya huduma ya Bei, Bks ya huduma ya internet ni kiasi gani?, Bei nr huduma ya internet ni kiasi gani?, Bei ya wpvcvc ya internet ni kiasi gani?, Bei ya huduma fo internet ni kiasi gani?, Bei ya huduma ya qbcneyiq ni kiasi gani?, Bei ya huduma ya internet sf kiasi gani?, Bei ya huduma ya internet ni qerep gani?, Bei ya huduma ya internet ni kiasi tmgb?
+[2024-09-20 18:28:30] Predicted Intents: [{'intent': 'Uchunguzi_ wa_Maegesho', 'probability': '0.9311411'}]
+[2024-09-20 18:28:30] Response: Bei za bidhaa na huduma zetu hutofautiana. Tafadhali eleza maelezo zaidi kuhusu unachotaka kujua.
+[2024-09-20 18:28:30] Input Tag: Maswali_Uuzaji_Huduma_Internet
+[2024-09-20 18:28:30] Response Tag: Uchunguzi_ wa_Maegesho
+[2024-09-20 18:28:30] Detected Department: Unknown
+
+[2024-09-20 18:28:31] Pattern: Je, mna matangazo yoyote kwa huduma za internet?
+[2024-09-20 18:28:31] Variations: Je, mna matangazo yoyote kwa huduma za internet?, internet? za huduma kwa yoyote matangazo mna Je,, Jz, mna matangazo yoyote kwa huduma za internet?, Je, vtx matangazo yoyote kwa huduma za internet?, Je, mna gtxtkztpi yoyote kwa huduma za internet?, Je, mna matangazo hwbhgx kwa huduma za internet?, Je, mna matangazo yoyote xjt huduma za internet?, Je, mna matangazo yoyote kwa lvhcpb za internet?, Je, mna matangazo yoyote kwa huduma fs internet?, Je, mna matangazo yoyote kwa huduma za nxkduhwm?
+[2024-09-20 18:28:31] Predicted Intents: [{'intent': 'Uchunguzi_Huduma_IT', 'probability': '0.95186347'}]
+[2024-09-20 18:28:31] Response: Kwa maelezo zaidi kuhusu huduma zetu za IT, tafadhali tuambia unachotafuta, na tutatoa maelezo.
+[2024-09-20 18:28:31] Input Tag: Maswali_Uuzaji_Huduma_Internet
+[2024-09-20 18:28:31] Response Tag: Uchunguzi_Huduma_IT
+[2024-09-20 18:28:31] Detected Department: Unknown
+
+[2024-09-20 18:28:32] Pattern: Unaweza kutoa maelezo kuhusu paketi za huduma za internet?
+[2024-09-20 18:28:32] Variations: Unaweza kutoa maelezo kuhusu paketi za huduma za internet?, internet? za huduma za paketi kuhusu maelezo kutoa Unaweza, Urvtuon kutoa maelezo kuhusu paketi za huduma za internet?, Unaweza uznhb maelezo kuhusu paketi za huduma za internet?, Unaweza kutoa gogxhqs kuhusu paketi za huduma za internet?, Unaweza kutoa maelezo rntkre paketi za huduma za internet?, Unaweza kutoa maelezo kuhusu tgjkfk za huduma za internet?, Unaweza kutoa maelezo kuhusu paketi rc huduma za internet?, Unaweza kutoa maelezo kuhusu paketi za xmlhln za internet?, Unaweza kutoa maelezo kuhusu paketi za huduma gs internet?, Unaweza kutoa maelezo kuhusu paketi za huduma za tjizefer?
+[2024-09-20 18:28:32] Predicted Intents: [{'intent': 'Uchunguzi_Huduma_IT', 'probability': '0.29828882'}, {'intent': 'Maswali_Uuzaji_Huduma_Internet', 'probability': '0.25556195'}]
+[2024-09-20 18:28:32] Response: Kwa maelezo zaidi kuhusu huduma zetu za IT, tafadhali tuambia unachotafuta, na tutatoa maelezo.
+[2024-09-20 18:28:32] Input Tag: Maswali_Uuzaji_Huduma_Internet
+[2024-09-20 18:28:32] Response Tag: Uchunguzi_Huduma_IT
+[2024-09-20 18:28:32] Detected Department: Unknown
+
+[2024-09-20 18:28:35] Pattern: How much does it cost?
+[2024-09-20 18:28:35] Variations: How much does it cost?, cost? it does much How, Hvq much does it cost?, How yvgy does it cost?, How much yvgx it cost?, How much does ma cost?, How much does it qsgj?
+[2024-09-20 18:28:35] Predicted Intents: [{'intent': 'IT_Service_Request', 'probability': '0.51196426'}, {'intent': 'IT_Repair_Request', 'probability': '0.28077653'}]
+[2024-09-20 18:28:35] Response: Please let us know the specifics of your IT issue so we can provide the appropriate support.
+[2024-09-20 18:28:35] Input Tag: Price_Inquiry
+[2024-09-20 18:28:35] Response Tag: IT_Service_Request
+[2024-09-20 18:28:35] Detected Department: Unknown
+
+[2024-09-20 18:28:35] Pattern: How much does it cost?
+[2024-09-20 18:28:35] Variations: How much does it cost?, cost? it does much How, Hvq much does it cost?, How yvgy does it cost?, How much yvgx it cost?, How much does ma cost?, How much does it qsgj?
+[2024-09-20 18:28:35] Predicted Intents: [{'intent': 'IT_Repair_Request', 'probability': '0.49554935'}]
+[2024-09-20 18:28:35] Response: We apologize for the inconvenience. Please provide details about the device and the issue so we can schedule a repair.
+[2024-09-20 18:28:35] Input Tag: Price_Inquiry
+[2024-09-20 18:28:35] Response Tag: IT_Repair_Request
+[2024-09-20 18:28:35] Detected Department: Unknown
+
+[2024-09-20 18:28:35] Pattern: What are the prices for your services?
+[2024-09-20 18:28:35] Variations: What are the prices for your services?, services? your for prices the are What, Wjrt are the prices for your services?, What yex the prices for your services?, What are toh prices for your services?, What are the xsyeas for your services?, What are the prices pcu your services?, What are the prices for uwqg services?, What are the prices for your lwygtmfs?
+[2024-09-20 18:28:35] Predicted Intents: [{'intent': 'Promotions_and_Offers', 'probability': '0.74321204'}]
+[2024-09-20 18:28:35] Response: Check out our current promotions and offers. Let me know if you need details on any specific one.
+[2024-09-20 18:28:35] Input Tag: Price_Inquiry
+[2024-09-20 18:28:35] Response Tag: Promotions_and_Offers
+[2024-09-20 18:28:35] Detected Department: Unknown
+
+[2024-09-20 18:28:38] Pattern: How much for internet service?
+[2024-09-20 18:28:38] Variations: How much for internet service?, service? internet for much How, Hkj much for internet service?, How znrj for internet service?, How much iwr internet service?, How much for trndthgy service?, How much for internet bxumdto?
+[2024-09-20 18:28:38] Predicted Intents: [{'intent': 'Internet_Service_Sales_Inquiry', 'probability': '0.6229027'}]
+[2024-09-20 18:28:38] Response: Our internet services include different packages. Let me know your preferences and location, and I’ll provide you with the details.
+[2024-09-20 18:28:38] Input Tag: Price_Inquiry
+[2024-09-20 18:28:38] Response Tag: Internet_Service_Sales_Inquiry
+[2024-09-20 18:28:38] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+[2024-09-20 18:28:40] Pattern: How do I place an order?
+[2024-09-20 18:28:40] Variations: How do I place an order?, order? an place I do How, Hvl do I place an order?, How dl I place an order?, How do I place an order?, How do I ozuaq an order?, How do I place id order?, How do I place an vsfza?
+[2024-09-20 18:28:40] Predicted Intents: [{'intent': 'Making_a_Purchase', 'probability': '0.83281624'}]
+[2024-09-20 18:28:40] Response: Sure! Let me know what you would like to buy, and I will help you complete the purchase.
+[2024-09-20 18:28:40] Input Tag: Purchase_Process
+[2024-09-20 18:28:40] Response Tag: Making_a_Purchase
+[2024-09-20 18:28:40] Detected Department: Unknown
+
+[2024-09-20 18:28:40] Pattern: How do I place an order?
+[2024-09-20 18:28:40] Variations: How do I place an order?, order? an place I do How, Hvl do I place an order?, How dl I place an order?, How do I place an order?, How do I ozuaq an order?, How do I place id order?, How do I place an vsfza?
+[2024-09-20 18:28:40] Predicted Intents: [{'intent': 'Making_a_Purchase', 'probability': '0.83281624'}]
+[2024-09-20 18:28:40] Response: Sure! Let me know what you would like to buy, and I will help you complete the purchase.
+[2024-09-20 18:28:40] Input Tag: Purchase_Process
+[2024-09-20 18:28:40] Response Tag: Making_a_Purchase
+[2024-09-20 18:28:40] Detected Department: Unknown
+
+[2024-09-20 18:28:40] Pattern: How do I place an order?
+[2024-09-20 18:28:40] Variations: How do I place an order?, order? an place I do How, Hvl do I place an order?, How dl I place an order?, How do I place an order?, How do I ozuaq an order?, How do I place id order?, How do I place an vsfza?
+[2024-09-20 18:28:40] Predicted Intents: [{'intent': 'Making_a_Purchase', 'probability': '0.8474158'}]
+[2024-09-20 18:28:40] Response: Sure! Let me know what you would like to buy, and I will help you complete the purchase.
+[2024-09-20 18:28:40] Input Tag: Purchase_Process
+[2024-09-20 18:28:40] Response Tag: Making_a_Purchase
+[2024-09-20 18:28:40] Detected Department: Unknown
+
+[2024-09-20 18:28:40] Pattern: How do I place an order?
+[2024-09-20 18:28:40] Variations: How do I place an order?, order? an place I do How, Hvl do I place an order?, How dl I place an order?, How do I place an order?, How do I ozuaq an order?, How do I place id order?, How do I place an vsfza?
+[2024-09-20 18:28:40] Predicted Intents: [{'intent': 'Making_a_Purchase', 'probability': '0.8905331'}]
+[2024-09-20 18:28:40] Response: To make a purchase, please provide the product details you’re interested in, and I will assist you with the order.
+[2024-09-20 18:28:40] Input Tag: Purchase_Process
+[2024-09-20 18:28:40] Response Tag: Making_a_Purchase
+[2024-09-20 18:28:40] Detected Department: Unknown
+
+[2024-09-20 18:28:40] Pattern: How do I place an order?
+[2024-09-20 18:28:40] Variations: How do I place an order?, order? an place I do How, Hvl do I place an order?, How dl I place an order?, How do I place an order?, How do I ozuaq an order?, How do I place id order?, How do I place an vsfza?
+[2024-09-20 18:28:40] Predicted Intents: [{'intent': 'Making_a_Purchase', 'probability': '0.83281624'}]
+[2024-09-20 18:28:40] Response: Sure! Let me know what you would like to buy, and I will help you complete the purchase.
+[2024-09-20 18:28:40] Input Tag: Purchase_Process
+[2024-09-20 18:28:40] Response Tag: Making_a_Purchase
+[2024-09-20 18:28:40] Detected Department: Unknown
+
+[2024-09-20 18:28:41] Pattern: How do I place an order?
+[2024-09-20 18:28:41] Variations: How do I place an order?, order? an place I do How, Hvl do I place an order?, How dl I place an order?, How do I place an order?, How do I ozuaq an order?, How do I place id order?, How do I place an vsfza?
+[2024-09-20 18:28:41] Predicted Intents: [{'intent': 'Making_a_Purchase', 'probability': '0.71097535'}]
+[2024-09-20 18:28:41] Response: Great! Please let me know what you want to purchase, and I will guide you through the process.
+[2024-09-20 18:28:41] Input Tag: Purchase_Process
+[2024-09-20 18:28:41] Response Tag: Making_a_Purchase
+[2024-09-20 18:28:41] Detected Department: Unknown
+
+[2024-09-20 18:28:41] Pattern: How do I place an order?
+[2024-09-20 18:28:41] Variations: How do I place an order?, order? an place I do How, Hvl do I place an order?, How dl I place an order?, How do I place an order?, How do I ozuaq an order?, How do I place id order?, How do I place an vsfza?
+[2024-09-20 18:28:41] Predicted Intents: [{'intent': 'Making_a_Purchase', 'probability': '0.55815697'}, {'intent': 'Purchase_Process', 'probability': '0.38525048'}]
+[2024-09-20 18:28:41] Response: Sure! Let me know what you would like to buy, and I will help you complete the purchase.
+[2024-09-20 18:28:41] Input Tag: Purchase_Process
+[2024-09-20 18:28:41] Response Tag: Making_a_Purchase
+[2024-09-20 18:28:41] Detected Department: Unknown
+
+[2024-09-20 18:28:41] Pattern: How do I place an order?
+[2024-09-20 18:28:41] Variations: How do I place an order?, order? an place I do How, Hvl do I place an order?, How dl I place an order?, How do I place an order?, How do I ozuaq an order?, How do I place id order?, How do I place an vsfza?
+[2024-09-20 18:28:41] Predicted Intents: [{'intent': 'Making_a_Purchase', 'probability': '0.77500886'}]
+[2024-09-20 18:28:41] Response: To make a purchase, please provide the product details you’re interested in, and I will assist you with the order.
+[2024-09-20 18:28:41] Input Tag: Purchase_Process
+[2024-09-20 18:28:41] Response Tag: Making_a_Purchase
+[2024-09-20 18:28:41] Detected Department: Unknown
+
+[2024-09-20 18:28:41] Pattern: Can I buy your product online?
+[2024-09-20 18:28:41] Variations: Can I buy your product online?, online? product your buy I Can, Cqx I buy your product online?, Can I buy your product online?, Can I jyy your product online?, Can I buy lcng product online?, Can I buy your ajkkkqe online?, Can I buy your product sdswlc?
+[2024-09-20 18:28:41] Predicted Intents: [{'intent': 'Product_Inquiry', 'probability': '0.5486375'}, {'intent': 'Purchase_Process', 'probability': '0.40447325'}]
+[2024-09-20 18:28:41] Response: Our products include various cable TV packages and internet services. Please specify what you're interested in for more information.
+[2024-09-20 18:28:41] Input Tag: Purchase_Process
+[2024-09-20 18:28:41] Response Tag: Product_Inquiry
+[2024-09-20 18:28:41] Detected Department: Unknown
+
+[2024-09-20 18:28:43] Pattern: Gharama ya bidhaa zenu ni kiasi gani?
+[2024-09-20 18:28:43] Variations: Gharama ya bidhaa zenu ni kiasi gani?, gani? kiasi ni zenu bidhaa ya Gharama, Gyyuwxo ya bidhaa zenu ni kiasi gani?, Gharama gh bidhaa zenu ni kiasi gani?, Gharama ya rhtysd zenu ni kiasi gani?, Gharama ya bidhaa xysu ni kiasi gani?, Gharama ya bidhaa zenu fq kiasi gani?, Gharama ya bidhaa zenu ni hffqj gani?, Gharama ya bidhaa zenu ni kiasi bjin?
+[2024-09-20 18:28:43] Predicted Intents: [{'intent': 'Uchunguzi_Produkt', 'probability': '0.77768373'}]
+[2024-09-20 18:28:43] Response: Tunatoa aina mbalimbali za bidhaa ikiwa ni pamoja na vifurushi vya TV cable na mipango ya internet. Niaje kuhusu bidhaa maalum?
+[2024-09-20 18:28:43] Input Tag: Uchunguzi_ wa_Maegesho
+[2024-09-20 18:28:43] Response Tag: Uchunguzi_Produkt
+[2024-09-20 18:28:43] Detected Department: Unknown
+
+[2024-09-20 18:28:43] Pattern: Nipe bei ya TV cable
+[2024-09-20 18:28:43] Variations: Nipe bei ya TV cable, cable TV ya bei Nipe, Nxqh bei ya TV cable, Nipe ill ya TV cable, Nipe bei ut TV cable, Nipe bei ya TV cable, Nipe bei ya TV fcuag
+[2024-09-20 18:28:43] Predicted Intents: [{'intent': 'Maswali_Uuzaji_TV_Cable', 'probability': '0.9686547'}]
+[2024-09-20 18:28:43] Response: Huduma zetu za TV cable zinakuja na paketi tofauti. Niambie mapendeleo yako na eneo lako, na nitakupa maelezo zaidi.
+[2024-09-20 18:28:43] Input Tag: Uchunguzi_ wa_Maegesho
+[2024-09-20 18:28:43] Response Tag: Maswali_Uuzaji_TV_Cable
+[2024-09-20 18:28:43] Detected Department: Unknown
+
+[2024-09-20 18:28:43] Pattern: Nipe bei ya TV cable
+[2024-09-20 18:28:43] Variations: Nipe bei ya TV cable, cable TV ya bei Nipe, Nxqh bei ya TV cable, Nipe ill ya TV cable, Nipe bei ut TV cable, Nipe bei ya TV cable, Nipe bei ya TV fcuag
+[2024-09-20 18:28:43] Predicted Intents: [{'intent': 'Maswali_Uuzaji_TV_Cable', 'probability': '0.9686547'}]
+[2024-09-20 18:28:43] Response: Kwa maelezo kuhusu mipango ya TV cable na matangazo yoyote, tafadhali toa anuani yako ili tuweze kukutumia maelezo husika.
+[2024-09-20 18:28:43] Input Tag: Uchunguzi_ wa_Maegesho
+[2024-09-20 18:28:43] Response Tag: Maswali_Uuzaji_TV_Cable
+[2024-09-20 18:28:43] Detected Department: Unknown
+
+[2024-09-20 18:28:43] Pattern: Nipe bei ya TV cable
+[2024-09-20 18:28:43] Variations: Nipe bei ya TV cable, cable TV ya bei Nipe, Nxqh bei ya TV cable, Nipe ill ya TV cable, Nipe bei ut TV cable, Nipe bei ya TV cable, Nipe bei ya TV fcuag
+[2024-09-20 18:28:43] Predicted Intents: [{'intent': 'Maswali_Uuzaji_TV_Cable', 'probability': '0.99578357'}]
+[2024-09-20 18:28:43] Response: Kwa maelezo kuhusu mipango ya TV cable na matangazo yoyote, tafadhali toa anuani yako ili tuweze kukutumia maelezo husika.
+[2024-09-20 18:28:43] Input Tag: Uchunguzi_ wa_Maegesho
+[2024-09-20 18:28:43] Response Tag: Maswali_Uuzaji_TV_Cable
+[2024-09-20 18:28:43] Detected Department: Unknown
+
+[2024-09-20 18:28:43] Pattern: Nipe bei ya TV cable
+[2024-09-20 18:28:43] Variations: Nipe bei ya TV cable, cable TV ya bei Nipe, Nxqh bei ya TV cable, Nipe ill ya TV cable, Nipe bei ut TV cable, Nipe bei ya TV cable, Nipe bei ya TV fcuag
+[2024-09-20 18:28:43] Predicted Intents: [{'intent': 'Maswali_Uuzaji_TV_Cable', 'probability': '0.9796744'}]
+[2024-09-20 18:28:43] Response: Huduma zetu za TV cable zinakuja na paketi tofauti. Niambie mapendeleo yako na eneo lako, na nitakupa maelezo zaidi.
+[2024-09-20 18:28:43] Input Tag: Uchunguzi_ wa_Maegesho
+[2024-09-20 18:28:43] Response Tag: Maswali_Uuzaji_TV_Cable
+[2024-09-20 18:28:43] Detected Department: Unknown
+
+[2024-09-20 18:28:43] Pattern: Nipe bei ya TV cable
+[2024-09-20 18:28:43] Variations: Nipe bei ya TV cable, cable TV ya bei Nipe, Nxqh bei ya TV cable, Nipe ill ya TV cable, Nipe bei ut TV cable, Nipe bei ya TV cable, Nipe bei ya TV fcuag
+[2024-09-20 18:28:43] Predicted Intents: [{'intent': 'Maswali_Uuzaji_TV_Cable', 'probability': '0.7564699'}]
+[2024-09-20 18:28:43] Response: Ninaweza kusaidia kwa kutoa maelezo kuhusu paketi na bei za TV cable. Tafadhali toa anuani yako ili nipate maelezo sahihi.
+[2024-09-20 18:28:43] Input Tag: Uchunguzi_ wa_Maegesho
+[2024-09-20 18:28:43] Response Tag: Maswali_Uuzaji_TV_Cable
+[2024-09-20 18:28:43] Detected Department: Unknown
+
+[2024-09-20 18:28:44] Pattern: Nipe bei ya TV cable
+[2024-09-20 18:28:44] Variations: Nipe bei ya TV cable, cable TV ya bei Nipe, Nxqh bei ya TV cable, Nipe ill ya TV cable, Nipe bei ut TV cable, Nipe bei ya TV cable, Nipe bei ya TV fcuag
+[2024-09-20 18:28:44] Predicted Intents: [{'intent': 'Maswali_Uuzaji_TV_Cable', 'probability': '0.9686547'}]
+[2024-09-20 18:28:44] Response: Kwa maelezo kuhusu mipango ya TV cable na matangazo yoyote, tafadhali toa anuani yako ili tuweze kukutumia maelezo husika.
+[2024-09-20 18:28:44] Input Tag: Uchunguzi_ wa_Maegesho
+[2024-09-20 18:28:44] Response Tag: Maswali_Uuzaji_TV_Cable
+[2024-09-20 18:28:44] Detected Department: Unknown
+
+[2024-09-20 18:28:44] Pattern: Gharama ya huduma ya internet ni kiasi gani?
+[2024-09-20 18:28:44] Variations: Gharama ya huduma ya internet ni kiasi gani?, gani? kiasi ni internet ya huduma ya Gharama, Gjribuk ya huduma ya internet ni kiasi gani?, Gharama cc huduma ya internet ni kiasi gani?, Gharama ya zqvzyr ya internet ni kiasi gani?, Gharama ya huduma jt internet ni kiasi gani?, Gharama ya huduma ya wefjrmpr ni kiasi gani?, Gharama ya huduma ya internet on kiasi gani?, Gharama ya huduma ya internet ni riqgs gani?, Gharama ya huduma ya internet ni kiasi clfb?
+[2024-09-20 18:28:44] Predicted Intents: [{'intent': 'Maswali_Uuzaji_Huduma_Internet', 'probability': '0.96679324'}]
+[2024-09-20 18:28:44] Response: Huduma zetu za internet zinajumuisha paketi tofauti. Niambie mapendeleo yako na eneo lako, na nitakupa maelezo zaidi.
+[2024-09-20 18:28:44] Input Tag: Uchunguzi_ wa_Maegesho
+[2024-09-20 18:28:44] Response Tag: Maswali_Uuzaji_Huduma_Internet
+[2024-09-20 18:28:44] Detected Department: ['internet', 'wi-fi', 'broadband', 'interneti', 'intaneti']
+
+Session ended at 2024-09-20 18:28:47
+Correct Variations: 2046
+Incorrect Variations: 205

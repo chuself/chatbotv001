@@ -1,0 +1,335 @@
+[2024-09-18 14:03:39] User: hello
+[2024-09-18 14:03:39] Bot: Hi there! What can I do for you?
+[2024-09-18 14:03:39] Predicted Intents: [{'intent': 'greeting', 'probability': '0.99989057'}]
+[2024-09-18 14:03:39] Model Predictions: [8.3525601e-06 1.7501850e-05 1.7685305e-05 4.6030698e-07 3.2997392e-05
+ 2.6480300e-06 9.9989057e-01 3.0072717e-06 2.3754158e-06 1.0022570e-06
+ 2.0904108e-05 1.0743875e-06 9.2408629e-07 3.8499056e-07]
+
+[2024-09-18 14:04:02] User: hi
+[2024-09-18 14:04:02] Bot: Greetings! How can I be of service?
+[2024-09-18 14:04:02] Predicted Intents: [{'intent': 'greeting', 'probability': '0.9993824'}]
+[2024-09-18 14:04:02] Model Predictions: [1.4237808e-05 7.8513214e-05 3.6003784e-04 1.0666580e-06 2.3243814e-05
+ 3.7369070e-06 9.9938238e-01 1.8543693e-05 1.2884186e-05 9.4535681e-06
+ 6.3037282e-05 1.4521019e-05 3.0447870e-06 1.5326170e-05]
+
+[2024-09-18 14:04:21] User: help me 
+[2024-09-18 14:04:21] Bot: Greetings! How can I be of service?
+[2024-09-18 14:04:21] Predicted Intents: [{'intent': 'greeting', 'probability': '0.9993824'}]
+[2024-09-18 14:04:21] Model Predictions: [1.4237808e-05 7.8513214e-05 3.6003784e-04 1.0666580e-06 2.3243814e-05
+ 3.7369070e-06 9.9938238e-01 1.8543693e-05 1.2884186e-05 9.4535681e-06
+ 6.3037282e-05 1.4521019e-05 3.0447870e-06 1.5326170e-05]
+
+[2024-09-18 14:04:25] User: help
+[2024-09-18 14:04:25] Bot: I'm happy to help. let me know how I can assist you.
+[2024-09-18 14:04:25] Predicted Intents: [{'intent': 'help', 'probability': '0.88729805'}]
+[2024-09-18 14:04:25] Model Predictions: [4.2367633e-03 9.5522287e-04 7.7019542e-02 5.3370684e-05 6.1722455e-04
+ 2.4110150e-04 8.8931341e-03 2.6055047e-04 8.8729805e-01 4.0452814e-04
+ 8.3881797e-04 1.2722938e-02 4.6808441e-04 5.9905862e-03]
+
+[2024-09-18 14:04:27] User: me
+[2024-09-18 14:04:27] Bot: I'm happy to help. What do you need?
+[2024-09-18 14:04:27] Predicted Intents: [{'intent': 'help', 'probability': '0.910163'}]
+[2024-09-18 14:04:27] Model Predictions: [1.4109185e-03 4.9949705e-04 4.4660937e-02 1.4397182e-04 9.4862538e-04
+ 1.0057612e-04 1.8751794e-03 3.9209204e-05 9.1016299e-01 5.6181983e-03
+ 2.9651457e-02 1.8471833e-03 1.4096314e-04 2.9003446e-03]
+
+[2024-09-18 14:04:39] User: help
+[2024-09-18 14:04:39] Bot: I'm happy to help. What do you need help with?
+[2024-09-18 14:04:39] Predicted Intents: [{'intent': 'help', 'probability': '0.88729805'}]
+[2024-09-18 14:04:39] Model Predictions: [4.2367633e-03 9.5522287e-04 7.7019542e-02 5.3370684e-05 6.1722455e-04
+ 2.4110150e-04 8.8931341e-03 2.6055047e-04 8.8729805e-01 4.0452814e-04
+ 8.3881797e-04 1.2722938e-02 4.6808441e-04 5.9905862e-03]
+
+[2024-09-18 14:05:00] User: help
+[2024-09-18 14:05:00] Bot: I'm happy to help. What do you need help with?
+[2024-09-18 14:05:00] Predicted Intents: [{'intent': 'help', 'probability': '0.88729805'}]
+[2024-09-18 14:05:00] Model Predictions: [4.2367633e-03 9.5522287e-04 7.7019542e-02 5.3370684e-05 6.1722455e-04
+ 2.4110150e-04 8.8931341e-03 2.6055047e-04 8.8729805e-01 4.0452814e-04
+ 8.3881797e-04 1.2722938e-02 4.6808441e-04 5.9905862e-03]
+
+[2024-09-18 14:05:06] User: help me 
+[2024-09-18 14:05:06] Bot: I'm happy to help. What do you need help with?
+[2024-09-18 14:05:06] Predicted Intents: [{'intent': 'help', 'probability': '0.88729805'}]
+[2024-09-18 14:05:06] Model Predictions: [4.2367633e-03 9.5522287e-04 7.7019542e-02 5.3370684e-05 6.1722455e-04
+ 2.4110150e-04 8.8931341e-03 2.6055047e-04 8.8729805e-01 4.0452814e-04
+ 8.3881797e-04 1.2722938e-02 4.6808441e-04 5.9905862e-03]
+
+[2024-09-18 14:05:10] User: help
+[2024-09-18 14:05:10] Bot: I'm happy to help. What do you need?
+[2024-09-18 14:05:10] Predicted Intents: [{'intent': 'help', 'probability': '0.88729805'}]
+[2024-09-18 14:05:10] Model Predictions: [4.2367633e-03 9.5522287e-04 7.7019542e-02 5.3370684e-05 6.1722455e-04
+ 2.4110150e-04 8.8931341e-03 2.6055047e-04 8.8729805e-01 4.0452814e-04
+ 8.3881797e-04 1.2722938e-02 4.6808441e-04 5.9905862e-03]
+
+[2024-09-18 14:05:16] User: help
+[2024-09-18 14:05:16] Bot: I'm happy to help. let me know how I can assist you.
+[2024-09-18 14:05:16] Predicted Intents: [{'intent': 'help', 'probability': '0.88729805'}]
+[2024-09-18 14:05:16] Model Predictions: [4.2367633e-03 9.5522287e-04 7.7019542e-02 5.3370684e-05 6.1722455e-04
+ 2.4110150e-04 8.8931341e-03 2.6055047e-04 8.8729805e-01 4.0452814e-04
+ 8.3881797e-04 1.2722938e-02 4.6808441e-04 5.9905862e-03]
+
+[2024-09-18 14:05:19] User: help me 
+[2024-09-18 14:05:19] Bot: I'm happy to help. let me know how I can assist you.
+[2024-09-18 14:05:19] Predicted Intents: [{'intent': 'help', 'probability': '0.88729805'}]
+[2024-09-18 14:05:19] Model Predictions: [4.2367633e-03 9.5522287e-04 7.7019542e-02 5.3370684e-05 6.1722455e-04
+ 2.4110150e-04 8.8931341e-03 2.6055047e-04 8.8729805e-01 4.0452814e-04
+ 8.3881797e-04 1.2722938e-02 4.6808441e-04 5.9905862e-03]
+
+[2024-09-18 14:05:20] User: help me 
+[2024-09-18 14:05:20] Bot: I'm happy to help. let me know how I can assist you.
+[2024-09-18 14:05:20] Predicted Intents: [{'intent': 'help', 'probability': '0.88729805'}]
+[2024-09-18 14:05:20] Model Predictions: [4.2367633e-03 9.5522287e-04 7.7019542e-02 5.3370684e-05 6.1722455e-04
+ 2.4110150e-04 8.8931341e-03 2.6055047e-04 8.8729805e-01 4.0452814e-04
+ 8.3881797e-04 1.2722938e-02 4.6808441e-04 5.9905862e-03]
+
+[2024-09-18 14:06:00] User: help
+[2024-09-18 14:06:00] Bot: I'm here to assist. What do you need?
+[2024-09-18 14:06:00] Predicted Intents: [{'intent': 'help', 'probability': '0.88729805'}]
+[2024-09-18 14:06:00] Model Predictions: [4.2367633e-03 9.5522287e-04 7.7019542e-02 5.3370684e-05 6.1722455e-04
+ 2.4110150e-04 8.8931341e-03 2.6055047e-04 8.8729805e-01 4.0452814e-04
+ 8.3881797e-04 1.2722938e-02 4.6808441e-04 5.9905862e-03]
+
+[2024-09-18 14:06:17] User: help me obiwan you are my only hope
+[2024-09-18 14:06:17] Bot: I'm here to assist. What do you need?
+[2024-09-18 14:06:17] Predicted Intents: [{'intent': 'help', 'probability': '0.88729805'}]
+[2024-09-18 14:06:17] Model Predictions: [4.2367633e-03 9.5522287e-04 7.7019542e-02 5.3370684e-05 6.1722455e-04
+ 2.4110150e-04 8.8931341e-03 2.6055047e-04 8.8729805e-01 4.0452814e-04
+ 8.3881797e-04 1.2722938e-02 4.6808441e-04 5.9905862e-03]
+
+
+
+changed the logged settings
+[2024-09-18 14:36:35] User: help me 
+[2024-09-18 14:36:35] Bot: Welcome! How can I assist you today?
+[2024-09-18 14:36:35] Predicted Intents: [{'intent': 'greeting', 'probability': '0.9993824'}]
+[2024-09-18 14:36:35] Model Predictions: [1.4237808e-05 7.8513214e-05 3.6003784e-04 1.0666580e-06 2.3243814e-05
+ 3.7369070e-06 9.9938238e-01 1.8543693e-05 1.2884186e-05 9.4535681e-06
+ 6.3037282e-05 1.4521019e-05 3.0447870e-06 1.5326170e-05]
+
+[2024-09-18 14:36:39] User: help me
+[2024-09-18 14:36:39] Bot: I'm here to assist. What do you need?
+[2024-09-18 14:36:39] Predicted Intents: [{'intent': 'help', 'probability': '0.88729805'}]
+[2024-09-18 14:36:39] Model Predictions: [4.2367633e-03 9.5522287e-04 7.7019542e-02 5.3370684e-05 6.1722455e-04
+ 2.4110150e-04 8.8931341e-03 2.6055047e-04 8.8729805e-01 4.0452814e-04
+ 8.3881797e-04 1.2722938e-02 4.6808441e-04 5.9905862e-03]
+
+[2024-09-18 14:36:49] User: please
+[2024-09-18 14:36:49] Bot: Niaje? Natumai uko poa.
+[2024-09-18 14:36:49] Predicted Intents: [{'intent': 'Salamu', 'probability': '0.8408687'}]
+[2024-09-18 14:36:49] Model Predictions: [2.4200431e-03 9.7641321e-03 8.4086871e-01 5.8820052e-03 1.8711291e-02
+ 1.3542573e-02 2.3449501e-02 2.8659701e-03 4.8614506e-04 7.7706873e-02
+ 1.5255131e-03 3.5917095e-04 7.4501731e-04 1.6730247e-03]
+
+
+
+anotehr try chaged nexus
+
+
+[2024-09-18 14:45:05] User: hei
+[2024-09-18 14:45:05] Bot: Hi! How can I assist you?
+[2024-09-18 14:45:05] Predicted Intents: [{'intent': 'greeting', 'probability': '0.9993824'}]
+[2024-09-18 14:45:05] Model Predictions: [1.4237808e-05 7.8513214e-05 3.6003784e-04 1.0666580e-06 2.3243814e-05
+ 3.7369070e-06 9.9938238e-01 1.8543693e-05 1.2884186e-05 9.4535681e-06
+ 6.3037282e-05 1.4521019e-05 3.0447870e-06 1.5326170e-05]
+
+[2024-09-18 14:45:20] User: hello there
+[2024-09-18 14:45:20] Bot: Hi! How can I assist you?
+[2024-09-18 14:45:20] Predicted Intents: [{'intent': 'greeting', 'probability': '0.9993824'}]
+[2024-09-18 14:45:20] Model Predictions: [1.4237808e-05 7.8513214e-05 3.6003784e-04 1.0666580e-06 2.3243814e-05
+ 3.7369070e-06 9.9938238e-01 1.8543693e-05 1.2884186e-05 9.4535681e-06
+ 6.3037282e-05 1.4521019e-05 3.0447870e-06 1.5326170e-05]
+
+[2024-09-18 14:45:24] User: hello
+[2024-09-18 14:45:24] Bot: Greetings! How can I be of service?
+[2024-09-18 14:45:24] Predicted Intents: [{'intent': 'greeting', 'probability': '0.99989057'}]
+[2024-09-18 14:45:24] Model Predictions: [8.3525601e-06 1.7501850e-05 1.7685305e-05 4.6030698e-07 3.2997392e-05
+ 2.6480300e-06 9.9989057e-01 3.0072717e-06 2.3754158e-06 1.0022570e-06
+ 2.0904108e-05 1.0743875e-06 9.2408629e-07 3.8499056e-07]
+
+[2024-09-18 14:45:30] User: there
+[2024-09-18 14:45:30] Bot: Greetings! How can I be of service?
+[2024-09-18 14:45:30] Predicted Intents: [{'intent': 'greeting', 'probability': '0.99989057'}]
+[2024-09-18 14:45:30] Model Predictions: [8.3525601e-06 1.7501850e-05 1.7685305e-05 4.6030698e-07 3.2997392e-05
+ 2.6480300e-06 9.9989057e-01 3.0072717e-06 2.3754158e-06 1.0022570e-06
+ 2.0904108e-05 1.0743875e-06 9.2408629e-07 3.8499056e-07]
+
+[2024-09-18 14:45:37] User: hello hi
+[2024-09-18 14:45:37] Bot: Hey there! What do you need help with?
+[2024-09-18 14:45:37] Predicted Intents: [{'intent': 'greeting', 'probability': '0.99989057'}]
+[2024-09-18 14:45:37] Model Predictions: [8.3525601e-06 1.7501850e-05 1.7685305e-05 4.6030698e-07 3.2997392e-05
+ 2.6480300e-06 9.9989057e-01 3.0072717e-06 2.3754158e-06 1.0022570e-06
+ 2.0904108e-05 1.0743875e-06 9.2408629e-07 3.8499056e-07]
+
+[2024-09-18 14:45:49] User: exit
+[2024-09-18 14:45:49] Bot: Hey there! What do you need help with?
+[2024-09-18 14:45:49] Predicted Intents: [{'intent': 'greeting', 'probability': '0.99989057'}]
+[2024-09-18 14:45:49] Model Predictions: [8.3525601e-06 1.7501850e-05 1.7685305e-05 4.6030698e-07 3.2997392e-05
+ 2.6480300e-06 9.9989057e-01 3.0072717e-06 2.3754158e-06 1.0022570e-06
+ 2.0904108e-05 1.0743875e-06 9.2408629e-07 3.8499056e-07]
+
+[2024-09-18 14:45:51] User: clr
+[2024-09-18 14:45:51] Bot: Hey there! What do you need help with?
+[2024-09-18 14:45:51] Predicted Intents: [{'intent': 'greeting', 'probability': '0.99989057'}]
+[2024-09-18 14:45:51] Model Predictions: [8.3525601e-06 1.7501850e-05 1.7685305e-05 4.6030698e-07 3.2997392e-05
+ 2.6480300e-06 9.9989057e-01 3.0072717e-06 2.3754158e-06 1.0022570e-06
+ 2.0904108e-05 1.0743875e-06 9.2408629e-07 3.8499056e-07]
+
+[2024-09-18 14:56:25] User: & "C:/Program Files/Python312/python.exe" d:/Programing/Projects/ChatBotV1/ChatBot1.py
+[2024-09-18 14:56:25] Bot: Hey there! What do you need help with?
+[2024-09-18 14:56:25] Predicted Intents: [{'intent': 'greeting', 'probability': '0.99989057'}]
+[2024-09-18 14:56:25] Model Predictions: [8.3525601e-06 1.7501850e-05 1.7685305e-05 4.6030698e-07 3.2997392e-05
+ 2.6480300e-06 9.9989057e-01 3.0072717e-06 2.3754158e-06 1.0022570e-06
+ 2.0904108e-05 1.0743875e-06 9.2408629e-07 3.8499056e-07]
+
+[2024-09-18 14:57:00] User: hi
+[2024-09-18 14:57:00] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 14:57:09] User: hello
+[2024-09-18 14:57:09] Bot: Hi there! What can I do for you?
+[2024-09-18 14:57:09] Predicted Intents: [{'intent': 'greeting', 'probability': '0.99989057'}]
+[2024-09-18 14:57:09] Model Predictions: [8.3525601e-06 1.7501850e-05 1.7685305e-05 4.6030698e-07 3.2997392e-05
+ 2.6480300e-06 9.9989057e-01 3.0072717e-06 2.3754158e-06 1.0022570e-06
+ 2.0904108e-05 1.0743875e-06 9.2408629e-07 3.8499056e-07]
+
+[2024-09-18 14:57:57] User: hi
+[2024-09-18 14:57:57] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 14:58:01] User: hey
+[2024-09-18 14:58:01] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 14:58:10] User: hello joke
+[2024-09-18 14:58:10] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 15:05:01] User: hey
+[2024-09-18 15:05:01] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 15:05:03] User: hi
+[2024-09-18 15:05:03] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 15:05:08] User: hello
+[2024-09-18 15:05:08] Bot: Hey! How's it going?
+[2024-09-18 15:05:08] Predicted Intents: [{'intent': 'greeting', 'probability': '0.99989057'}]
+[2024-09-18 15:05:08] Model Predictions: [8.3525601e-06 1.7501850e-05 1.7685305e-05 4.6030698e-07 3.2997392e-05
+ 2.6480300e-06 9.9989057e-01 3.0072717e-06 2.3754158e-06 1.0022570e-06
+ 2.0904108e-05 1.0743875e-06 9.2408629e-07 3.8499056e-07]
+
+[2024-09-18 15:05:12] User: mambo
+[2024-09-18 15:05:12] Bot: uko poa! Naweza kufanya nini kwa ajili yako?
+[2024-09-18 15:05:12] Predicted Intents: [{'intent': 'Salamu', 'probability': '0.9997211'}]
+[2024-09-18 15:05:12] Model Predictions: [1.4811366e-05 8.6256652e-05 9.9972111e-01 1.4807030e-05 5.7491165e-05
+ 9.6135534e-07 6.2963604e-06 6.6005086e-05 2.4624478e-06 9.2447390e-06
+ 4.5934760e-07 9.3206145e-06 1.4446966e-06 9.2901837e-06]
+
+[2024-09-18 15:05:15] User: hell
+[2024-09-18 15:05:15] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 15:05:20] User: niaj
+[2024-09-18 15:05:20] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 15:05:23] User: niaje
+[2024-09-18 15:05:23] Bot: Mambo vipi? nipe habari.
+[2024-09-18 15:05:23] Predicted Intents: [{'intent': 'Salamu', 'probability': '0.99976057'}]
+[2024-09-18 15:05:23] Model Predictions: [2.4786950e-05 1.8191422e-05 9.9976057e-01 1.2157491e-05 2.0950525e-05
+ 6.9295447e-07 6.2674630e-06 9.5003423e-05 4.9707028e-06 2.7773520e-05
+ 1.3367419e-06 2.6383723e-06 8.8233173e-07 2.3744151e-05]
+
+[2024-09-18 15:07:56] User: hi
+[2024-09-18 15:07:56] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 15:08:04] User: hello
+[2024-09-18 15:08:04] Bot: Hello! How can I assist you today?
+[2024-09-18 15:08:04] Predicted Intents: [{'intent': 'greeting', 'probability': '0.99989057'}]
+[2024-09-18 15:08:04] Model Predictions: [8.3525601e-06 1.7501850e-05 1.7685305e-05 4.6030698e-07 3.2997392e-05
+ 2.6480300e-06 9.9989057e-01 3.0072717e-06 2.3754158e-06 1.0022570e-06
+ 2.0904108e-05 1.0743875e-06 9.2408629e-07 3.8499056e-07]
+
+[2024-09-18 15:08:09] User: hey
+[2024-09-18 15:08:09] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 15:08:13] User: nataka huduma
+[2024-09-18 15:08:13] Bot: Sawa! Naomba unitumie namba ya simu pamoja na mahala unatakahuduma ofisi itawasiliana nawewe mapema iwezekanavyo
+[2024-09-18 15:08:13] Predicted Intents: [{'intent': 'huduma_mpya', 'probability': '0.9995497'}]
+[2024-09-18 15:08:13] Model Predictions: [3.0602307e-05 3.3110177e-06 1.1869701e-05 1.9096458e-06 3.7966816e-05
+ 4.1142383e-05 1.3018209e-04 3.8547332e-06 4.9379702e-07 9.9954969e-01
+ 1.6400799e-04 2.2097835e-05 1.2207104e-06 1.6883805e-06]
+
+[2024-09-18 15:08:18] User: nataka
+[2024-09-18 15:08:18] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 15:08:22] User: huduma
+[2024-09-18 15:08:22] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 15:22:54] User: hi
+[2024-09-18 15:22:54] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 15:23:02] User: hello
+[2024-09-18 15:23:02] Bot: Hi! How can I assist you?
+[2024-09-18 15:23:02] Predicted Intents: [{'intent': 'greeting', 'probability': '0.99989057'}]
+[2024-09-18 15:23:02] Model Predictions: [8.3525601e-06 1.7501850e-05 1.7685305e-05 4.6030698e-07 3.2997392e-05
+ 2.6480300e-06 9.9989057e-01 3.0072717e-06 2.3754158e-06 1.0022570e-06
+ 2.0904108e-05 1.0743875e-06 9.2408629e-07 3.8499056e-07]
+
+[2024-09-18 16:57:20] User: & "C:/Program Files/Python312/python.exe" d:/Programing/Projects/ChatBotV1/BotTester.py
+[2024-09-18 16:57:20] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 16:57:57] User: hello
+[2024-09-18 16:57:57] Bot: Good to see you! What can I help you with?
+[2024-09-18 16:57:57] Predicted Intents: [{'intent': 'greeting', 'probability': '0.99989057'}]
+[2024-09-18 16:57:57] Model Predictions: [8.3525601e-06 1.7501850e-05 1.7685305e-05 4.6030698e-07 3.2997392e-05
+ 2.6480300e-06 9.9989057e-01 3.0072717e-06 2.3754158e-06 1.0022570e-06
+ 2.0904108e-05 1.0743875e-06 9.2408629e-07 3.8499056e-07]
+
+[2024-09-18 16:58:02] User: mambo
+[2024-09-18 16:58:02] Bot: uko poa! Naweza kufanya nini kwa ajili yako?
+[2024-09-18 16:58:02] Predicted Intents: [{'intent': 'Salamu', 'probability': '0.9997211'}]
+[2024-09-18 16:58:02] Model Predictions: [1.4811366e-05 8.6256652e-05 9.9972111e-01 1.4807030e-05 5.7491165e-05
+ 9.6135534e-07 6.2963604e-06 6.6005086e-05 2.4624478e-06 9.2447390e-06
+ 4.5934760e-07 9.3206145e-06 1.4446966e-06 9.2901837e-06]
+
+[2024-09-18 17:10:58] User: & "C:/Program Files/Python312/python.exe" d:/Programing/Projects/ChatBotV1/BotTester.py
+[2024-09-18 17:10:58] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 17:11:41] User: kldgjlkdfg
+[2024-09-18 17:11:41] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 17:11:43] User: hey
+[2024-09-18 17:11:43] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 17:11:45] User: hi
+[2024-09-18 17:11:45] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 17:11:47] User: joke
+[2024-09-18 17:11:47] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 17:11:56] User: tell me a joke
+[2024-09-18 17:11:56] Bot: What do you call fake spaghetti? An impasta!
+[2024-09-18 17:11:56] Predicted Intents: [{'intent': 'joke', 'probability': '0.9998741'}]
+[2024-09-18 17:11:56] Model Predictions: [2.2172785e-06 1.1505987e-06 1.3509921e-06 2.8329139e-05 1.4065122e-06
+ 2.5963956e-08 6.3814309e-06 1.3253606e-08 7.2105700e-05 1.1103505e-05
+ 9.9987411e-01 6.0855761e-08 1.6113864e-07 1.5433288e-06]
+
+[2024-09-18 17:12:10] User: another
+[2024-09-18 17:12:10] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 17:12:13] User: tell me
+[2024-09-18 17:12:13] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 17:12:18] User:  tell me a
+[2024-09-18 17:12:18] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 17:12:21] User: a joke
+[2024-09-18 17:12:21] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 17:12:25] User: tell me a joke
+[2024-09-18 17:12:25] Bot: What do you call fake spaghetti? An impasta!
+[2024-09-18 17:12:25] Predicted Intents: [{'intent': 'joke', 'probability': '0.9998741'}]
+[2024-09-18 17:12:25] Model Predictions: [2.2172785e-06 1.1505987e-06 1.3509921e-06 2.8329139e-05 1.4065122e-06
+ 2.5963956e-08 6.3814309e-06 1.3253606e-08 7.2105700e-05 1.1103505e-05
+ 9.9987411e-01 6.0855761e-08 1.6113864e-07 1.5433288e-06]
+
+[2024-09-18 17:12:34] User: me a joke
+[2024-09-18 17:12:34] Bot: Nexus: Sorry, I couldn't understand that.
+
+[2024-09-18 17:12:38] User: me a joke 
+[2024-09-18 17:12:38] Bot: Nexus: Sorry, I couldn't understand that.
+

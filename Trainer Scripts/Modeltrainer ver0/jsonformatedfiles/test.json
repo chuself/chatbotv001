@@ -1,0 +1,13 @@
+{
+    "intents": [
+        {
+            "tag": "hello",
+            "patterns": [
+                "how are you"
+            ],
+            "responses": [
+                "help me"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+[2024-09-23 16:23:06] User: hey the internet is not working
+[2024-09-23 16:23:06] Bot: We're sorry for the inconvenience caused by the network. Please share your account details and location so we can troubleshoot the issue.
+[2024-09-23 16:23:06] Predicted Intents: [{'intent': 'Internet_Troubleshooting_Request', 'probability': '0.99987566'}]
+[2024-09-23 16:23:06] Model Predictions: [1.1964958e-04 5.2437885e-09 2.4460687e-06 9.9987566e-01 3.8526360e-09
+ 3.0864067e-07 9.3581622e-07 9.6451811e-07 1.5430707e-08]
+

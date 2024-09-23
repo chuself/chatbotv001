@@ -1,0 +1,38 @@
+{
+    "intents": [
+        {
+            "tag": "huduma_mpya",
+            "patterns": [
+                "Nahitaji Huduma",
+                "nataka huduma",
+                "nataka service",
+                "naitaji huduma",
+                "naitaji service",
+                "nahitaji cable",
+                "nahitaji internet"
+            ],
+            "responses": [
+                "Sawa! Naomba unitumie namba ya simu pamoja na mahala unatakahuduma ofisi itawasiliana nawewe mapema iwezekanavyo",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "tag": "new_connections",
+            "patterns": [
+                "new connection",
+                "need new connection",
+                "want new connection"
+            ],
+            "responses": [
+                "Okay! can you send me your address and the contact number out office will communicate with you as soon as possible",
+                "",
+                ""
+            ]
+        }
+    ]
+}

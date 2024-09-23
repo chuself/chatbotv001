@@ -9,7 +9,6 @@ click
 colorama
 contourpy
 cycler
-fastapi
 ffmpy
 filelock
 Flask
@@ -18,7 +17,6 @@ fonttools
 fsspec
 gast
 google-pasta
-gradio
 gradio_client
 grpcio
 gunicorn
@@ -70,7 +68,6 @@ shellingham
 six
 scikit-learn
 sniffio
-starlette
 tensorboard
 tensorboard-data-server
 tensorflow-cpu
@@ -82,7 +79,6 @@ typer
 typing_extensions
 tzdata
 urllib3
-uvicorn
 websockets
 Werkzeug
 wheel

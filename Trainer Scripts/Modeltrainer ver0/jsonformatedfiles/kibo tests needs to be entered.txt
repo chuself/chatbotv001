@@ -1,0 +1,168 @@
+Model: "sequential"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ dense (Dense)                        │ (None, 256)                 │          27,392 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization                  │ (None, 256)                 │           1,024 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout (Dropout)                    │ (None, 256)                 │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_1 (Dense)                      │ (None, 128)                 │          32,896 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_1                │ (None, 128)                 │             512 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout_1 (Dropout)                  │ (None, 128)                 │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_2 (Dense)                      │ (None, 64)                  │           8,256 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ batch_normalization_2                │ (None, 64)                  │             256 │
+│ (BatchNormalization)                 │                             │                 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout_2 (Dropout)                  │ (None, 64)                  │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dense_3 (Dense)                      │ (None, 12)                  │             780 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 141,338 (552.11 KB)
+ Trainable params: 70,220 (274.30 KB)
+ Non-trainable params: 896 (3.50 KB)
+ Optimizer params: 70,222 (274.31 KB)
+Nexus is Online
+how are you
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+hellow 
+Fuzzy Match Result: ['hello']
+Total number of words in the model: 106
+Sentence words: ['hello']
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 109ms/step
+Model raw predictions: [4.9977453e-04 1.3979849e-05 9.7009091e-04 3.8715384e-06 6.9471034e-06
+ 1.2306792e-04 9.9834585e-01 1.8339094e-06 6.3477687e-06 1.2672076e-05
+ 1.5192563e-05 3.8123932e-07]
+Hello! How can I assist you today?
+i need your help
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+help
+Fuzzy Match Result: ['help']
+Total number of words in the model: 106
+Sentence words: ['help']
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+Model raw predictions: [1.1760675e-03 3.9699553e-03 1.2698674e-01 6.3477631e-04 5.1092498e-02
+ 3.9139288e-03 4.2303402e-02 3.0306530e-05 7.6661813e-01 1.7180185e-04
+ 2.3077275e-03 7.9467724e-04]
+I'm happy to help. let me know how I can assist you.
+huduma inasumbua
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+something wrong
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+find my rocation
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+why the enternet is slow
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+rudisha huduma
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+naitaji kujua huduma zako
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+je kunatatizo la mtandao?   
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+tatizo nini?
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+
+Please enter something!
+jambo
+Fuzzy Match Result: ['sijambo']
+Total number of words in the model: 106
+Sentence words: ['sijambo']
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step
+Model raw predictions: [1.2021488e-05 2.1724882e-05 9.9971741e-01 1.9692689e-06 5.0733097e-06
+ 9.7167749e-06 1.9827845e-04 1.4874018e-05 1.7936143e-06 1.1889742e-05
+ 5.1637994e-06 1.5236114e-07]
+Habari! Ninaweza kukusaidia vipi leo?
+huduma zenu nzuri
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+huduma gani mnatoa?
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+kuna kitu nahitaji kutoka kwenu
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+nahitaji kujua bei za vitu mnavyo uza
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+naweza pata fundi? 
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+fundi yupo?
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+where is the meneger?
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+can you cook?
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+tell me your name?
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+sion picha
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+huduma sioni
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+huduma sioni kwa nini?
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+naitaji huduma
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+
+Please enter something!
+& "C:/Program Files/Python312/python.exe" d:/Programing/Projects/ChatBotV1/ChatBot1.py
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+kwaher
+Fuzzy Match Result: ['kwaheri']
+Total number of words in the model: 106
+Sentence words: ['kwaheri']
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 22ms/step
+Model raw predictions: [7.6789865e-06 1.2728723e-06 1.8415292e-05 6.0008419e-06 3.1622170e-05
+ 4.6509696e-05 1.0357757e-04 6.6516068e-06 1.0082413e-06 1.7886934e-07
+ 9.9977618e-01 8.8300629e-07]
+na wewe pia!
+kahwri
+Fuzzy Match Result: ['kwaheri']
+Total number of words in the model: 106
+Sentence words: ['kwaheri']
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 21ms/step
+Model raw predictions: [7.6789865e-06 1.2728723e-06 1.8415292e-05 6.0008419e-06 3.1622170e-05
+ 4.6509696e-05 1.0357757e-04 6.6516068e-06 1.0082413e-06 1.7886934e-07
+ 9.9977618e-01 8.8300629e-07]
+na wewe pia!
+
+Please enter something!
+& "C:/Program Files/Python312/python.exe" d:/Programing/Projects/ChatBotV1/ChatBot1.py
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+new connection
+Fuzzy Match Result: []
+Sorry, I couldn't understand that.
+
+
+
+
+
+
+

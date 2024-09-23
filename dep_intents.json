@@ -1,0 +1,224 @@
+{
+    "intents": [
+      {
+        "tag": "Cable_TV_Installation",
+        "patterns": [
+          "I want to install cable TV",
+          "How do I get cable TV at my home?",
+          "Set up cable TV in my house",
+          "Can I book a cable TV installation?",
+          "I need a new cable TV connection",
+          "How can I get Barmedas cable TV service?",
+          "Cable installation request"
+        ],
+        "responses": [
+          "Great! Please share your address contact number and preferred installation time, and we will schedule it for you.",
+          "Thank you for choosing Barmedas! Kindly provide your location details, contact number, and our team will contact you for the installation.",
+          "Sure! We can arrange that for you. please Send us your address and contact number to proceed with your cable Tv installation.",
+          "Sure! Please provide your home location, contact details and our team will handle the rest."
+        ]
+      },
+      {
+        "tag": "general_cable_tv",
+        "patterns": [
+          "cable",
+          "cable tv",
+          "kebo tv",
+          "kebo"
+        ],
+        "responses": [
+          "Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?",
+          "Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia"
+        ]
+      },
+      {
+        "tag": "Kufungiwa_cable_tv",
+        "patterns": [
+          "Nataka kufunga huduma ya cable tv",
+          "Ninawezaje kupata huduma ya cable TV nyumbani kwangu?",
+          "nataka kufunga cable TV nyumbani kwangu",
+          "nataka huduma ya cable Tv",
+          "Naweza kuomba kupata ufungaji wa cable TV?",
+          "Nahitaji maunganisho mapya ya cable TV",
+          "Ninawezaje kupata huduma ya cable ya Barmedas?",
+          "Ombi la ufungaji wa cable",
+          "Ombi la kufungiwa cable",
+          "Nataka kufunga huduma ya kebo tv",
+          "Ninawezaje kupata huduma ya kebo TV nyumbani kwangu?",
+          "nataka funga kebo TV nyumbani kwangu",
+          "nataka huduma ya kebo Tv",
+          "Naweza kuomba pata ufungaji wa kebo TV?",
+          "Nahitaji maunganisho mapya ya kebo TV",
+          "Ninawezaje kupata huduma ya kebo ya Barmedas?",
+          "Ombi la ufungaji wa cable"
+        ],
+        "responses": [
+          "Asante kwa kuchagua Barmedas! Tafadhali tuma mahali unaushi na muda unaopendelea kwa ufungaji, na tutatuma mafundi.",
+          "Asante kwa kuchagua Barmedas! Tafadhali toa maelezo ya eneo lako, na timu yetu itawasiliana nawe kwa ajili ya ufungaji.",
+          "Sawa! Tunaweza kupanga hilo. Tuma mahali unaishi pamoja na namba ya mawasiliano na timu yetu itaendelea na ufungaji wako wa cable.",
+          "okay! Tafadhali toa eneo lako la kufungiwa, na timu yetu itashughulikia hilo."
+        ]
+      },
+      {
+        "tag": "Cable_TV_Complaint_Inquiry",
+        "patterns": [
+          "My channels are not showing",
+          "I lost some channels",
+          "Can you fix my TV signal?",
+          "My cable TV is down",
+          "The signal is weak",
+          "How do I get more channels?",
+          "I need help with my Barmedas cable subscription",
+          "My cable TV is not working",
+          "I need a repair for my TV connection",
+          "My TV signal is gone",
+          "Cable service interruption",
+          "There's no signal on my cable",
+          "Fix my Barmedas cable",
+          "My cable box is not working"
+        ],
+        "responses": [
+          "We are sorry for the inconvenience. Could you please provide your account number,name and location so our team can assist you?",
+          "It seems like there's an issue with your service. Please share your contact details and we will resolve it for you.",
+          "Thanks for reporting! We will send a technician to your location as soon as possible. Could you confirm your account details?",
+          "Let's get that sorted! Share your customer details and our technitians will get in touch.",
+          "We apologize for the trouble. Please share your account name and location, and our repair team will contact you.",
+          "Let's schedule a technician for you. Please provide your address and Account ID.",
+          "We will arrange for repairs. Kindly send your Account details, and we will get it sorted as soon as possible.",
+          "Thanks for reaching out! We'll send a repair team shortly. Can you confirm your Account details and location?"
+        ]
+      },
+      {
+        "tag": "Malalamiko_ya_Huduma_ya_Cable_TV",
+        "patterns": [
+          "Channel zangu hazionyeshi",
+          "Nimepoteza baadhi ya channel",
+          "Unaweza kurekebisha signal ya TV yangu?",
+          "Cable TV yangu imezimika",
+          "Signal ni dhaifu",
+          "Ninawezaje kupata channel zaidi?",
+          "Nahitaji msaada na usajili wangu wa cable ya Barmedas",
+          "Cable TV yangu haifanyi kazi",
+          "Nahitaji marekebisho ya TV",
+          "Signal yangu ya TV imepotea",
+          "Huduma ya cable imekatika",
+          "Hakuna signal kwenye cable yangu",
+          "Rekebisha cable ya Barmedas",
+          "Kisanduku cha cable hakifanyi kazi"
+        ],
+        "responses": [
+          "Pole sana kwa usumbufu. Tafadhali toa namba na jina la akaunti yako na eneo lako ili timu yetu iweze kukusaidia.",
+          "Inaonekana kuna tatizo kwenye huduma yako. Tafadhali toa namba na jina la akaunti yako na eneo lako ili timu yetu iweze kukusaidia.",
+          "Asante kwa kuripoti! Tutamtuma fundi mara moja kwa eneo lako. Tafadhali thibitisha maelezo yako kama jina na namba ya akaunti.",
+          "Tutarekebisha hilo! tafadhali Toa namba yako ya mteja pamoja na jina la akaunti.",
+          "Tunaomba radhi kwa tatizo hilo. Tafadhali toa jina la akaunti na eneo lako, na timu yetu ya marekebisho itawasiliana nawe.",
+          "Tutaandaa fundi kwa ajili yako. Tafadhali toa enoe lako na jina la akaunti.",
+          "Tutapanga marekebisho. Tafadhali tuma maelezo yako, na tutalishughulikia mara moja.",
+          "Asante kwa kuwasiliana nasi! Tutatuma timu ya marekebisho hivi karibuni. Unaweza kuthibitisha jina la akaunti na eneo?"
+
+        ]
+      },
+      {
+        "tag": "Internet_Installation_Request",
+        "patterns": [
+          "I need internet installed",
+          "How can I get internet at my home?",
+          "I want a new internet connection",
+          "Can I book an internet installation?",
+          "I need Barmedas internet service",
+          "How do I sign up for Barmedas internet?",
+          "Internet installation",
+          "I want to install Barmedas internet",
+          "How to get Barmedas internet at my place?"
+        ],
+        "responses": [
+          "Thank you for your request! Please provide your address and preferred installation date, and we will arrange it for you.",
+          "Thanks for choosing Barmedas! Kindly share your location details, and we will schedule your internet installation.",
+          "No problem We can set that up for you. Please send us your address and contact information.",
+          "Sure! Send your location, and we will handle your internet setup right away.",
+          "We appreciate your interest in Barmedas internet. Send us your address, and we'll arrange the installation."
+        ]
+      },
+      {
+        "tag": "Ufungaji_wa_Intaneti_mpya",
+        "patterns": [
+          "Nahitaji intaneti kufungiwa",
+          "Ninawezaje kupata intaneti nyumbani kwangu?",
+          "Nataka muunganisho mpya wa intaneti",
+          "Naweza kuomba ufungaji wa intaneti?",
+          "Nahitaji huduma ya intaneti ya Barmedas",
+          "Ninawezaje kujisajili kwa intaneti ya Barmedas?",
+          "Ombi la kufunga intaneti",
+          "Nataka kufunga intaneti ya Barmedas",
+          "Nitapataje intaneti ya Barmedas?"
+        ],
+        "responses": [
+          "Asante kwa ombi lako! Tafadhali tuma mahali unataka huduma mafundi wetu wata wasiliana nawe haraka iwezekanavyo.",
+          "Asante kwa kuchagua Barmedas! Tafadhali tuma eneo ulipo, na tutakujulisha kuhusu ufungaji wa intaneti.",
+          "Karibu sana! Tafadhali tuma unaspotaka kuungiwa nasi tutakujulisha lini utapata huduma.",
+          "Sawa! Tuma eneo lako ulipo, na tutashughulikia uunganishwaji wako wa intaneti mara moja.",
+          "Tunashukuru kwa kuchagua Barmedas. Tuma anuani yako, na tutalipanga na mafundi wetu wa intaneti."
+        ]
+      },
+      {
+        "tag": "Internet_Troubleshooting_Request",
+        "patterns": [
+          "My internet is not working",
+          "I am having internet issues",
+          "I lost my internet connection",
+          "Can you fix my internet?",
+          "My internet is down",
+          "I have no internet connection",
+          "Barmedas internet is not working",
+          "I need a repair for my internet",
+          "My internet is broken",
+          "Internet repair request",
+          "I need a technician for my internet",
+          "There's a problem with my internet connection",
+          "Barmedas internet needs repair"
+        ],
+        "responses": [
+          "We're sorry for the inconvenience caused by the network. Please share your account details and location so we can troubleshoot the issue.",
+          "Thanks for reaching out! Please send us details of the account, and our team will assist you with the internet problem as soon as possible.",
+          "We're very sorry for the inconvenience caused by the network. We will help you fix the issue. Kindly share your issue details and contact details.",
+          "We're sorry for the inconvenience caused by the network. Please provide more information to the issue and contact details, and we will resolve it.",
+          "We apologize for the issue. Please share your account details and address, and we will send a internet technician.",
+          "Let's schedule a repair for your internet. Kindly provide your location and contact details.",
+          "We will arrange repairs for your connection. Please send your account details, and we will handle it as soon as possible.",
+          "Thanks for contacting us! We'll send a technician to resolve the issue. Can you confirm your contact details?"
+        ]
+      },
+      {
+        "tag": "Malalamiko_ya_huduma_ya_Intaneti",
+        "patterns": [
+          "Intaneti yangu haifanyi kazi",
+          "Nina matatizo ya intaneti",
+          "Nimepoteza muunganisho wa intaneti",
+          "Unaweza kurekebisha intaneti yangu?",
+          "Intaneti yangu imezimika",
+          "Sina muunganisho wa intaneti",
+          "Intaneti ya Barmedas haifanyi kazi",
+          "Nahitaji marekebisho ya intaneti yangu",
+          "Intaneti yangu imeharibika",
+          "Unaweza kurekebisha intaneti yangu?",
+          "Ombi la marekebisho ya intaneti",
+          "Nahitaji fundi wa intaneti yangu",
+          "Kuna tatizo na intaneti yangu",
+          "Intaneti ya Barmedas inahitaji marekebisho"
+        ],
+        "responses": [
+          "Tunaomba radhi kwa usumbufu. Tafadhali tuma jina la akaunti na eneo lako ili tuweze kutatua tatizo hilo.",
+          "Asante kwa kuwasiliana nasi! Tafadhali tuma maelezo ya tatizo pamoja na jina lako, na timu yetu itakusaidia haraka iwezekanavyo.",
+          "Tutakusaidia kurekebisha tatizo hilo. Tafadhali tuma jina lako na mahli huduma hakuna na mafundi wetu watalishughulikia.",
+          "Tunaomba radhi kwa usumbufu! Inaonekana kuna tatizo na huduma yako. Tafadhali tuma jina na mahali ulipo, na tutalitafutia ufumbuzi.",
+          "Tunaomba radhi kwa tatizo hilo. Tafadhali tuma jina la akaunti yako na anuani, na fundi wetu atawasiliana nawe.",
+          "Tunaomba radhi kwa usumbufu. Tutaandaa marekebisho ya intaneti yako. Tafadhali toa maelezo ya eneo na jina lako.",
+          "Tutapanga marekebisho ya internet yako. Tafadhali tuma jina lako, mahala unaishi na tutashughulikia haraka iwezekanavyo.",
+          "Asante kwa kuwasiliana nasi! Tutatuma fundi kutatua tatizo. Unaweza kuthibitisha jina la account yako?"
+        ]
+      }
+      
+      
+    ]
+  }
+  

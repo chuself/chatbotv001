@@ -6,23 +6,20 @@
           "Hello",
           "Hi",
           "Hey",
-          "Good morning",
-          "Good afternoon",
-          "Good evening",
+          "morning",
+          "afternoon",
+          "evening",
           "How are you?",
-          "How is it going?",
-          "What is up?",
+          "is it going?",
+          "is up?",
           "Howdy",
           "Greetings",
-          "Hi there",
-          "Hey there",
-          "What is new?",
-          "How have you been?",
+          "have you been?",
           "Nice to meet you",
           "Pleased to meet you",
           "Welcome",
           "Long time no see",
-          "Good to see you" 
+          "to see you" 
         ],
         "responses": [
           "Hello! How can I assist you today?",
@@ -34,7 +31,7 @@
           "Greetings! How can I be of service?",
           "Welcome! How can I assist you today?",
           "Good to see you! What can I help you with?",
-          "Nice to meet you! How can I assist?"
+          "Nice to meet you! How can I assist you today?"
         ],
         "context_set": ""
       },
@@ -50,7 +47,7 @@
           "Shikamoo",
           "mambo",
           "Karibuni",
-          "uko poa",
+          "poa",
           "Niaje?"
         ],
         "responses": [
@@ -101,10 +98,26 @@
         "context_set": ""
       },
       {
+        "tag": "kwaheri",
+        "patterns": [
+          "kwaheri",
+          "haina shida",
+          "tutawasiliana baadae",
+          "mida",
+          "asubuhi njema",
+          "usiku mwema",
+          "mchana mwema"
+        ],
+        "responses": [
+          "na wewe pia!"
+        ],
+        "context_set": ""
+      },
+      {
         "tag": "thank_you",
         "patterns": [
           "Thanks",
-          "Thank you",
+          "Thank",
           "I appreciate it",
           "Thanks a lot",
           "Thank you very much"
@@ -118,6 +131,37 @@
         "context_set": ""
       },
       {
+        "tag": "Asante",
+        "patterns": [
+          "asante",
+          "nashukuru",
+          "kazi nzuri",
+          "kazi njema",
+          "asante sana"
+        ],
+        "responses": [
+          "haina shida siku njema!",
+          "nashukuru!",
+          "karibu tena"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "huduma_mpya",
+        "patterns": [
+            "NahitajiHuduma",
+            "natakahuduma",
+            "natakaservice",
+            "naitajihuduma",
+            "naitajiservice",
+            "nahitajicable",
+            "nahitajiinternet"
+        ],
+        "responses": [
+            "Sawa! Naomba unitumie namba ya simu pamoja na mahala unatakahuduma ofisi itawasiliana nawewe mapema iwezekanavyo"
+        ]
+    },
+      {
         "tag": "cable_complain",
         "patterns": [
             "Sioni picha yoyote",
@@ -125,26 +169,26 @@
             "chanel imekata",
             "chanel haionyeshi",
             "chaneli haipo",
-            "huduma imekata",
-            "huduma haipo",
-            "huduma imezima",
-            "huduma imekatika",
+            "somimekatika",
             "rudisha huduma",
             "huduma siioni"
         ],
         "responses": [
-            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokat",
-            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokat",
-            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
-            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
-            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
-            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
-            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
-            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
-            "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
             "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata"
         ]
     },
+    {
+      "tag": "new_connections",
+      "patterns": [
+          "new connection",
+          "need new connection",
+          "want new connection"
+      ],
+      "responses": [
+          "Okay! can you send me your address and the contact number our office will communicate with you as soon as possible",
+          "Alright! send me your address and the contact number our office will communicate with you as soon as possible"
+      ]
+  },
     {
       "tag": "Internet_complain",
       "patterns": [
@@ -160,16 +204,7 @@
           "net imekatika"
       ],
       "responses": [
-          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
-          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
-          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
-          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
-          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
-          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
-          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
-          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
-          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata",
-          "Samahani kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata"
+          "Samahani sana kwa Usumbufu. naomba nitumie Jina,Mahali huduma imekata,namba ya ambae mafundi wetu watawasiliana nao pamoja na muda iliokata"
       ]
   },
       {
@@ -215,9 +250,9 @@
           "Help me out"
         ],
         "responses": [
-          "Of course! What do you need help with?",
+          "I'm happy to help. What do you need help with?",
           "I'm here to assist. What do you need?",
-          "Sure, let me know how I can assist you.",
+          "I'm happy to help. let me know how I can assist you.",
           "I'm happy to help. What do you need?"
         ],
         "context_set": ""
@@ -232,5 +267,540 @@
         ],
         "context_set": ""
       }
+    ]
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "tag": "IT_Service_Request",
+    "patterns": [
+      "I need IT support",
+      "Can you help with my computer issues?",
+      "I require IT services",
+      "My computer needs servicing",
+      "Help with IT problems",
+      "I need technical support",
+      "Request IT services"
+    ],
+    "responses": [
+      "Sure! Please provide details about your IT issue, and our support team will get in touch with you.",
+      "We're here to help. Describe the problem you're facing, and we'll arrange the necessary IT support.",
+      "Thank you for reaching out! Share more information about your IT needs, and we'll assist you promptly.",
+      "Please let us know the specifics of your IT issue so we can provide the appropriate support."
+    ]
+  },
+  {
+    "tag": "Msaada_IT",
+    "patterns": [
+      "Nahitaji msaada wa IT",
+      "Unaweza kunisaidia na matatizo yangu ya kompyuta?",
+      "Nahitaji huduma za IT",
+      "Kompyuta yangu inahitaji huduma",
+      "Msaada na matatizo ya IT",
+      "Nahitaji msaada wa kiufundi",
+      "Ombi la huduma za IT"
+    ],
+    "responses": [
+      "Sawa! Tafadhali toa maelezo kuhusu tatizo lako la IT, na timu yetu ya msaada itakuwasiliana nawe.",
+      "Tuko hapa kusaidia. Eleza tatizo unalokutana nalo, na tutapanga msaada wa IT unaohitajika.",
+      "Asante kwa kuwasiliana! Toa maelezo zaidi kuhusu mahitaji yako ya IT, na tutakusaidia kwa haraka.",
+      "Tafadhali tujulishe maelezo ya tatizo lako la IT ili tuweze kutoa msaada unaofaa."
+    ]
+  },
+  {
+    "tag": "IT_Repair_Request",
+    "patterns": [
+      "My computer is broken",
+      "I need a repair for my laptop",
+      "My IT equipment is malfunctioning",
+      "Can you fix my computer?",
+      "I need a repair for my IT device",
+      "Request IT repair services",
+      "My computer needs fixing"
+    ],
+    "responses": [
+      "We apologize for the inconvenience. Please provide details about the device and the issue so we can schedule a repair.",
+      "Let's arrange for a technician to fix your IT equipment. Share your contact information and the specifics of the issue.",
+      "We will arrange a repair for you. Kindly provide more details about the device and the problem.",
+      "Thanks for reaching out! We'll send a technician to address the repair. Can you confirm the device details and location?"
+    ]
+  },
+  {
+    "tag": "Marekebisho_IT",
+    "patterns": [
+      "Kompyuta yangu imeharibika",
+      "Nahitaji marekebisho kwa laptop yangu",
+      "Vifaa vyangu vya IT vinashindwa kufanya kazi",
+      "Unaweza kurekebisha kompyuta yangu?",
+      "Nahitaji marekebisho kwa kifaa changu cha IT",
+      "Ombi la huduma za marekebisho ya IT",
+      "Kompyuta yangu inahitaji marekebisho"
+    ],
+    "responses": [
+      "Tunaomba radhi kwa usumbufu. Tafadhali toa maelezo ya kifaa na tatizo ili tuweze kupanga marekebisho.",
+      "Tutaandaa fundi ili kurekebisha vifaa vyako vya IT. Tafadhali toa maelezo yako ya mawasiliano na maelezo ya tatizo.",
+      "Tutapanga marekebisho kwa ajili yako. Tafadhali toa maelezo zaidi kuhusu kifaa na tatizo.",
+      "Asante kwa kuwasiliana! Tutatuma fundi kutatua marekebisho. Unaweza kuthibitisha maelezo ya kifaa na eneo?"
+    ]
+  },
+  {
+    "tag": "IT_Troubleshooting_Request",
+    "patterns": [
+      "My IT system is having issues",
+      "Can you help troubleshoot my computer problem?",
+      "I need assistance with my IT setup",
+      "My network is not working",
+      "Help me with IT troubleshooting",
+      "Troubleshoot my IT issue",
+      "I have problems with my IT system"
+    ],
+    "responses": [
+      "We're here to assist with troubleshooting. Please provide details about the issue, and we'll guide you through the process.",
+      "Describe the IT issue you're facing, and we'll help troubleshoot and resolve it.",
+      "Thank you for reaching out. Share the specifics of your IT problem, and we'll provide the necessary support.",
+      "Let us know the details of your IT problem so we can help you troubleshoot effectively."
+    ]
+  },
+  {
+    "tag": "Msaada_IT",
+    "patterns": [
+      "Mfumo wangu wa IT una matatizo",
+      "Unaweza kusaidia kutatua tatizo langu la kompyuta?",
+      "Nahitaji msaada na usanidi wangu wa IT",
+      "Mtandao wangu haufanyi kazi",
+      "Nisaidie na kutatua matatizo ya IT",
+      "Tatuwa tatizo langu la IT",
+      "Nina matatizo na mfumo wangu wa IT"
+    ],
+    "responses": [
+      "Tuko hapa kusaidia kutatua matatizo. Tafadhali toa maelezo kuhusu tatizo, na tutakuongoza kupitia mchakato.",
+      "Eleza tatizo la IT unalokutana nalo, na tutakusaidia kutatua na kulitatua.",
+      "Asante kwa kuwasiliana. Toa maelezo ya tatizo lako la IT, na tutatoa msaada unaohitajika.",
+      "Tujulishe maelezo ya tatizo lako la IT ili tuweze kukusaidia kutatua kwa ufanisi."
+    ]
+  },
+  {
+    "tag": "IT_Service_Inquiry",
+    "patterns": [
+      "What IT services do you offer?",
+      "Tell me about your IT support services",
+      "Do you provide IT maintenance?",
+      "What kind of IT assistance can I get?",
+      "Information about IT services",
+      "What IT solutions do you provide?",
+      "Inquire about IT services"
+    ],
+    "responses": [
+      "We offer a range of IT services including support, maintenance, and troubleshooting. Let us know what you need assistance with.",
+      "Our IT services include technical support, equipment repair, and system maintenance. How can we assist you today?",
+      "We provide comprehensive IT solutions. Please specify your needs, and we will guide you through the available options.",
+      "For more information on our IT services, please tell us what you're looking for, and we'll provide the details."
+    ]
+  },
+  {
+    "tag": "Uchunguzi_Huduma_IT",
+    "patterns": [
+      "Huduma gani za IT mnatoa?",
+      "Ninie kuhusu huduma zenu za msaada wa IT?",
+      "Je, mnatoa huduma za matengenezo ya IT?",
+      "Ninawezaje kupata msaada wa IT?",
+      "Maelezo kuhusu huduma za IT",
+      "Nini suluhisho za IT mnazotoa?",
+      "Uliza kuhusu huduma za IT"
+    ],
+    "responses": [
+      "Tunatoa huduma mbalimbali za IT ikiwa ni pamoja na msaada, matengenezo, na kutatua matatizo. Tafadhali tufahamishe kile unachohitaji msaada.",
+      "Huduma zetu za IT zinajumuisha msaada wa kiufundi, marekebisho ya vifaa, na matengenezo ya mifumo. Tunaweza kukusaidia vipi leo?",
+      "Tunatoa suluhisho kamili za IT. Tafadhali fafanua mahitaji yako, na tutakuongoza kupitia chaguzi zinazopatikana.",
+      "Kwa maelezo zaidi kuhusu huduma zetu za IT, tafadhali tuambia unachotafuta, na tutatoa maelezo."
+    ]
+  },
+  {
+    "tag": "Product_Inquiry",
+    "patterns": [
+      "What products do you offer?",
+      "Tell me about your products",
+      "What are the available products?",
+      "I want to know about your product range",
+      "Can you provide details on your products?",
+      "What products are currently available?",
+      "Show me your products"
+    ],
+    "responses": [
+      "We offer a range of products including cable TV packages and internet plans. Let me know if you need more details on a specific product.",
+      "Our products include various cable TV packages and internet services. Please specify what you're interested in for more information.",
+      "We have a variety of products. Please tell me what you are looking for, and I can provide more details.",
+      "We offer several products. Do you have a specific type or package in mind?"
+    ]
+  },
+  {
+    "tag": "Making_a_Purchase",
+    "patterns": [
+      "I want to buy something",
+      "How can I make a purchase?",
+      "I'm ready to buy",
+      "I would like to purchase a product",
+      "Can I make a purchase now?",
+      "Help me with buying",
+      "How do I place an order?"
+    ],
+    "responses": [
+      "Great! Please let me know what you want to purchase, and I will guide you through the process.",
+      "To make a purchase, please provide the product details you're interested in, and I will assist you with the order.",
+      "Sure! Let me know what you would like to buy, and I will help you complete the purchase.",
+      "You can place an order by providing the product details. I'll help you with the next steps."
+    ]
+  },{
+    "tag": "Promotions_and_Offers",
+    "patterns": [
+      "Do you have any promotions?",
+      "What are the current offers?",
+      "Tell me about your discounts",
+      "Are there any special deals?",
+      "What promotions are available right now?",
+      "Do you have any special offers?",
+      "Show me your current promotions"
+    ],
+    "responses": [
+      "We have some great promotions currently! Please specify what type of promotion you are interested in, and I can provide details.",
+      "Yes, we have several offers at the moment. Let me know if you are looking for specific products or services for more information.",
+      "We are running various promotions. Please tell me what you're interested in, and I'll share the current offers with you.",
+      "Check out our current promotions and offers. Let me know if you need details on any specific one."
+    ]
+  },
+  {
+    "tag": "Uchunguzi_Produkt",
+    "patterns": [
+      "Ni bidhaa gani mnaozitoa?",
+      "Nisaidie kuhusu bidhaa zenu",
+      "Ni bidhaa zipi zinazopatikana?",
+      "Nataka kujua kuhusu bidhaa zenu",
+      "Unaweza kutoa maelezo kuhusu bidhaa zenu?",
+      "Ni bidhaa gani zinapatikana kwa sasa?",
+      "Nionyeshe bidhaa zenu"
+    ],
+    "responses": [
+      "Tunatoa aina mbalimbali za bidhaa ikiwa ni pamoja na vifurushi vya TV cable na mipango ya internet. Niaje kuhusu bidhaa maalum?",
+      "Bidhaa zetu ni pamoja na vifurushi vya TV cable na huduma za internet. Tafadhali eleza unachotaka kwa maelezo zaidi.",
+      "Tuna bidhaa mbalimbali. Tafadhali niambie unachotafuta ili niweze kutoa maelezo zaidi.",
+      "Tunatoa bidhaa kadhaa. Je, kuna aina maalum unayopenda au kifurushi unachotaka?"
+    ]
+  },
+  {
+    "tag": "Ununuzi",
+    "patterns": [
+      "Nataka kununua kitu",
+      "Ninawezaje kufanya ununuzi?",
+      "Niko tayari kununua",
+      "Ningependa kununua bidhaa",
+      "Naweza kufanya ununuzi sasa?",
+      "Nisaidie na ununuzi",
+      "Jinsi ya kuweka oda?"
+    ],
+    "responses": [
+      "Nzuri! Tafadhali niambie unachotaka kununua, na nitakusaidia kupitia mchakato.",
+      "Ili kufanya ununuzi, tafadhali toa maelezo ya bidhaa unayotaka, na nitakusaidia kwa oda.",
+      "Sawa! Niambie unataka kununua nini, na nitakusaidia kumaliza ununuzi.",
+      "Unaweza kuweka oda kwa kutoa maelezo ya bidhaa. Nitakusaidia kwa hatua zinazofuata."
+    ]
+  },
+  {
+    "tag": "Matangazo_na_Ofa",
+    "patterns": [
+      "Je, kuna matangazo yoyote?",
+      "Ni ofa zipi za sasa?",
+      "Nisaidie kuhusu punguzo",
+      "Je, kuna ofa maalum?",
+      "Ni matangazo gani yanapatikana sasa?",
+      "Una ofa yoyote maalum?",
+      "Nionyeshe matangazo ya sasa"
+    ],
+    "responses": [
+      "Tunayo matangazo mazuri kwa sasa! Tafadhali eleza aina ya matangazo unayovutiwa nayo, na nitaweza kutoa maelezo.",
+      "Ndio, tunayo ofa kadhaa kwa sasa. Niambie unachotafuta ili nipate maelezo zaidi.",
+      "Tuna matangazo mbalimbali. Tafadhali niambie unachopenda ili niweze kutoa maelezo ya sasa.",
+      "Angalia matangazo yetu ya sasa na ofa. Tafadhali niambie kama unahitaji maelezo zaidi kuhusu ofa maalum."
+    ]
+  },
+  {
+    "tag": "General_Complaint",
+    "patterns": [
+      "I have a complaint",
+      "I want to make a complaint",
+      "I have an issue",
+      "I need to report a problem",
+      "There is something wrong",
+      "I need to file a complaint",
+      "I want to report an issue"
+    ],
+    "responses": [
+      "I'm sorry to hear that you have a complaint. Please provide details about the issue so that we can address it promptly.",
+      "Thank you for bringing this to our attention. Can you describe the problem you are facing?",
+      "I'm here to help with your complaint. Please give me more details about the issue so we can resolve it.",
+      "I apologize for the inconvenience. Please provide more information about your complaint so we can assist you."
+    ]
+  },
+  {
+    "tag": "Cable_TV_Complaint",
+    "patterns": [
+      "I have a problem with my cable TV",
+      "My cable TV service is not working",
+      "There is an issue with my cable TV",
+      "My cable TV is not functioning properly",
+      "Cable TV channels are not working",
+      "I'm having trouble with my cable TV",
+      "My cable TV has stopped working"
+    ],
+    "responses": [
+      "I'm sorry to hear that you're having trouble with your cable TV. Please provide your address, the specific issue, and any other details so we can help resolve it.",
+      "Can you please provide more information about the cable TV issue you're facing? This will help us address the problem quickly.",
+      "Please let us know the details of the cable TV issue, including your location, and we will send someone to fix it as soon as possible.",
+      "I apologize for the inconvenience with your cable TV. Provide the details of the problem and your location, and we will work to resolve it."
+    ]
+  },
+  {
+    "tag": "Internet_Service_Complaint",
+    "patterns": [
+      "I have a problem with my internet",
+      "My internet service is down",
+      "There is an issue with my internet connection",
+      "I'm experiencing internet issues",
+      "My internet is not working",
+      "I'm having trouble with my internet",
+      "Internet service is not functioning"
+    ],
+    "responses": [
+      "I'm sorry to hear you're having issues with your internet service. Please provide your address and details about the problem so we can assist you.",
+      "Can you please give us more details about the internet issue you're experiencing? This will help us address it more effectively.",
+      "Please share the specifics of the internet problem and your location so we can resolve the issue as quickly as possible.",
+      "I apologize for the inconvenience. Provide details about the internet issue and your address, and we will work to fix it."
+    ]
+  },
+  {
+    "tag": "Malalamiko_Jumla",
+    "patterns": [
+      "Nina malalamiko",
+      "Ningependa kutoa malalamiko",
+      "Nina shida",
+      "Nahitaji kuripoti tatizo",
+      "Kuna jambo lisilo sawa",
+      "Nataka kutoa malalamiko",
+      "Ningependa kuripoti tatizo"
+    ],
+    "responses": [
+      "Pole kusikia kwamba una malalamiko. Tafadhali toa maelezo kuhusu shida ili tuweze kushughulikia kwa haraka.",
+      "Asante kwa kuleta hili kwetu. Unaweza kueleza tatizo unalokutana nalo?",
+      "Niko hapa kusaidia na malalamiko yako. Tafadhali nipe maelezo zaidi kuhusu shida ili tuweze kutatua.",
+      "Samahani kwa usumbufu. Tafadhali toa maelezo zaidi kuhusu malalamiko yako ili tuweze kusaidia."
+    ]
+  },
+  {
+    "tag": "Malalamiko_TV_Cable",
+    "patterns": [
+      "Nina shida na TV yangu ya cable",
+      "Huduma yangu ya TV cable haitendaji",
+      "Kuna tatizo na TV yangu ya cable",
+      "TV yangu ya cable haitafanya kazi vizuri",
+      "Channeli za TV cable hazifanyi kazi",
+      "Ninapata shida na TV yangu ya cable",
+      "TV yangu ya cable imeacha kufanya kazi"
+    ],
+    "responses": [
+      "Pole kusikia kwamba unakutana na shida na TV yako ya cable. Tafadhali toa anuani yako, tatizo maalum, na maelezo mengine ili tuweze kusaidia.",
+      "Tafadhali eleza zaidi kuhusu tatizo la TV cable unalokutana nalo. Hii itatusaidia kushughulikia tatizo kwa haraka.",
+      "Tafadhali toa maelezo kuhusu tatizo la TV cable na eneo lako ili tuweze kutuma mtu wa kutatua tatizo haraka.",
+      "Samahani kwa usumbufu kuhusu TV yako ya cable. Toa maelezo kuhusu tatizo na eneo lako, na tutajitahidi kutatua."
+    ]
+  },
+  {
+    "tag": "Cable_TV_Sales_Inquiry",
+    "patterns": [
+      "I'm interested in buying cable TV",
+      "Tell me about your cable TV plans",
+      "What are the options for cable TV?",
+      "How much does your cable TV service cost?",
+      "Do you have any promotions for cable TV?",
+      "I'd like to get cable TV services",
+      "Can you provide details on cable TV packages?"
+    ],
+    "responses": [
+      "We offer a variety of cable TV plans. Please provide your location so we can inform you about the available options and pricing.",
+      "Our cable TV services come with different packages. Let me know your preferences and location, and I'll provide more details.",
+      "I can help you with information on our cable TV packages and pricing. Please share your location so I can give you accurate information.",
+      "For information on our cable TV plans and promotions, please provide your address so we can send you the relevant details."
+    ]
+  },
+  {
+    "tag": "Internet_Service_Sales_Inquiry",
+    "patterns": [
+      "I'm interested in getting internet service",
+      "Tell me about your internet plans",
+      "What are the options for internet services?",
+      "How much does your internet service cost?",
+      "Do you have any promotions for internet services?",
+      "I'd like to subscribe to internet services",
+      "Can you provide details on internet service packages?"
+    ],
+    "responses": [
+      "We have various internet service plans available. Please provide your location so we can give you information about the options and pricing.",
+      "Our internet services include different packages. Let me know your preferences and location, and I'll provide you with the details.",
+      "I can assist with information about our internet service plans and promotions. Please share your location to get accurate information.",
+      "For details on our internet service plans and any current promotions, please provide your address so we can send you the relevant details."
+    ]
+  },
+  {
+    "tag": "Promotional_Offers",
+    "patterns": [
+      "Do you have any current promotions?",
+      "Tell me about your special offers",
+      "Are there any discounts available?",
+      "What promotions are you offering right now?",
+      "I want to know about your current deals",
+      "Do you have any ongoing sales?",
+      "Can you tell me about your latest offers?"
+    ],
+    "responses": [
+      "We currently have several promotions and offers. Please provide your location so I can inform you about the deals available in your area.",
+      "We offer various discounts and special offers. Let me know what services you are interested in, and I will provide the details.",
+      "To find out about our current promotions and offers, please share your location and the services you're interested in.",
+      "For information on our latest deals and promotions, please let me know your location and the services you want to know more about."
+    ]
+  },
+  {
+    "tag": "Maswali_Uuzaji_TV_Cable",
+    "patterns": [
+      "Nina hamu ya kununua TV cable",
+      "Nijuze kuhusu mipango ya TV cable",
+      "Nini chaguo za TV cable?",
+      "Bei ya huduma ya TV cable ni kiasi gani?",
+      "Je, mna matangazo yoyote kwa TV cable?",
+      "Ningependa kupata huduma ya TV cable",
+      "Unaweza kutoa maelezo kuhusu paketi za TV cable?"
+    ],
+    "responses": [
+      "Tunatoa mipango mbalimbali ya TV cable. Tafadhali toa anuani yako ili niweze kukujulisha kuhusu chaguo na bei zinazopatikana.",
+      "Huduma zetu za TV cable zinakuja na paketi tofauti. Niambie mapendeleo yako na eneo lako, na nitakupa maelezo zaidi.",
+      "Ninaweza kusaidia kwa kutoa maelezo kuhusu paketi na bei za TV cable. Tafadhali toa anuani yako ili nipate maelezo sahihi.",
+      "Kwa maelezo kuhusu mipango ya TV cable na matangazo yoyote, tafadhali toa anuani yako ili tuweze kukutumia maelezo husika."
+    ]
+  },
+  {
+    "tag": "Maswali_Uuzaji_Huduma_Internet",
+    "patterns": [
+      "Nina hamu ya kupata huduma ya internet",
+      "Nijuze kuhusu mipango ya internet",
+      "Nini chaguo za huduma za internet?",
+      "Bei ya huduma ya internet ni kiasi gani?",
+      "Je, mna matangazo yoyote kwa huduma za internet?",
+      "Ningependa kujiandikisha kwa huduma za internet",
+      "Unaweza kutoa maelezo kuhusu paketi za huduma za internet?"
+    ],
+    "responses": [
+      "Tunatoa mipango mbalimbali ya huduma ya internet. Tafadhali toa anuani yako ili niweze kukupa maelezo kuhusu chaguo na bei zinazopatikana.",
+      "Huduma zetu za internet zinajumuisha paketi tofauti. Niambie mapendeleo yako na eneo lako, na nitakupa maelezo zaidi.",
+      "Ninaweza kusaidia kwa kutoa maelezo kuhusu mipango ya huduma za internet na matangazo. Tafadhali toa anuani yako ili nipate maelezo sahihi.",
+      "Kwa maelezo kuhusu mipango ya huduma za internet na matangazo yoyote, tafadhali toa anuani yako ili tuweze kukutumia maelezo husika."
+    ]
+  },
+  {
+    "tag": "Matangazo_Maalum",
+    "patterns": [
+      "Je, mna matangazo ya sasa?",
+      "Nijuze kuhusu ofa maalum",
+      "Je, kuna punguzo lolote linalopatikana?",
+      "Matangazo gani mna sasa hivi?",
+      "Ningependa kujua kuhusu mikataba ya sasa",
+      "Je, kuna mauzo yanayoendelea?",
+      "Unaweza kusema kuhusu ofa zetu mpya?"
+    ],
+    "responses": [
+      "Kwa sasa tunayo matangazo na ofa mbalimbali. Tafadhali toa anuani yako ili niweze kukujulisha kuhusu ofa zinazopatikana eneo lako.",
+      "Tunatoa punguzo na ofa maalum. Niambie ni huduma zipi unazovutiwa nazo, na nitakupa maelezo zaidi.",
+      "Kujua kuhusu matangazo yetu ya sasa na ofa, tafadhali toa anuani yako na huduma unazopenda kujua zaidi.",
+      "Kwa maelezo kuhusu mikataba yetu ya hivi karibuni na matangazo, tafadhali toa anuani yako na huduma unazotaka kujua zaidi."
+    ]
+  },
+  {
+    "tag": "Price_Inquiry",
+    "patterns": [
+      "How much does it cost?",
+      "What are the prices for your services?",
+      "Can you provide pricing details?",
+      "What is the cost of your products?",
+      "How much is the subscription?",
+      "Tell me the price for cable TV",
+      "How much for internet service?"
+    ],
+    "responses": [
+      "The prices vary depending on the product and package. Could you specify which service or product you're interested in?",
+      "I can provide pricing details. Please let me know the specific product or service you want to know the price for.",
+      "For detailed pricing, please specify the product or service you're interested in, and I'll provide the information.",
+      "Prices for our products and services vary. Could you provide more details on what you're looking for?"
+    ]
+  },
+  {
+    "tag": "Purchase_Process",
+    "patterns": [
+      "How can I buy a service?",
+      "What is the process to purchase?",
+      "How do I subscribe to your service?",
+      "Can you guide me through the purchase?",
+      "What steps do I need to follow to buy?",
+      "How do I place an order?",
+      "Can I buy your product online?"
+    ],
+    "responses": [
+      "To purchase a service, please visit our website or contact our sales team directly. They will guide you through the process.",
+      "You can subscribe to our services online or by contacting our sales department. Let me know if you need further assistance.",
+      "The purchase process involves selecting the product or service on our website or contacting our sales team. Would you like more details on how to proceed?",
+      "For buying our products, you can visit our website or get in touch with our sales team for a guided process."
+    ]
+  },
+  {
+    "tag": "Uchunguzi_ wa_Maegesho",
+    "patterns": [
+      "Inagharimu kiasi gani?",
+      "Bei za huduma zenu ni zipi?",
+      "Je, unaweza kutoa maelezo kuhusu bei?",
+      "Gharama ya bidhaa zenu ni kiasi gani?",
+      "Ni kiasi gani kwa usajili?",
+      "Nipe bei ya TV cable",
+      "Gharama ya huduma ya internet ni kiasi gani?"
+    ],
+    "responses": [
+      "Bei hutofautiana kulingana na bidhaa na kifurushi. Tafadhali eleza huduma au bidhaa unayopendelea ili niweze kutoa maelezo zaidi.",
+      "Ninaweza kutoa maelezo kuhusu bei. Tafadhali niambie bidhaa au huduma unayotaka kujua bei yake.",
+      "Kwa maelezo ya bei, tafadhali eleza bidhaa au huduma unayopendelea, na nitatoa taarifa za bei.",
+      "Bei za bidhaa na huduma zetu hutofautiana. Tafadhali eleza maelezo zaidi kuhusu unachotaka kujua."
+    ]
+  },
+  {
+    "tag": "Mchakato_wa_Ununuzi",
+    "patterns": [
+      "Nitaweza vipi kununua huduma?",
+      "Mchakato wa kununua ni upi?",
+      "Je, nawezaje kujisajili kwa huduma zenu?",
+      "Je, unaweza kuniambia jinsi ya kununua?",
+      "Hatua zipi nitahitaji kufuata kununua?",
+      "Nitaweza vipi kuagiza?",
+      "Je, naweza kununua bidhaa zenu mtandaoni?"
+    ],
+    "responses": [
+      "Ili kununua huduma, tafadhali tembelea tovuti yetu au wasiliana moja kwa moja na timu yetu ya mauzo. Watakuongoza kupitia mchakato.",
+      "Unaweza kujisajili kwa huduma zetu mtandaoni au kwa kuwasiliana na idara yetu ya mauzo. Tafadhali nijulishe kama unahitaji msaada zaidi.",
+      "Mchakato wa ununuzi unahusisha kuchagua bidhaa au huduma kwenye tovuti yetu au kuwasiliana na timu yetu ya mauzo. Ungependa maelezo zaidi kuhusu jinsi ya kuendelea?",
+      "Kwa kununua bidhaa zetu, unaweza kutembelea tovuti yetu au kuwasiliana na timu yetu ya mauzo kwa mchakato wa kuongozwa."
     ]
   }
