@@ -822,6 +822,12 @@ from flask import Flask, request, jsonify
 from ChatBot1 import predict_class, get_response, log_interaction, fuzzy_match, match_key_phrases, intents
 from datetime import datetime
 import pickle
+import sys
+
+# Path to the script
+nltk_script = os.path.join(os.path.dirname(__file__), 'download_nltk_data.py')
+os.system(f'{sys.executable} {nltk_script}')
+
 
 # Initialize Flask app
 app = Flask(__name__)

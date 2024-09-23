@@ -589,6 +589,10 @@ import difflib  # For fuzzy matching
 from datetime import datetime
 from flask import Flask, request, jsonify
 
+# Path to the script
+nltk_script = os.path.join(os.path.dirname(__file__), 'download_nltk_data.py')
+os.system(f'{sys.executable} {nltk_script}')
+
 # Load configuration from config file, including key phrases
 with open('config.json') as f:
     config = json.load(f)
