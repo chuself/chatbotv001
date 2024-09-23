@@ -824,10 +824,14 @@ from datetime import datetime
 import pickle
 import sys
 
-# Path to the script
+import nltk
+
+# Add the NLTK data path for Render server
+nltk.data.path.append('/opt/render/nltk_data')
+
+# Now run your script
 nltk_script = os.path.join(os.path.dirname(__file__), 'download_nltk_data.py')
 os.system(f'{sys.executable} {nltk_script}')
-
 
 # Initialize Flask app
 app = Flask(__name__)

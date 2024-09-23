@@ -683,7 +683,7 @@ def predict_class(sentence):
 def get_response(intents_list, intents_json):
     tag = intents_list[0]['intent']
     if len(intents_list) > 1 and float(intents_list[0]['probability']) - float(intents_list[1]['probability']) < 0.1:
-        return "I am not quite sure. Did you mean to say 'bye' or 'hello'?"
+        return "I am not quite sure. Which department did you want to reach?"
 
     for i in intents_json['intents']:
         if i['tag'] == tag:

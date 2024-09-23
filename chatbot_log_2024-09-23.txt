@@ -82,3 +82,67 @@
 [2024-09-23 17:06:56] Model Predictions: [1.4444016e-06 9.9997747e-01 7.8108114e-06 4.0057263e-10 6.4715309e-08
  3.5808103e-08 5.2152576e-08 5.9743606e-09 1.3167909e-05]
 
+[2024-09-23 20:20:55] User: hello nexus can i get a network connection
+[2024-09-23 20:20:55] Bot: I am not quite sure. Did you mean to say 'bye' or 'hello'?
+[2024-09-23 20:20:55] Predicted Intents: [{'intent': 'Cable_TV_Installation', 'probability': '0.4940831'}, {'intent': 'Cable_TV_Complaint_Inquiry', 'probability': '0.49328342'}]
+[2024-09-23 20:20:55] Model Predictions: [4.93283421e-01 4.94083107e-01 5.80172753e-03 5.50517289e-04
+ 7.65580353e-06 4.34781890e-04 1.08402666e-04 9.84588187e-05
+ 5.63191855e-03]
+
+[2024-09-23 20:21:10] User: how about internet connection
+[2024-09-23 20:21:10] Bot: No problem We can set that up for you. Please send us your address and contact information.
+[2024-09-23 20:21:10] Predicted Intents: [{'intent': 'Internet_Installation_Request', 'probability': '0.9793649'}]
+[2024-09-23 20:21:10] Model Predictions: [8.1595994e-05 1.0833154e-03 9.7936487e-01 1.4295538e-02 4.4698125e-05
+ 3.4033251e-03 4.8834088e-05 1.5282025e-06 1.6763642e-03]
+
+[2024-09-23 20:21:38] User: what if my internet is having issues what can i do to fix them
+[2024-09-23 20:21:38] Bot: Let's schedule a repair for your internet. Kindly provide your location and contact details.
+[2024-09-23 20:21:38] Predicted Intents: [{'intent': 'Internet_Troubleshooting_Request', 'probability': '0.99408937'}]
+[2024-09-23 20:21:38] Model Predictions: [5.4447320e-03 2.0876527e-05 2.0208872e-04 9.9408937e-01 9.0632559e-09
+ 1.7017632e-09 6.6621742e-06 2.3634704e-04 1.7122870e-08]
+
+[2024-09-23 20:25:12] User: hey hello nexus can i get a network connection
+[2024-09-23 20:25:12] Bot: I am not quite sure. Which department did you want to reach?
+[2024-09-23 20:25:12] Predicted Intents: [{'intent': 'Cable_TV_Installation', 'probability': '0.4940831'}, {'intent': 'Cable_TV_Complaint_Inquiry', 'probability': '0.49328342'}]
+[2024-09-23 20:25:12] Model Predictions: [4.93283421e-01 4.94083107e-01 5.80172753e-03 5.50517289e-04
+ 7.65580353e-06 4.34781890e-04 1.08402666e-04 9.84588187e-05
+ 5.63191855e-03]
+
+[2024-09-23 20:25:27] User: hello nexus can i get a network connection
+[2024-09-23 20:25:27] Bot: I am not quite sure. Which department did you want to reach?
+[2024-09-23 20:25:27] Predicted Intents: [{'intent': 'Cable_TV_Installation', 'probability': '0.4940831'}, {'intent': 'Cable_TV_Complaint_Inquiry', 'probability': '0.49328342'}]
+[2024-09-23 20:25:27] Model Predictions: [4.93283421e-01 4.94083107e-01 5.80172753e-03 5.50517289e-04
+ 7.65580353e-06 4.34781890e-04 1.08402666e-04 9.84588187e-05
+ 5.63191855e-03]
+
+[2024-09-23 20:26:17] User: cable tv department
+[2024-09-23 20:26:17] Bot: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+[2024-09-23 20:26:17] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.9999393'}]
+[2024-09-23 20:26:17] Model Predictions: [2.2909974e-06 2.1915615e-05 1.6916871e-08 2.6466314e-08 1.5207484e-05
+ 2.0946178e-05 2.7784444e-07 3.0544269e-09 9.9993932e-01]
+
+[2024-09-23 20:26:34] User: internet deparment
+[2024-09-23 20:26:34] Bot: We're sorry for the inconvenience caused by the network. Please share your account details and location so we can troubleshoot the issue.
+[2024-09-23 20:26:34] Predicted Intents: [{'intent': 'Internet_Troubleshooting_Request', 'probability': '0.7526576'}]
+[2024-09-23 20:26:34] Model Predictions: [2.9970013e-04 1.9862286e-04 2.1501632e-01 7.5265759e-01 3.5332155e-04
+ 5.6934529e-03 3.0557197e-04 2.4813002e-05 2.5450628e-02]
+
+[2024-09-23 20:26:41] User: hello nexus can i get a network connection
+[2024-09-23 20:26:41] Bot: I am not quite sure. Which department did you want to reach?
+[2024-09-23 20:26:41] Predicted Intents: [{'intent': 'Cable_TV_Installation', 'probability': '0.4940831'}, {'intent': 'Cable_TV_Complaint_Inquiry', 'probability': '0.49328342'}]
+[2024-09-23 20:26:41] Model Predictions: [4.93283421e-01 4.94083107e-01 5.80172753e-03 5.50517289e-04
+ 7.65580353e-06 4.34781890e-04 1.08402666e-04 9.84588187e-05
+ 5.63191855e-03]
+
+[2024-09-23 20:26:46] User: internet deparment
+[2024-09-23 20:26:46] Bot: We apologize for the issue. Please share your account details and address, and we will send a internet technician.
+[2024-09-23 20:26:46] Predicted Intents: [{'intent': 'Internet_Troubleshooting_Request', 'probability': '0.7526576'}]
+[2024-09-23 20:26:46] Model Predictions: [2.9970013e-04 1.9862286e-04 2.1501632e-01 7.5265759e-01 3.5332155e-04
+ 5.6934529e-03 3.0557197e-04 2.4813002e-05 2.5450628e-02]
+
+[2024-09-23 20:45:07] User: & d:/Programing/Projects/ChatBotV1/venv/Scripts/python.exe d:/Programing/Projects/ChatBotV1/ChatBot1.py
+[2024-09-23 20:45:07] Bot: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+[2024-09-23 20:45:07] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.965784'}]
+[2024-09-23 20:45:07] Model Predictions: [1.0973798e-02 6.1516483e-05 1.0558948e-04 1.4425486e-03 9.2025592e-05
+ 2.1323465e-02 1.9817107e-04 1.8966772e-05 9.6578401e-01]
+
