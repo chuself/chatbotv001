@@ -826,6 +826,17 @@ import sys
 
 import nltk
 
+from nltk.data import find
+from nltk.download import download
+
+def ensure_nltk_data():
+    try:
+        find('corpora/wordnet.zip')
+    except LookupError:
+        download('wordnet')
+
+ensure_nltk_data()
+
 # Add the NLTK data path for Render server
 nltk.data.path.append('/opt/render/nltk_data')
 
