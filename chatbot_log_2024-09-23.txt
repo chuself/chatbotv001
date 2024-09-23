@@ -4,3 +4,81 @@
 [2024-09-23 16:23:06] Model Predictions: [1.1964958e-04 5.2437885e-09 2.4460687e-06 9.9987566e-01 3.8526360e-09
  3.0864067e-07 9.3581622e-07 9.6451811e-07 1.5430707e-08]
 
+[2024-09-23 17:05:00] User: help me with cable tv subscription
+[2024-09-23 17:05:00] Bot: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+[2024-09-23 17:05:00] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.9993542'}]
+[2024-09-23 17:05:00] Model Predictions: [1.6448212e-04 2.4810239e-05 2.9950655e-08 5.2364527e-07 6.7739085e-05
+ 3.8438744e-04 3.7082661e-06 9.8957464e-08 9.9935418e-01]
+
+[2024-09-23 17:05:17] User: i want cable installation
+[2024-09-23 17:05:17] Bot: Sure! Please provide your home location, contact details and our team will handle the rest.
+[2024-09-23 17:05:17] Predicted Intents: [{'intent': 'Cable_TV_Installation', 'probability': '0.99997747'}]
+[2024-09-23 17:05:17] Model Predictions: [1.4444016e-06 9.9997747e-01 7.8108114e-06 4.0057263e-10 6.4715309e-08
+ 3.5808103e-08 5.2152576e-08 5.9743606e-09 1.3167909e-05]
+
+[2024-09-23 17:05:28] User: i want internet  installation
+[2024-09-23 17:05:28] Bot: Sure! Send your location, and we will handle your internet setup right away.
+[2024-09-23 17:05:28] Predicted Intents: [{'intent': 'Internet_Installation_Request', 'probability': '0.9998994'}]
+[2024-09-23 17:05:28] Model Predictions: [2.9206764e-09 8.4171385e-05 9.9989939e-01 1.6524208e-06 9.8394298e-07
+ 1.1150976e-05 2.1103788e-06 1.0232969e-08 4.1774919e-07]
+
+[2024-09-23 17:05:47] User: i want internet and cablr installation
+[2024-09-23 17:05:47] Bot: We appreciate your interest in Barmedas internet. Send us your address, and we'll arrange the installation.
+[2024-09-23 17:05:47] Predicted Intents: [{'intent': 'Internet_Installation_Request', 'probability': '0.9999691'}]
+[2024-09-23 17:05:47] Model Predictions: [1.7980695e-11 3.0905154e-05 9.9996912e-01 2.9827871e-09 4.8877768e-09
+ 2.4244258e-08 2.9471893e-08 5.7303218e-10 1.7825880e-10]
+
+[2024-09-23 17:05:57] User: i want internet and cable installation
+[2024-09-23 17:05:57] Bot: Thanks for choosing Barmedas! Kindly share your location details, and we will schedule your internet installation.
+[2024-09-23 17:05:57] Predicted Intents: [{'intent': 'Internet_Installation_Request', 'probability': '0.85613894'}]
+[2024-09-23 17:05:57] Model Predictions: [1.0925768e-09 1.4385889e-01 8.5613894e-01 8.5603924e-09 1.2080739e-06
+ 4.5830393e-07 1.5530854e-07 2.1942719e-09 2.1846773e-07]
+
+[2024-09-23 17:06:01] User: i want internet and cable installation
+[2024-09-23 17:06:01] Bot: We appreciate your interest in Barmedas internet. Send us your address, and we'll arrange the installation.
+[2024-09-23 17:06:01] Predicted Intents: [{'intent': 'Internet_Installation_Request', 'probability': '0.85613894'}]
+[2024-09-23 17:06:01] Model Predictions: [1.0925768e-09 1.4385889e-01 8.5613894e-01 8.5603924e-09 1.2080739e-06
+ 4.5830393e-07 1.5530854e-07 2.1942719e-09 2.1846773e-07]
+
+[2024-09-23 17:06:04] User: i want internet and cable installation
+[2024-09-23 17:06:04] Bot: Sure! Send your location, and we will handle your internet setup right away.
+[2024-09-23 17:06:04] Predicted Intents: [{'intent': 'Internet_Installation_Request', 'probability': '0.85613894'}]
+[2024-09-23 17:06:04] Model Predictions: [1.0925768e-09 1.4385889e-01 8.5613894e-01 8.5603924e-09 1.2080739e-06
+ 4.5830393e-07 1.5530854e-07 2.1942719e-09 2.1846773e-07]
+
+[2024-09-23 17:06:08] User: i want internet and cable installation
+[2024-09-23 17:06:08] Bot: Thank you for your request! Please provide your address and preferred installation date, and we will arrange it for you.
+[2024-09-23 17:06:08] Predicted Intents: [{'intent': 'Internet_Installation_Request', 'probability': '0.85613894'}]
+[2024-09-23 17:06:08] Model Predictions: [1.0925768e-09 1.4385889e-01 8.5613894e-01 8.5603924e-09 1.2080739e-06
+ 4.5830393e-07 1.5530854e-07 2.1942719e-09 2.1846773e-07]
+
+[2024-09-23 17:06:29] User: i want cable and internet  installation
+[2024-09-23 17:06:29] Bot: We appreciate your interest in Barmedas internet. Send us your address, and we'll arrange the installation.
+[2024-09-23 17:06:29] Predicted Intents: [{'intent': 'Internet_Installation_Request', 'probability': '0.85613894'}]
+[2024-09-23 17:06:29] Model Predictions: [1.0925768e-09 1.4385889e-01 8.5613894e-01 8.5603924e-09 1.2080739e-06
+ 4.5830393e-07 1.5530854e-07 2.1942719e-09 2.1846773e-07]
+
+[2024-09-23 17:06:31] User: i want cable and internet  installation
+[2024-09-23 17:06:31] Bot: Sure! Send your location, and we will handle your internet setup right away.
+[2024-09-23 17:06:31] Predicted Intents: [{'intent': 'Internet_Installation_Request', 'probability': '0.85613894'}]
+[2024-09-23 17:06:31] Model Predictions: [1.0925768e-09 1.4385889e-01 8.5613894e-01 8.5603924e-09 1.2080739e-06
+ 4.5830393e-07 1.5530854e-07 2.1942719e-09 2.1846773e-07]
+
+[2024-09-23 17:06:34] User: i want cable and internet  installation
+[2024-09-23 17:06:34] Bot: Thank you for your request! Please provide your address and preferred installation date, and we will arrange it for you.
+[2024-09-23 17:06:34] Predicted Intents: [{'intent': 'Internet_Installation_Request', 'probability': '0.85613894'}]
+[2024-09-23 17:06:34] Model Predictions: [1.0925768e-09 1.4385889e-01 8.5613894e-01 8.5603924e-09 1.2080739e-06
+ 4.5830393e-07 1.5530854e-07 2.1942719e-09 2.1846773e-07]
+
+[2024-09-23 17:06:54] User: i want cable installation
+[2024-09-23 17:06:54] Bot: Sure! We can arrange that for you. please Send us your address and contact number to proceed with your cable Tv installation.
+[2024-09-23 17:06:54] Predicted Intents: [{'intent': 'Cable_TV_Installation', 'probability': '0.99997747'}]
+[2024-09-23 17:06:54] Model Predictions: [1.4444016e-06 9.9997747e-01 7.8108114e-06 4.0057263e-10 6.4715309e-08
+ 3.5808103e-08 5.2152576e-08 5.9743606e-09 1.3167909e-05]
+
+[2024-09-23 17:06:56] User: i want cable installation
+[2024-09-23 17:06:56] Bot: Sure! We can arrange that for you. please Send us your address and contact number to proceed with your cable Tv installation.
+[2024-09-23 17:06:56] Predicted Intents: [{'intent': 'Cable_TV_Installation', 'probability': '0.99997747'}]
+[2024-09-23 17:06:56] Model Predictions: [1.4444016e-06 9.9997747e-01 7.8108114e-06 4.0057263e-10 6.4715309e-08
+ 3.5808103e-08 5.2152576e-08 5.9743606e-09 1.3167909e-05]
+
