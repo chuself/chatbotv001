@@ -819,16 +819,21 @@ import os
 import json
 import logging
 from flask import Flask, request, jsonify
-from ChatBot1 import predict_class, get_response, log_interaction, fuzzy_match, match_key_phrases, intents
-from datetime import datetime
 import pickle
 import sys
-
 import nltk
-
+print("Starting Flask app...")
+from ChatBot1 import predict_class, get_response, log_interaction, fuzzy_match, match_key_phrases, intents
+from datetime import datetime
 from nltk.data import find
-from nltk.download import download
 
+# Download the necessary NLTK packages
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('punkt_tab')
+
+
+print("Starting Flask app...")
 def ensure_nltk_data():
     try:
         find('corpora/wordnet.zip')
@@ -868,6 +873,9 @@ def load_resources():
     return words, classes
 
 words, classes = load_resources()
+
+
+
 
 # Endpoint for WhatsApp Webhook (for POST requests)
 @app.route('/webhook', methods=['POST'])
@@ -951,5 +959,5 @@ if __name__ == '__main__':
     # Print to console to know that Flask has started
     print("Flask server is running...")
     logging.info("Flask server is up and running.")
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5001)
 

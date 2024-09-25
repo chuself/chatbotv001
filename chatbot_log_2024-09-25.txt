@@ -1,0 +1,211 @@
+[2024-09-25 18:49:35] User: i want new connecvtion cable tcv
+[2024-09-25 18:49:35] Bot: Sure! We can arrange that for you. please Send us your address and contact number to proceed with your cable Tv installation.
+[2024-09-25 18:49:35] Predicted Intents: [{'intent': 'Cable_TV_Installation', 'probability': '0.99810326'}]
+[2024-09-25 18:49:35] Model Predictions: [8.9004416e-06 9.9810326e-01 4.1932301e-05 1.6889320e-08 2.4735775e-06
+ 6.1823071e-06 6.3431321e-07 2.7240144e-08 1.8366148e-03]
+
+[2024-09-25 18:55:18] User: & d:/Programing/Projects/ChatBotV1/venv/Scripts/python.exe d:/Programing/Projects/ChatBotV1/app.py
+[2024-09-25 18:55:18] Bot: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+[2024-09-25 18:55:18] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.965784'}]
+[2024-09-25 18:55:18] Model Predictions: [1.0973798e-02 6.1516483e-05 1.0558948e-04 1.4425486e-03 9.2025592e-05
+ 2.1323465e-02 1.9817107e-04 1.8966772e-05 9.6578401e-01]
+
+[2024-09-25 19:02:30] User: & d:/Programing/Projects/ChatBotV1/venv/Scripts/python.exe d:/Programing/Projects/ChatBotV1/app.py
+[2024-09-25 19:02:30] Bot: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+[2024-09-25 19:02:30] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.965784'}]
+[2024-09-25 19:02:30] Model Predictions: [1.0973798e-02 6.1516483e-05 1.0558948e-04 1.4425486e-03 9.2025592e-05
+ 2.1323465e-02 1.9817107e-04 1.8966772e-05 9.6578401e-01]
+
+[2024-09-25 19:15:35] User: Hello, I need help with my internet service.
+[2024-09-25 19:15:35] Bot: Let's schedule a repair for your internet. Kindly provide your location and contact details.
+[2024-09-25 19:15:35] Predicted Intents: [{'intent': 'Internet_Troubleshooting_Request', 'probability': '0.86823887'}]
+[2024-09-25 19:15:35] Model Predictions: [2.8871519e-03 9.7679796e-05 1.2870282e-01 8.6823887e-01 1.4020095e-07
+ 5.6481000e-05 1.0905894e-05 3.7708130e-06 2.2368749e-06]
+
+[2024-09-25 19:16:25] User: Hello, I need help with my cable tv connection.
+[2024-09-25 19:16:25] Bot: We will arrange for repairs. Kindly send your Account details, and we will get it sorted as soon as possible.
+[2024-09-25 19:16:25] Predicted Intents: [{'intent': 'Cable_TV_Complaint_Inquiry', 'probability': '0.9760671'}]
+[2024-09-25 19:16:25] Model Predictions: [9.76067126e-01 2.38752365e-02 8.49922685e-07 2.74580134e-06
+ 1.03840414e-07 4.53271969e-06 1.83429302e-06 7.86464568e-07
+ 4.68147482e-05]
+
+[2024-09-25 19:18:33] User: Hello chuself I need help with my cable tv connection.
+[2024-09-25 19:18:33] Bot: Thanks for reaching out! We'll send a repair team shortly. Can you confirm your Account details and location?
+[2024-09-25 19:18:33] Predicted Intents: [{'intent': 'Cable_TV_Complaint_Inquiry', 'probability': '0.9760671'}]
+[2024-09-25 19:18:33] Model Predictions: [9.76067126e-01 2.38752365e-02 8.49922685e-07 2.74580134e-06
+ 1.03840414e-07 4.53271969e-06 1.83429302e-06 7.86464568e-07
+ 4.68147482e-05]
+
+[2024-09-25 19:22:21] User: nataka kuweka kebo mpya.
+[2024-09-25 19:22:21] Bot: Asante kwa kuchagua Barmedas! Tafadhali toa maelezo ya eneo lako, na timu yetu itawasiliana nawe kwa ajili ya ufungaji.
+[2024-09-25 19:22:21] Predicted Intents: [{'intent': 'Kufungiwa_cable_tv', 'probability': '0.67702746'}, {'intent': 'general_cable_tv', 'probability': '0.26379445'}]
+[2024-09-25 19:22:21] Model Predictions: [4.2742588e-02 1.4293350e-03 6.5862411e-04 7.4543785e-03 6.7702746e-01
+ 3.6901922e-03 8.7080392e-05 3.1157846e-03 2.6379445e-01]
+
+[2024-09-25 19:22:32] User: nataka kuweka kebe mpya.
+[2024-09-25 19:22:32] Bot: okay! Tafadhali toa eneo lako la kufungiwa, na timu yetu itashughulikia hilo.
+[2024-09-25 19:22:32] Predicted Intents: [{'intent': 'Kufungiwa_cable_tv', 'probability': '0.68812144'}]
+[2024-09-25 19:22:32] Model Predictions: [9.8418906e-02 2.2336494e-03 3.9294260e-03 1.0824058e-02 6.8812144e-01
+ 1.8960733e-02 3.2593595e-04 1.6928451e-01 7.9013649e-03]
+
+[2024-09-25 19:22:47] User: nataka kuweka kebe mpya fix my tv.
+[2024-09-25 19:22:47] Bot: We are sorry for the inconvenience. Could you please provide your account number,name and location so our team can assist you?
+[2024-09-25 19:22:47] Predicted Intents: [{'intent': 'Cable_TV_Complaint_Inquiry', 'probability': '0.92720664'}]
+[2024-09-25 19:22:47] Model Predictions: [9.27206635e-01 1.19591726e-03 4.92374875e-06 1.45950500e-04
+ 1.36300875e-02 3.32968830e-06 1.60447416e-06 5.77590689e-02
+ 5.25415235e-05]
+
+[2024-09-25 19:23:04] User: nataka kuweka cable mpya fix my tv.
+[2024-09-25 19:23:04] Bot: Let's get that sorted! Share your customer details and our technitians will get in touch.
+[2024-09-25 19:23:04] Predicted Intents: [{'intent': 'Cable_TV_Complaint_Inquiry', 'probability': '0.97227895'}]
+[2024-09-25 19:23:04] Model Predictions: [9.7227895e-01 2.9782406e-03 4.5011879e-07 1.8371204e-05 2.0125598e-02
+ 1.1676573e-06 6.0287664e-07 4.1496991e-03 4.4688970e-04]
+
+[2024-09-25 19:23:27] User: cable tv not working.
+[2024-09-25 19:23:27] Bot: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+[2024-09-25 19:23:27] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.9979284'}]
+[2024-09-25 19:23:27] Model Predictions: [1.0654618e-03 6.7654044e-05 1.6040019e-07 2.8546920e-06 1.5755253e-05
+ 9.1852708e-04 1.3021411e-06 6.3301798e-08 9.9792838e-01]
+
+[2024-09-25 19:23:38] User: my cable tv is  not working.
+[2024-09-25 19:23:38] Bot: Thanks for reaching out! We'll send a repair team shortly. Can you confirm your Account details and location?
+[2024-09-25 19:23:38] Predicted Intents: [{'intent': 'Cable_TV_Complaint_Inquiry', 'probability': '0.9999633'}]
+[2024-09-25 19:23:38] Model Predictions: [9.99963284e-01 9.60929538e-06 7.71882291e-09 1.69280429e-06
+ 1.09017044e-07 3.31338606e-06 2.27289490e-07 1.75614602e-07
+ 2.15593918e-05]
+
+[2024-09-25 19:23:46] User: my cable tv not working.
+[2024-09-25 19:23:46] Bot: Thanks for reaching out! We'll send a repair team shortly. Can you confirm your Account details and location?
+[2024-09-25 19:23:46] Predicted Intents: [{'intent': 'Cable_TV_Complaint_Inquiry', 'probability': '0.9999633'}]
+[2024-09-25 19:23:46] Model Predictions: [9.99963284e-01 9.60929538e-06 7.71882291e-09 1.69280429e-06
+ 1.09017044e-07 3.31338606e-06 2.27289490e-07 1.75614602e-07
+ 2.15593918e-05]
+
+[2024-09-25 19:23:52] User: cable tv not working.
+[2024-09-25 19:23:52] Bot: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+[2024-09-25 19:23:52] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.9979284'}]
+[2024-09-25 19:23:52] Model Predictions: [1.0654618e-03 6.7654044e-05 1.6040019e-07 2.8546920e-06 1.5755253e-05
+ 9.1852708e-04 1.3021411e-06 6.3301798e-08 9.9792838e-01]
+
+[2024-09-25 19:24:00] User: cable tv is not working.
+[2024-09-25 19:24:00] Bot: We apologize for the trouble. Please share your account name and location, and our repair team will contact you.
+[2024-09-25 19:24:00] Predicted Intents: [{'intent': 'Cable_TV_Complaint_Inquiry', 'probability': '0.9999633'}]
+[2024-09-25 19:24:00] Model Predictions: [9.99963284e-01 9.60929538e-06 7.71882291e-09 1.69280429e-06
+ 1.09017044e-07 3.31338606e-06 2.27289490e-07 1.75614602e-07
+ 2.15593918e-05]
+
+[2024-09-25 19:24:09] User: cable tv are not working.
+[2024-09-25 19:24:09] Bot: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+[2024-09-25 19:24:09] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.9985581'}]
+[2024-09-25 19:24:09] Model Predictions: [1.1481309e-03 7.4936033e-05 4.4696474e-08 7.0888029e-07 1.2375234e-05
+ 2.0492147e-04 7.5053538e-07 4.8869364e-08 9.9855810e-01]
+
+[2024-09-25 19:24:22] User: cable  not working.
+[2024-09-25 19:24:22] Bot: Thanks for reporting! We will send a technician to your location as soon as possible. Could you confirm your account details?
+[2024-09-25 19:24:22] Predicted Intents: [{'intent': 'Cable_TV_Complaint_Inquiry', 'probability': '0.9999633'}]
+[2024-09-25 19:24:22] Model Predictions: [9.99963284e-01 9.60929538e-06 7.71882291e-09 1.69280429e-06
+ 1.09017044e-07 3.31338606e-06 2.27289490e-07 1.75614602e-07
+ 2.15593918e-05]
+
+[2024-09-25 19:24:27] User: cable  not .
+[2024-09-25 19:24:27] Bot: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+[2024-09-25 19:24:27] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.99915254'}]
+[2024-09-25 19:24:27] Model Predictions: [4.1023165e-04 7.7837931e-06 8.7724693e-08 2.9467128e-06 2.0321560e-05
+ 4.0337673e-04 2.5385011e-06 1.1340796e-07 9.9915254e-01]
+
+[2024-09-25 19:24:35] User: cable  not showing .
+[2024-09-25 19:24:35] Bot: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+[2024-09-25 19:24:35] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.9989724'}]
+[2024-09-25 19:24:35] Model Predictions: [8.0337265e-04 1.6974715e-05 4.3737888e-08 1.0805720e-06 2.1901567e-05
+ 1.8185015e-04 2.1722515e-06 1.8152068e-07 9.9897242e-01]
+
+[2024-09-25 19:24:49] User: cable  imekata .
+[2024-09-25 19:24:49] Bot: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+[2024-09-25 19:24:49] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.9998318'}]
+[2024-09-25 19:24:49] Model Predictions: [1.8820423e-05 4.4038470e-06 6.2657698e-08 5.7135668e-07 1.3651560e-05
+ 1.2967108e-04 9.1404388e-07 1.4747158e-08 9.9983180e-01]
+
+[2024-09-25 19:24:56] User: kebo imekata .
+[2024-09-25 19:24:56] Bot: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+[2024-09-25 19:24:56] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.99988294'}]
+[2024-09-25 19:24:56] Model Predictions: [7.4276148e-05 5.3961287e-07 1.0898333e-07 6.8951522e-06 5.0983058e-06
+ 2.9389352e-05 7.8238151e-07 1.6066521e-08 9.9988294e-01]
+
+[2024-09-25 19:25:04] User: kebo imekatika .
+[2024-09-25 19:25:04] Bot: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+[2024-09-25 19:25:04] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.99894375'}]
+[2024-09-25 19:25:04] Model Predictions: [6.7222783e-05 1.2375369e-06 3.8521924e-07 9.7122938e-06 7.1737613e-06
+ 9.6863374e-04 1.8649788e-06 2.4506804e-08 9.9894375e-01]
+
+[2024-09-25 19:25:17] User: kebo tv imekatika .
+[2024-09-25 19:25:17] Bot: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+[2024-09-25 19:25:17] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.999731'}]
+[2024-09-25 19:25:17] Model Predictions: [1.8442983e-05 1.8197035e-06 1.5783309e-07 1.3016077e-06 1.0693603e-05
+ 2.3573228e-04 7.7877752e-07 9.2344363e-09 9.9973100e-01]
+
+[2024-09-25 19:26:00] User: nataka kukujulisha kuwa kebo yetu chafu sana .
+[2024-09-25 19:26:00] Bot: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+[2024-09-25 19:26:00] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.97962964'}]
+[2024-09-25 19:26:00] Model Predictions: [6.0414211e-03 8.0487662e-05 4.0394003e-05 1.1023795e-03 9.9624395e-03
+ 3.0037044e-03 7.2396659e-05 6.7104011e-05 9.7962964e-01]
+
+[2024-09-25 19:26:06] User: nataka kukujulisha kuwa kebo yetu chafu sana.
+[2024-09-25 19:26:06] Bot: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+[2024-09-25 19:26:06] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.97962964'}]
+[2024-09-25 19:26:06] Model Predictions: [6.0414211e-03 8.0487662e-05 4.0394003e-05 1.1023795e-03 9.9624395e-03
+ 3.0037044e-03 7.2396659e-05 6.7104011e-05 9.7962964e-01]
+
+[2024-09-25 19:26:13] User: nataka kukujulisha kuwa kebo tv yetu chafu sana.
+[2024-09-25 19:26:13] Bot: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+[2024-09-25 19:26:13] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.9853157'}]
+[2024-09-25 19:26:13] Model Predictions: [2.8684124e-04 1.2506369e-04 1.4353637e-05 6.6146036e-05 1.3873978e-02
+ 3.0213114e-04 1.1633257e-05 4.2464931e-06 9.8531568e-01]
+
+[2024-09-25 19:26:33] User: nataka kukujulisha kuwa cable tv yetu chafu sana.
+[2024-09-25 19:26:33] Bot: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+[2024-09-25 19:26:33] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.96418756'}]
+[2024-09-25 19:26:33] Model Predictions: [1.0588598e-04 2.2760802e-03 4.1424182e-06 3.3098884e-06 3.3238638e-02
+ 1.7168417e-04 9.5676396e-06 3.1879431e-06 9.6418756e-01]
+
+[2024-09-25 19:26:54] User: nataka kukujulisha kuwa cable hakuna.
+[2024-09-25 19:26:54] Bot: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+[2024-09-25 19:26:54] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.8913601'}]
+[2024-09-25 19:26:54] Model Predictions: [1.2778693e-03 3.5615999e-03 5.6477780e-05 6.6346205e-05 9.4697267e-02
+ 8.8310996e-03 8.3189341e-05 6.6022789e-05 8.9136010e-01]
+
+[2024-09-25 19:27:29] User: nataka kukujulisha kuwa kebo tv hakuna.
+[2024-09-25 19:27:29] Bot: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+[2024-09-25 19:27:29] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.9636343'}]
+[2024-09-25 19:27:29] Model Predictions: [4.3701622e-04 2.3635275e-04 4.1155894e-05 1.4431277e-04 3.3844683e-02
+ 1.6377664e-03 1.7928995e-05 6.6057050e-06 9.6363431e-01]
+
+[2024-09-25 19:27:33] User: nataka kukujulisha kuwa kebo tv hakuna.
+[2024-09-25 19:27:33] Bot: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+[2024-09-25 19:27:33] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.9636343'}]
+[2024-09-25 19:27:33] Model Predictions: [4.3701622e-04 2.3635275e-04 4.1155894e-05 1.4431277e-04 3.3844683e-02
+ 1.6377664e-03 1.7928995e-05 6.6057050e-06 9.6363431e-01]
+
+[2024-09-25 19:27:34] User: nataka kukujulisha kuwa kebo tv hakuna.
+[2024-09-25 19:27:34] Bot: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+[2024-09-25 19:27:34] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.9636343'}]
+[2024-09-25 19:27:34] Model Predictions: [4.3701622e-04 2.3635275e-04 4.1155894e-05 1.4431277e-04 3.3844683e-02
+ 1.6377664e-03 1.7928995e-05 6.6057050e-06 9.6363431e-01]
+
+[2024-09-25 19:27:35] User: nataka kukujulisha kuwa kebo tv hakuna.
+[2024-09-25 19:27:35] Bot: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+[2024-09-25 19:27:35] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.9636343'}]
+[2024-09-25 19:27:35] Model Predictions: [4.3701622e-04 2.3635275e-04 4.1155894e-05 1.4431277e-04 3.3844683e-02
+ 1.6377664e-03 1.7928995e-05 6.6057050e-06 9.6363431e-01]
+
+[2024-09-25 19:27:58] User: nahitaji msahada wa kebo.
+[2024-09-25 19:27:58] Bot: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+[2024-09-25 19:27:58] Predicted Intents: [{'intent': 'general_cable_tv', 'probability': '0.99573934'}]
+[2024-09-25 19:27:58] Model Predictions: [7.0492964e-04 5.5921038e-05 1.1523871e-05 9.9105535e-05 7.7288476e-04
+ 2.5477207e-03 6.0016209e-05 8.4767153e-06 9.9573934e-01]
+
+[2024-09-25 19:28:10] User: nahitaji msahada wa kebo nataka marwekebisho.
+[2024-09-25 19:28:10] Bot: Sawa! Tunaweza kupanga hilo. Tuma mahali unaishi pamoja na namba ya mawasiliano na timu yetu itaendelea na ufungaji wako wa cable.
+[2024-09-25 19:28:10] Predicted Intents: [{'intent': 'Kufungiwa_cable_tv', 'probability': '0.985999'}]
+[2024-09-25 19:28:10] Model Predictions: [1.0438067e-03 1.4407156e-04 4.3344125e-04 2.4902930e-03 9.8599899e-01
+ 5.9298836e-03 2.2939936e-05 6.2598672e-04 3.3106070e-03]
+

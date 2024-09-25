@@ -3,6 +3,8 @@
     "words_file": "words.pkl",
     "classes_file": "classes.pkl",
     "model_file": "chatbotmodel.keras",
+    "tokenizer_file": "tokenizer.pickle",
+    "label_encoder_file": "label_encoder.pickle",
     "fuzzy_match_cutoff": 0.8,
     "error_threshold": 0.25,
     "key_phrases": {

@@ -1,0 +1,229 @@
+2024-09-25 19:15:08,453 - INFO - Flask app started. Waiting for webhook calls...
+2024-09-25 19:15:08,469 - INFO - Flask server is up and running.
+2024-09-25 19:15:10,697 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.8:5001
+2024-09-25 19:15:10,697 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-25 19:15:10,725 - INFO -  * Restarting with stat
+2024-09-25 19:15:22,607 - INFO - Flask app started. Waiting for webhook calls...
+2024-09-25 19:15:22,608 - INFO - Flask server is up and running.
+2024-09-25 19:15:22,621 - WARNING -  * Debugger is active!
+2024-09-25 19:15:22,625 - INFO -  * Debugger PIN: 914-482-502
+2024-09-25 19:15:32,190 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:15:32,191 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'Hello, I need help with my internet service.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:15:32,191 - INFO - Message from 123456789: Hello, I need help with my internet service.
+2024-09-25 19:15:32,191 - INFO - Processing user input: Hello, I need help with my internet service.
+2024-09-25 19:15:32,191 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:15:35,382 - INFO - Generated response: Let's schedule a repair for your internet. Kindly provide your location and contact details.
+2024-09-25 19:15:35,401 - INFO - 127.0.0.1 - - [25/Sep/2024 19:15:35] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:16:25,337 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:16:25,338 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'Hello, I need help with my cable tv connection.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:16:25,338 - INFO - Message from 123456789: Hello, I need help with my cable tv connection.
+2024-09-25 19:16:25,338 - INFO - Processing user input: Hello, I need help with my cable tv connection.
+2024-09-25 19:16:25,338 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:16:25,432 - INFO - Generated response: We will arrange for repairs. Kindly send your Account details, and we will get it sorted as soon as possible.
+2024-09-25 19:16:25,433 - INFO - 127.0.0.1 - - [25/Sep/2024 19:16:25] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:18:33,894 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:18:33,894 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'Hello chuself I need help with my cable tv connection.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:18:33,894 - INFO - Message from 123456789: Hello chuself I need help with my cable tv connection.
+2024-09-25 19:18:33,894 - INFO - Processing user input: Hello chuself I need help with my cable tv connection.
+2024-09-25 19:18:33,895 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:18:33,976 - INFO - Generated response: Thanks for reaching out! We'll send a repair team shortly. Can you confirm your Account details and location?
+2024-09-25 19:18:33,977 - INFO - 127.0.0.1 - - [25/Sep/2024 19:18:33] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:22:21,457 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:22:21,457 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'nataka kuweka kebo mpya.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:22:21,457 - INFO - Message from 123456789: nataka kuweka kebo mpya.
+2024-09-25 19:22:21,457 - INFO - Processing user input: nataka kuweka kebo mpya.
+2024-09-25 19:22:21,458 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:22:21,523 - INFO - Generated response: Asante kwa kuchagua Barmedas! Tafadhali toa maelezo ya eneo lako, na timu yetu itawasiliana nawe kwa ajili ya ufungaji.
+2024-09-25 19:22:21,524 - INFO - 127.0.0.1 - - [25/Sep/2024 19:22:21] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:22:32,324 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:22:32,324 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'nataka kuweka kebe mpya.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:22:32,324 - INFO - Message from 123456789: nataka kuweka kebe mpya.
+2024-09-25 19:22:32,324 - INFO - Processing user input: nataka kuweka kebe mpya.
+2024-09-25 19:22:32,325 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:22:32,394 - INFO - Generated response: okay! Tafadhali toa eneo lako la kufungiwa, na timu yetu itashughulikia hilo.
+2024-09-25 19:22:32,395 - INFO - 127.0.0.1 - - [25/Sep/2024 19:22:32] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:22:47,329 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:22:47,329 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'nataka kuweka kebe mpya fix my tv.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:22:47,329 - INFO - Message from 123456789: nataka kuweka kebe mpya fix my tv.
+2024-09-25 19:22:47,329 - INFO - Processing user input: nataka kuweka kebe mpya fix my tv.
+2024-09-25 19:22:47,330 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:22:47,396 - INFO - Generated response: We are sorry for the inconvenience. Could you please provide your account number,name and location so our team can assist you?
+2024-09-25 19:22:47,397 - INFO - 127.0.0.1 - - [25/Sep/2024 19:22:47] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:23:04,133 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:23:04,133 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'nataka kuweka cable mpya fix my tv.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:23:04,133 - INFO - Message from 123456789: nataka kuweka cable mpya fix my tv.
+2024-09-25 19:23:04,133 - INFO - Processing user input: nataka kuweka cable mpya fix my tv.
+2024-09-25 19:23:04,145 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:23:04,227 - INFO - Generated response: Let's get that sorted! Share your customer details and our technitians will get in touch.
+2024-09-25 19:23:04,228 - INFO - 127.0.0.1 - - [25/Sep/2024 19:23:04] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:23:27,162 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:23:27,162 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'cable tv not working.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:23:27,162 - INFO - Message from 123456789: cable tv not working.
+2024-09-25 19:23:27,162 - INFO - Processing user input: cable tv not working.
+2024-09-25 19:23:27,163 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:23:27,232 - INFO - Generated response: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+2024-09-25 19:23:27,232 - INFO - 127.0.0.1 - - [25/Sep/2024 19:23:27] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:23:38,875 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:23:38,875 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'my cable tv is  not working.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:23:38,875 - INFO - Message from 123456789: my cable tv is  not working.
+2024-09-25 19:23:38,875 - INFO - Processing user input: my cable tv is  not working.
+2024-09-25 19:23:38,876 - INFO - Fuzzy matched pattern: My cable TV is not working
+2024-09-25 19:23:38,941 - INFO - Generated response: Thanks for reaching out! We'll send a repair team shortly. Can you confirm your Account details and location?
+2024-09-25 19:23:38,942 - INFO - 127.0.0.1 - - [25/Sep/2024 19:23:38] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:23:46,407 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:23:46,407 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'my cable tv not working.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:23:46,407 - INFO - Message from 123456789: my cable tv not working.
+2024-09-25 19:23:46,407 - INFO - Processing user input: my cable tv not working.
+2024-09-25 19:23:46,408 - INFO - Fuzzy matched pattern: My cable TV is not working
+2024-09-25 19:23:46,473 - INFO - Generated response: Thanks for reaching out! We'll send a repair team shortly. Can you confirm your Account details and location?
+2024-09-25 19:23:46,474 - INFO - 127.0.0.1 - - [25/Sep/2024 19:23:46] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:23:52,057 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:23:52,057 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'cable tv not working.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:23:52,057 - INFO - Message from 123456789: cable tv not working.
+2024-09-25 19:23:52,058 - INFO - Processing user input: cable tv not working.
+2024-09-25 19:23:52,059 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:23:52,123 - INFO - Generated response: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+2024-09-25 19:23:52,124 - INFO - 127.0.0.1 - - [25/Sep/2024 19:23:52] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:24:00,803 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:24:00,803 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'cable tv is not working.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:24:00,803 - INFO - Message from 123456789: cable tv is not working.
+2024-09-25 19:24:00,803 - INFO - Processing user input: cable tv is not working.
+2024-09-25 19:24:00,804 - INFO - Fuzzy matched pattern: My cable TV is not working
+2024-09-25 19:24:00,882 - INFO - Generated response: We apologize for the trouble. Please share your account name and location, and our repair team will contact you.
+2024-09-25 19:24:00,883 - INFO - 127.0.0.1 - - [25/Sep/2024 19:24:00] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:24:09,640 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:24:09,641 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'cable tv are not working.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:24:09,641 - INFO - Message from 123456789: cable tv are not working.
+2024-09-25 19:24:09,641 - INFO - Processing user input: cable tv are not working.
+2024-09-25 19:24:09,642 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:24:09,710 - INFO - Generated response: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+2024-09-25 19:24:09,711 - INFO - 127.0.0.1 - - [25/Sep/2024 19:24:09] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:24:22,533 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:24:22,533 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'cable  not working.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:24:22,533 - INFO - Message from 123456789: cable  not working.
+2024-09-25 19:24:22,533 - INFO - Processing user input: cable  not working.
+2024-09-25 19:24:22,534 - INFO - Fuzzy matched pattern: My cable TV is not working
+2024-09-25 19:24:22,596 - INFO - Generated response: Thanks for reporting! We will send a technician to your location as soon as possible. Could you confirm your account details?
+2024-09-25 19:24:22,597 - INFO - 127.0.0.1 - - [25/Sep/2024 19:24:22] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:24:27,736 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:24:27,736 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'cable  not .'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:24:27,736 - INFO - Message from 123456789: cable  not .
+2024-09-25 19:24:27,736 - INFO - Processing user input: cable  not .
+2024-09-25 19:24:27,737 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:24:27,800 - INFO - Generated response: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+2024-09-25 19:24:27,801 - INFO - 127.0.0.1 - - [25/Sep/2024 19:24:27] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:24:34,968 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:24:34,968 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'cable  not showing .'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:24:34,968 - INFO - Message from 123456789: cable  not showing .
+2024-09-25 19:24:34,968 - INFO - Processing user input: cable  not showing .
+2024-09-25 19:24:34,969 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:24:35,059 - INFO - Generated response: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+2024-09-25 19:24:35,060 - INFO - 127.0.0.1 - - [25/Sep/2024 19:24:35] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:24:49,580 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:24:49,580 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'cable  imekata .'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:24:49,581 - INFO - Message from 123456789: cable  imekata .
+2024-09-25 19:24:49,581 - INFO - Processing user input: cable  imekata .
+2024-09-25 19:24:49,581 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:24:49,646 - INFO - Generated response: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+2024-09-25 19:24:49,647 - INFO - 127.0.0.1 - - [25/Sep/2024 19:24:49] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:24:56,736 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:24:56,736 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'kebo imekata .'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:24:56,736 - INFO - Message from 123456789: kebo imekata .
+2024-09-25 19:24:56,736 - INFO - Processing user input: kebo imekata .
+2024-09-25 19:24:56,737 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:24:56,804 - INFO - Generated response: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+2024-09-25 19:24:56,805 - INFO - 127.0.0.1 - - [25/Sep/2024 19:24:56] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:25:04,285 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:25:04,286 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'kebo imekatika .'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:25:04,286 - INFO - Message from 123456789: kebo imekatika .
+2024-09-25 19:25:04,287 - INFO - Processing user input: kebo imekatika .
+2024-09-25 19:25:04,288 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:25:04,367 - INFO - Generated response: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+2024-09-25 19:25:04,368 - INFO - 127.0.0.1 - - [25/Sep/2024 19:25:04] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:25:17,004 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:25:17,004 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'kebo tv imekatika .'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:25:17,004 - INFO - Message from 123456789: kebo tv imekatika .
+2024-09-25 19:25:17,004 - INFO - Processing user input: kebo tv imekatika .
+2024-09-25 19:25:17,005 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:25:17,069 - INFO - Generated response: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+2024-09-25 19:25:17,069 - INFO - 127.0.0.1 - - [25/Sep/2024 19:25:17] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:26:00,276 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:26:00,277 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'nataka kukujulisha kuwa kebo yetu chafu sana .'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:26:00,277 - INFO - Message from 123456789: nataka kukujulisha kuwa kebo yetu chafu sana .
+2024-09-25 19:26:00,277 - INFO - Processing user input: nataka kukujulisha kuwa kebo yetu chafu sana .
+2024-09-25 19:26:00,277 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:26:00,349 - INFO - Generated response: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+2024-09-25 19:26:00,350 - INFO - 127.0.0.1 - - [25/Sep/2024 19:26:00] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:26:06,046 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:26:06,047 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'nataka kukujulisha kuwa kebo yetu chafu sana.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:26:06,047 - INFO - Message from 123456789: nataka kukujulisha kuwa kebo yetu chafu sana.
+2024-09-25 19:26:06,047 - INFO - Processing user input: nataka kukujulisha kuwa kebo yetu chafu sana.
+2024-09-25 19:26:06,048 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:26:06,113 - INFO - Generated response: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+2024-09-25 19:26:06,114 - INFO - 127.0.0.1 - - [25/Sep/2024 19:26:06] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:26:13,420 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:26:13,421 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'nataka kukujulisha kuwa kebo tv yetu chafu sana.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:26:13,421 - INFO - Message from 123456789: nataka kukujulisha kuwa kebo tv yetu chafu sana.
+2024-09-25 19:26:13,421 - INFO - Processing user input: nataka kukujulisha kuwa kebo tv yetu chafu sana.
+2024-09-25 19:26:13,422 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:26:13,486 - INFO - Generated response: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+2024-09-25 19:26:13,487 - INFO - 127.0.0.1 - - [25/Sep/2024 19:26:13] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:26:33,767 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:26:33,767 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'nataka kukujulisha kuwa cable tv yetu chafu sana.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:26:33,768 - INFO - Message from 123456789: nataka kukujulisha kuwa cable tv yetu chafu sana.
+2024-09-25 19:26:33,768 - INFO - Processing user input: nataka kukujulisha kuwa cable tv yetu chafu sana.
+2024-09-25 19:26:33,768 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:26:33,833 - INFO - Generated response: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+2024-09-25 19:26:33,834 - INFO - 127.0.0.1 - - [25/Sep/2024 19:26:33] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:26:54,358 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:26:54,358 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'nataka kukujulisha kuwa cable hakuna.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:26:54,358 - INFO - Message from 123456789: nataka kukujulisha kuwa cable hakuna.
+2024-09-25 19:26:54,358 - INFO - Processing user input: nataka kukujulisha kuwa cable hakuna.
+2024-09-25 19:26:54,359 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:26:54,428 - INFO - Generated response: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+2024-09-25 19:26:54,429 - INFO - 127.0.0.1 - - [25/Sep/2024 19:26:54] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:27:29,312 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:27:29,312 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'nataka kukujulisha kuwa kebo tv hakuna.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:27:29,312 - INFO - Message from 123456789: nataka kukujulisha kuwa kebo tv hakuna.
+2024-09-25 19:27:29,313 - INFO - Processing user input: nataka kukujulisha kuwa kebo tv hakuna.
+2024-09-25 19:27:29,313 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:27:29,383 - INFO - Generated response: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+2024-09-25 19:27:29,385 - INFO - 127.0.0.1 - - [25/Sep/2024 19:27:29] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:27:33,199 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:27:33,199 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'nataka kukujulisha kuwa kebo tv hakuna.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:27:33,199 - INFO - Message from 123456789: nataka kukujulisha kuwa kebo tv hakuna.
+2024-09-25 19:27:33,199 - INFO - Processing user input: nataka kukujulisha kuwa kebo tv hakuna.
+2024-09-25 19:27:33,200 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:27:33,270 - INFO - Generated response: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+2024-09-25 19:27:33,271 - INFO - 127.0.0.1 - - [25/Sep/2024 19:27:33] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:27:34,453 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:27:34,453 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'nataka kukujulisha kuwa kebo tv hakuna.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:27:34,454 - INFO - Message from 123456789: nataka kukujulisha kuwa kebo tv hakuna.
+2024-09-25 19:27:34,454 - INFO - Processing user input: nataka kukujulisha kuwa kebo tv hakuna.
+2024-09-25 19:27:34,455 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:27:34,527 - INFO - Generated response: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+2024-09-25 19:27:34,528 - INFO - 127.0.0.1 - - [25/Sep/2024 19:27:34] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:27:35,164 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:27:35,165 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'nataka kukujulisha kuwa kebo tv hakuna.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:27:35,165 - INFO - Message from 123456789: nataka kukujulisha kuwa kebo tv hakuna.
+2024-09-25 19:27:35,165 - INFO - Processing user input: nataka kukujulisha kuwa kebo tv hakuna.
+2024-09-25 19:27:35,166 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:27:35,232 - INFO - Generated response: Karibu kitengo cha huduma ya Cable Tv tunaweza kukusaidiaje?
+2024-09-25 19:27:35,233 - INFO - 127.0.0.1 - - [25/Sep/2024 19:27:35] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:27:58,862 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:27:58,862 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'nahitaji msahada wa kebo.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:27:58,862 - INFO - Message from 123456789: nahitaji msahada wa kebo.
+2024-09-25 19:27:58,862 - INFO - Processing user input: nahitaji msahada wa kebo.
+2024-09-25 19:27:58,863 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:27:58,931 - INFO - Generated response: Asante kwa kuchagua Barmedas Cable TV! Tafadhali tujulishe jinsi tunavyoweza kukusaidia
+2024-09-25 19:27:58,932 - INFO - 127.0.0.1 - - [25/Sep/2024 19:27:58] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:28:10,800 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:28:10,800 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'nahitaji msahada wa kebo nataka marwekebisho.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:28:10,800 - INFO - Message from 123456789: nahitaji msahada wa kebo nataka marwekebisho.
+2024-09-25 19:28:10,800 - INFO - Processing user input: nahitaji msahada wa kebo nataka marwekebisho.
+2024-09-25 19:28:10,801 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:28:10,870 - INFO - Generated response: Sawa! Tunaweza kupanga hilo. Tuma mahali unaishi pamoja na namba ya mawasiliano na timu yetu itaendelea na ufungaji wako wa cable.
+2024-09-25 19:28:10,872 - INFO - 127.0.0.1 - - [25/Sep/2024 19:28:10] "POST /webhook HTTP/1.1" 200 -

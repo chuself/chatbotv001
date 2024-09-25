@@ -576,6 +576,179 @@
 
 
 import os
+# import sys
+
+# import random
+# import json
+# import pickle
+# import numpy as np
+# import nltk
+# import logging
+# from nltk.stem import WordNetLemmatizer
+# from tensorflow.keras.models import load_model
+# import difflib  # For fuzzy matching
+# from datetime import datetime
+# from flask import Flask, request, jsonify
+
+# # Path to the script
+# nltk_script = os.path.join(os.path.dirname(__file__), 'download_nltk_data.py')
+# os.system(f'{sys.executable} {nltk_script}')
+
+# # Load configuration from config file, including key phrases
+# with open('config.json') as f:
+#     config = json.load(f)
+
+# # Load key phrases from the config
+# key_phrases = config['key_phrases']
+
+# lemmatizer = WordNetLemmatizer()
+
+# # Function to dynamically generate log file name based on the current date
+# def get_log_file_path():
+#     current_date = datetime.now().strftime("%Y-%m-%d")
+#     log_file_name = f"chatbot_log_{current_date}.txt"
+#     return log_file_name
+
+# # Function to log interaction to a file
+# def log_interaction(user_input, bot_response, predicted_intents=None, model_predictions=None):
+#     log_file_path = get_log_file_path()
+#     with open(log_file_path, "a") as log_file:
+#         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+#         log_file.write(f"[{timestamp}] User: {user_input}\n")
+#         log_file.write(f"[{timestamp}] Bot: {bot_response}\n")
+#         if predicted_intents:
+#             log_file.write(f"[{timestamp}] Predicted Intents: {predicted_intents}\n")
+#         if model_predictions is not None:
+#             log_file.write(f"[{timestamp}] Model Predictions: {model_predictions}\n")
+#         log_file.write("\n")
+
+# # Load intents, words, classes, and model
+# try:
+#     with open(config['intents_file']) as f:
+#         intents = json.load(f)
+#     print("Intents loaded successfully.")
+    
+#     with open(config['words_file'], 'rb') as f:
+#         words = pickle.load(f)
+#     print("Words loaded successfully.")
+    
+#     with open(config['classes_file'], 'rb') as f:
+#         classes = pickle.load(f)
+#     print("Classes loaded successfully.")
+    
+#     model = load_model(config['model_file'])
+#     print("Model loaded successfully.")
+#     print("\nModel Summary:")
+#     model.summary()
+    
+# except Exception as e:
+#     print(f"Error loading files or model: {str(e)}")
+#     exit()
+
+# # Initialize context management
+# context = {}
+
+# # Fuzzy matching function
+# def fuzzy_match(user_input, patterns):
+#     matched_pattern = difflib.get_close_matches(user_input, patterns, n=1, cutoff=config['fuzzy_match_cutoff'])
+#     print(f"Fuzzy Match Result: {matched_pattern}")
+#     return matched_pattern[0] if matched_pattern else None
+
+# def clean_up_sentence(sentence):
+#     sentence_words = nltk.word_tokenize(sentence)
+#     return [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
+
+# def bag_of_words(sentence):
+#     sentence_words = clean_up_sentence(sentence)
+#     bag = [0] * len(words)
+#     for w in sentence_words:
+#         for i, word in enumerate(words):
+#             if word == w:
+#                 bag[i] = 1
+#     return np.array(bag)
+
+# def predict_class(sentence):
+#     bow = bag_of_words(sentence)
+#     res = model.predict(np.array([bow]))[0]
+#     ERROR_THRESHOLD = config['error_threshold']
+#     results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
+    
+#     if not results:
+#         return [{'intent': 'fallback', 'probability': '1.0'}]
+    
+#     results.sort(key=lambda x: x[1], reverse=True)
+#     intents = [{'intent': classes[r[0]], 'probability': str(r[1])} for r in results]
+#     print(f"Predicted intents: {intents}")
+#     return intents, res
+
+# def get_response(intents_list, intents_json):
+#     tag = intents_list[0]['intent']
+#     if len(intents_list) > 1 and float(intents_list[0]['probability']) - float(intents_list[1]['probability']) < 0.1:
+#         return "I am not quite sure. Which department did you want to reach?"
+
+#     for i in intents_json['intents']:
+#         if i['tag'] == tag:
+#             return random.choice(i['responses'])
+    
+#     return "Sorry, I did not understand that. Could you rephrase?"
+
+# # Function to match user input against key phrases
+# def match_key_phrases(user_input):
+#     for department, phrases in key_phrases.items():
+#         for phrase in phrases:
+#             if phrase.lower() in user_input.lower():
+#                 print(f"Matched key phrase '{phrase}' for department '{department}'")
+#                 return department
+#     return None
+
+# print("Nexus is Online")
+
+# # Input loop for local testing
+# if os.isatty(sys.stdin.fileno()):  # Check if input is from a terminal
+#     while True:
+#         original_message = input("User:   ")  # Capture original user input
+
+#         if not original_message.strip():
+#             print("Nexus: Please enter something!")
+#             continue
+
+#         patterns = []
+#         for intent in intents['intents']:
+#             patterns.extend(intent['patterns'])
+
+#         fuzzy_matched_pattern = fuzzy_match(original_message, patterns)
+
+#         if fuzzy_matched_pattern:
+#             message = fuzzy_matched_pattern
+#             print(f"Using fuzzy matched pattern: {message}")
+#             ints, raw_predictions = predict_class(message)
+#         else:
+#             matched_department = match_key_phrases(original_message)
+
+#             if matched_department:
+#                 print(f"Nexus: Identified department based on key phrase match: {matched_department}")
+#                 response = get_response([{'intent': matched_department, 'probability': '1.0'}], intents)
+#                 print("Nexus:", response)
+#                 log_interaction(original_message, response, predicted_intents=[{'intent': matched_department, 'probability': '1.0'}], model_predictions=None)
+#                 continue
+
+#             ints, raw_predictions = predict_class(original_message)
+
+#         if ints[0]['intent'] == 'fallback':
+#             print("Nexus: Sorry, I don't understand. Could you rephrase that?")
+#             continue
+
+#         res = get_response(ints, intents)
+#         print("Nexus:", res)
+#         log_interaction(original_message, res, predicted_intents=ints, model_predictions=raw_predictions)
+# else:
+#     # For server mode, handle incoming requests without interactive input
+#     logging.info("Running in server mode. No user input required.")
+
+################ADDED  NEW CODE TO STOP THE BOT TO RUN IN LOOP IMMEDIATELY AFTER IMPORTAION####
+
+
+import os
 import sys
 import random
 import json
@@ -702,44 +875,48 @@ def match_key_phrases(user_input):
 
 print("Nexus is Online")
 
-# Input loop for local testing
-if os.isatty(sys.stdin.fileno()):  # Check if input is from a terminal
-    while True:
-        original_message = input("User:   ")  # Capture original user input
+# Input loop for local testing wrapped in the main block
+if __name__ == '__main__':
+    # This block will only execute if this script is run directly
+    if os.isatty(sys.stdin.fileno()):  # Check if input is from a terminal
+        while True:
+            original_message = input("User:   ")  # Capture original user input
 
-        if not original_message.strip():
-            print("Nexus: Please enter something!")
-            continue
-
-        patterns = []
-        for intent in intents['intents']:
-            patterns.extend(intent['patterns'])
-
-        fuzzy_matched_pattern = fuzzy_match(original_message, patterns)
-
-        if fuzzy_matched_pattern:
-            message = fuzzy_matched_pattern
-            print(f"Using fuzzy matched pattern: {message}")
-            ints, raw_predictions = predict_class(message)
-        else:
-            matched_department = match_key_phrases(original_message)
-
-            if matched_department:
-                print(f"Nexus: Identified department based on key phrase match: {matched_department}")
-                response = get_response([{'intent': matched_department, 'probability': '1.0'}], intents)
-                print("Nexus:", response)
-                log_interaction(original_message, response, predicted_intents=[{'intent': matched_department, 'probability': '1.0'}], model_predictions=None)
+            if not original_message.strip():
+                print("Nexus: Please enter something!")
                 continue
 
-            ints, raw_predictions = predict_class(original_message)
+            patterns = []
+            for intent in intents['intents']:
+                patterns.extend(intent['patterns'])
 
-        if ints[0]['intent'] == 'fallback':
-            print("Nexus: Sorry, I don't understand. Could you rephrase that?")
-            continue
+            fuzzy_matched_pattern = fuzzy_match(original_message, patterns)
 
-        res = get_response(ints, intents)
-        print("Nexus:", res)
-        log_interaction(original_message, res, predicted_intents=ints, model_predictions=raw_predictions)
-else:
-    # For server mode, handle incoming requests without interactive input
-    logging.info("Running in server mode. No user input required.")
+            if fuzzy_matched_pattern:
+                message = fuzzy_matched_pattern
+                print(f"Using fuzzy matched pattern: {message}")
+                ints, raw_predictions = predict_class(message)
+            else:
+                matched_department = match_key_phrases(original_message)
+
+                if matched_department:
+                    print(f"Nexus: Identified department based on key phrase match: {matched_department}")
+                    response = get_response([{'intent': matched_department, 'probability': '1.0'}], intents)
+                    print("Nexus:", response)
+                    log_interaction(original_message, response, predicted_intents=[{'intent': matched_department, 'probability': '1.0'}], model_predictions=None)
+                    continue
+
+                ints, raw_predictions = predict_class(original_message)
+
+            if ints[0]['intent'] == 'fallback':
+                print("Nexus: Sorry, I don't understand. Could you rephrase that?")
+                continue
+
+            res = get_response(ints, intents)
+            print("Nexus:", res)
+            log_interaction(original_message, res, predicted_intents=ints, model_predictions=raw_predictions)
+    else:
+        # For server mode, handle incoming requests without interactive input
+        logging.info("Running in server mode. No user input required.")
+
+    print("ChatBot1 is running...")  # This will now only print when the script is run directly
