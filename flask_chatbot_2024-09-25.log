@@ -227,3 +227,19 @@
 2024-09-25 19:28:10,801 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
 2024-09-25 19:28:10,870 - INFO - Generated response: Sawa! Tunaweza kupanga hilo. Tuma mahali unaishi pamoja na namba ya mawasiliano na timu yetu itaendelea na ufungaji wako wa cable.
 2024-09-25 19:28:10,872 - INFO - 127.0.0.1 - - [25/Sep/2024 19:28:10] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:33:42,451 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:33:42,451 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'nahitaji msahada wa kebo nataka marwekebisho.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:33:42,451 - INFO - Message from 123456789: nahitaji msahada wa kebo nataka marwekebisho.
+2024-09-25 19:33:42,451 - INFO - Processing user input: nahitaji msahada wa kebo nataka marwekebisho.
+2024-09-25 19:33:42,452 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:33:42,523 - INFO - Generated response: Asante kwa kuchagua Barmedas! Tafadhali toa maelezo ya eneo lako, na timu yetu itawasiliana nawe kwa ajili ya ufungaji.
+2024-09-25 19:33:42,523 - INFO - 127.0.0.1 - - [25/Sep/2024 19:33:42] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:33:55,484 - INFO - Received a POST request from WhatsApp
+2024-09-25 19:33:55,485 - DEBUG - Request data: {'entry': [{'changes': [{'value': {'messages': [{'text': {'body': 'nahitaji msahada wa kebo nataka kuwekewa huduma.'}, 'from': '123456789'}]}}]}]}
+2024-09-25 19:33:55,485 - INFO - Message from 123456789: nahitaji msahada wa kebo nataka kuwekewa huduma.
+2024-09-25 19:33:55,485 - INFO - Processing user input: nahitaji msahada wa kebo nataka kuwekewa huduma.
+2024-09-25 19:33:55,486 - INFO - No key phrase or fuzzy match found. Proceeding with intent prediction.
+2024-09-25 19:33:55,555 - INFO - Generated response: Asante kwa kuchagua Barmedas! Tafadhali tuma mahali unaushi na muda unaopendelea kwa ufungaji, na tutatuma mafundi.
+2024-09-25 19:33:55,556 - INFO - 127.0.0.1 - - [25/Sep/2024 19:33:55] "POST /webhook HTTP/1.1" 200 -
+2024-09-25 19:48:43,538 - INFO -  * Detected change in 'D:\\Programing\\Projects\\ChatBotV1\\app.py', reloading
+2024-09-25 19:48:46,752 - INFO -  * Restarting with stat

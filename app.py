@@ -959,5 +959,5 @@ if __name__ == '__main__':
     # Print to console to know that Flask has started
     print("Flask server is running...")
     logging.info("Flask server is up and running.")
-    app.run(debug=True, host='0.0.0.0', port=5001)
+    app.run(debug=True, host='0.0.0.0', port=5000)
 
